@@ -8,17 +8,16 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Navigator />
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </>
-  );
+   return (
+      <>
+         <Header />
+         <Navigator />
+         <About />
+         <Experience />
+         <Portfolio />
+         <Contact />
+      </>
+   );
 }
 
 export default App;
