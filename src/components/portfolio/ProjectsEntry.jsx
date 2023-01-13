@@ -1,14 +1,14 @@
 import React from 'react';
-import './portfolio.css';
+import './projects.css';
 
-function PortfolioEntry({ id, image, title, github, demo }) {
+function ProjectsEntry({ id, image, title, github, demo }) {
    return (
-      <article key={id} className="portfolio__item">
-         <div className="portfolio__item-image">
+      <article key={id} className="projects__item">
+         <div className="projects__item-image">
             <img src={image} alt={title} />
          </div>
          <h3> {title} </h3>
-         <div className="portfolio__item-cta">
+         <div className="projects__item-cta">
             <a href={github} className="btn" target="_blank" rel="noreferrer">
                Github
             </a>
@@ -25,4 +25,4 @@ function PortfolioEntry({ id, image, title, github, demo }) {
    );
 }
 
-export default PortfolioEntry;
+export default ProjectsEntry;

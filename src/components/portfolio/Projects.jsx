@@ -1,7 +1,7 @@
 import React from 'react';
-import './portfolio.css';
+import './projects.css';
 import IMG1 from '../../assets/how_to_save_a_life.png';
-import PortfolioEntry from './PortfolioEntry';
+import ProjectsEntry from './ProjectsEntry';
 
 const data = [
    {
@@ -48,15 +48,14 @@ const data = [
    },
 ];
 
-function Portfolio() {
+function Projects() {
    return (
-      <section id="portfolio">
-         <h5> My Recent Work</h5>
-         <h2>Portfolio</h2>
-         <div className="container portfolio__container">
+      <section id="projects">
+         <h2>Projects</h2>
+         <div className="container projects__container">
             {data.map(({ id, image, title, github, demo }) => {
                return (
-                  <PortfolioEntry
+                  <ProjectsEntry
                      id={id}
                      image={image}
                      title={title}
@@ -70,4 +69,4 @@ function Portfolio() {
    );
 }
 
-export default Portfolio;
+export default Projects;

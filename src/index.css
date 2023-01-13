@@ -5,12 +5,12 @@
    padding: 0;
    border: 0;
    outline: 0;
-   box-sizing: border-box;
+   box-sizing: border-box; /* width and height includes padding and border*/
    list-style: none;
-   text-decoration: none;
+   text-decoration: none; /* remove underlining of links*/
 }
 
-:root {
+html {
    --color-bg: #27233a;
    --color-bg-variant: #54385e;
    --color-primary: #b3c0a4;
@@ -23,9 +23,7 @@
    --container-width-lg: 75%;
    --container-width-md: 86%;
    --container-width-sm: 90%;
-}
 
-html {
    scroll-behavior: smooth;
 }
 
@@ -62,14 +60,9 @@ section {
    margin-top: 8rem;
 }
 
-section > h2,
-section > h5 {
+section > h2 {
    text-align: center;
    color: var(--color-light);
-}
-
-section > h2 {
-   color: var(--color-primary);
    margin-bottom: 3rem;
 }
 
@@ -87,12 +80,12 @@ a:hover {
 }
 
 .btn {
-   width: max-content;
+   width: max-content; /* kanske ändra sen så att de är centrerade eventuellt får se*/
    display: inline-block;
    color: var(--color-primary);
    padding: 0.75rem 1.2rem;
    border-radius: 0.4rem;
-   cursor: pointer;
+   /*cursor: pointer;*/
    border: 1px solid var(--color-primary);
    transition: var(--transition);
 }

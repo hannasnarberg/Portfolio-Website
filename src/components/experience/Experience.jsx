@@ -3,12 +3,12 @@ import './experience.css';
 import ExperienceEntry from './ExperienceEntry';
 
 function Experience() {
+   /* I should definetley do mapping here to avoid repeating code*/
    return (
       <section id="experience">
-         <h5>My skills</h5>
-         <h2>My experience</h2>
+         <h2>My skills</h2>
          <div className="container experience__container">
-            <div className="container experience__frontend">
+            <div>
                <h3>Frontend development</h3>
                <div className="experience__content">
                   <ExperienceEntry experience={'HTML'} level={'Experienced'} />
@@ -27,7 +27,7 @@ function Experience() {
                   />
                </div>
             </div>
-            <div className="container experience__UX">
+            <div>
                <h3>User Experience</h3>
                <div className="experience__content">
                   <ExperienceEntry experience={'HTML'} level={'Experienced'} />
