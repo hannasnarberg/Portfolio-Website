@@ -13,19 +13,16 @@ function Contact() {
                icon={<MdOutlineEmail className="contact__option-icon" />}
                me={'hannasnaris@gmail.com'}
                reference={'mailto:hannasnaris@gmail.com'}
-               prompt={'Send me an email'}
             />
             <ContactOption
                icon={<BsLinkedin className="contact__option-icon" />}
                me={'/hanna-snarberg'}
                reference={'https://www.linkedin.com/in/hanna-snarberg/'}
-               prompt={'Check out my profile'}
             />
             <ContactOption
                icon={<BsLinkedin className="contact__option-icon" />}
                me={'/hanna-snarberg'}
                reference={'https://www.linkedin.com/in/hanna-snarberg/'}
-               prompt={'Check out my profile'}
             />
          </div>
       </section>

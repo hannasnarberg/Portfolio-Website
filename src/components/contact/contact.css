@@ -13,16 +13,11 @@
 }
 
 .contact__option {
+   background: transparent;
    padding: 1.2rem;
    border-radius: 1.2rem;
    text-align: center;
-   border: 1px solid transparent;
    transition: var(--transition);
-}
-
-.contact__option:hover {
-   background: transparent;
-   border-color: var(--color-primary-variant);
 }
 
 .contact__option-icon {
@@ -40,7 +35,7 @@
 
 @media screen and (max-width: 1024px) {
    .container.contact__container {
-      grid-template-columns: 1fr;
+      width: var(--container-width-md);
       gap: 2rem;
    }
 }
@@ -51,5 +46,6 @@
    .container.contact__container {
       width: var(--container-width-sm);
       gap: 2rem;
+      grid-template-columns: 1fr;
    }
 }

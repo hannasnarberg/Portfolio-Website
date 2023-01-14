@@ -33,7 +33,11 @@ html {
 
 body {
    font-family: 'Oswald', sans-serif;
-   background: var(--color-bg);
+   background-image: linear-gradient(
+      170deg,
+      var(--color-bg-variant) 0%,
+      var(--color-bg) 60%
+   );
    color: var(--color-ivory);
    line-height: 1.7;
 }
@@ -108,6 +112,60 @@ img {
 
 p {
    font-weight: 200;
+}
+
+header,
+nav {
+   animation: fadeIn 3s;
+   -webkit-animation: fadeIn 3s;
+   -moz-animation: fadeIn 3s;
+   -o-animation: fadeIn 3s;
+   -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+@-moz-keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+@-webkit-keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+@-o-keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+@-ms-keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
 }
 
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/

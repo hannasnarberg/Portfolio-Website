@@ -21,6 +21,7 @@ header {
    .header__container > h1 {
       color: transparent;
       -webkit-background-clip: text;
+      background-clip: text;
    }
 }
 
@@ -48,6 +49,7 @@ header {
    padding-top: 1.5rem;
    color: var(--color-light);
 }
+
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
 
 @media screen and (max-width: 1024px) {
