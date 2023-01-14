@@ -1,7 +1,6 @@
 import React from 'react';
 import './navigator.css';
-import { AiOutlineHome, AiOutlineUser, AiOutlineMail } from 'react-icons/ai';
-import { BsListCheck } from 'react-icons/bs';
+import { AiOutlineHome } from 'react-icons/ai';
 import { useState } from 'react';
 
 function Navigator() {
@@ -13,28 +12,28 @@ function Navigator() {
             onClick={() => setActiveNav('#')}
             className={activeNav === '#' ? 'active' : ''}
          >
-            <AiOutlineHome />
+            Home
          </a>
          <a
             href="#about"
             onClick={() => setActiveNav('#about')}
             className={activeNav === '#about' ? 'active' : ''}
          >
-            <AiOutlineUser />
+            About
          </a>
          <a
             href="#experience"
             onClick={() => setActiveNav('#experience')}
             className={activeNav === '#experience' ? 'active' : ''}
          >
-            <BsListCheck />
+            Skills
          </a>
          <a
             href="#contact"
             onClick={() => setActiveNav('#contact')}
             className={activeNav === '#contact' ? 'active' : ''}
          >
-            <AiOutlineMail />
+            Contact
          </a>
       </nav>
    );

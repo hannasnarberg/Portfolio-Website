@@ -6,9 +6,9 @@ import { FaAward } from 'react-icons/fa';
 function About() {
    return (
       <section id="about">
-         <h2>About me</h2>
          <div className="container about__container">
             <div className="about__me">
+               <h2>About me</h2>
                <div className="about__me-image">
                   <img src={ME} alt="me" />
                </div>
