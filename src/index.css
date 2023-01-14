@@ -62,7 +62,7 @@ section {
 section > h2 {
    text-align: center;
    color: var(--color-light);
-   margin-bottom: 3rem;
+   margin-bottom: 1.5rem;
 }
 
 .text-light {

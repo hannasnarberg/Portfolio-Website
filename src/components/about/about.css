@@ -18,6 +18,9 @@
    color: var(--color-ivory);
 }
 
+.about__description {
+   text-align: justify;
+}
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
 
 @media screen and (max-width: 1024px) {

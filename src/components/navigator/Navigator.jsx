@@ -6,13 +6,13 @@ import { useState } from 'react';
 function Navigator() {
    const [activeNav, setActiveNav] = useState('#'); //not working with the classname.Stylings don't stick
    return (
-      <nav>
+      <nav id="padding">
          <a
             href="#"
             onClick={() => setActiveNav('#')}
             className={activeNav === '#' ? 'active' : ''}
          >
-            Home
+            <AiOutlineHome className="nav__icon" />
          </a>
          <a
             href="#about"
