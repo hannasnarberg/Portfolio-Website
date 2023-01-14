@@ -29,6 +29,13 @@ function Navigator() {
             Skills
          </a>
          <a
+            href="#projects"
+            onClick={() => setActiveNav('#projects')}
+            className={activeNav === '#projects' ? 'active' : ''}
+         >
+            Projects
+         </a>
+         <a
             href="#contact"
             onClick={() => setActiveNav('#contact')}
             className={activeNav === '#contact' ? 'active' : ''}

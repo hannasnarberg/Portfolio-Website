@@ -1,45 +1,28 @@
 import React from 'react';
 import './about.css';
 import ME from '../../assets/me.png';
-import { FaAward } from 'react-icons/fa';
+import CV from '../../assets/CV_Hanna_Snarberg.pdf';
 
 function About() {
    return (
       <section id="about">
+         <h2>About me</h2>
          <div className="container about__container">
             <div className="about__me">
-               <h2>About me</h2>
-               <div className="about__me-image">
-                  <img src={ME} alt="me" />
-               </div>
+               <img src={ME} alt="me" />
             </div>
             <div className="about__content">
-               <div className="about__cards">
-                  <article className="about__card">
-                     <FaAward className="about__icon" />
-                     <h5>Experience</h5>
-                     <small>3+years working</small>
-                  </article>
-                  <article className="about__card">
-                     <FaAward className="about__icon" />
-                     <h5>Clients</h5>
-                     <small>500 world wide</small>
-                  </article>
-                  <article className="about__card">
-                     <FaAward className="about__icon" />
-                     <h5>Projects</h5>
-                     <small>80+ completed</small>
-                  </article>
-               </div>
                <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
                   printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                  specimen book. Standard dummy text ever since the 1500s, when
+                  an unknown printer took a galley of type and scrambled it to
+                  make a type specimen book.
                </p>
-               <a href="#contact" className="btn btn-primary">
-                  Let's talk
+               <a href={CV} download className="btn btn-primary">
+                  Download CV
                </a>
             </div>
          </div>
