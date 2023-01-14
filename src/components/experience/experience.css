@@ -27,7 +27,7 @@
 
 .experience__details {
    display: flex;
-   justify-content: center;
+   justify-content: left;
    gap: 1rem;
 }
 

@@ -9,40 +9,38 @@ function Experience() {
          <h2>My skills</h2>
          <div className="container experience__container">
             <div>
-               <h3>Frontend development</h3>
+               <h3>Programming</h3>
                <div className="experience__content">
-                  <ExperienceEntry experience={'HTML'} level={'Experienced'} />
-                  <ExperienceEntry experience={'CSS'} level={'Intermediate'} />
                   <ExperienceEntry
                      experience={'JavaScript'}
-                     level={'Intermediate'}
-                  />
-                  <ExperienceEntry
-                     experience={'Bootstrap'}
-                     level={'Intermediate'}
-                  />
-                  <ExperienceEntry
-                     experience={'Tailwind'}
                      level={'Experienced'}
                   />
+                  <ExperienceEntry
+                     experience={'HTML, CSS'}
+                     level={'Experienced'}
+                  />
+                  <ExperienceEntry
+                     experience={'Python'}
+                     level={'Experienced'}
+                  />
+                  <ExperienceEntry experience={'C#, C/C++'} level={'Basic'} />
                </div>
             </div>
             <div>
-               <h3>User Experience</h3>
+               <h3>Design</h3>
                <div className="experience__content">
-                  <ExperienceEntry experience={'HTML'} level={'Experienced'} />
+                  <ExperienceEntry
+                     experience={'User-centered design'}
+                     level={'Experienced'}
+                  />
                   <ExperienceEntry
                      experience={'Accessibility'}
-                     level={'Intermediate'}
-                  />
-                  <ExperienceEntry experience={'JavaScript'} level={'Basic'} />
-                  <ExperienceEntry
-                     experience={'Bootstrap'}
-                     level={'Intermediate'}
-                  />
-                  <ExperienceEntry
-                     experience={'Tailwind'}
                      level={'Experienced'}
+                  />
+                  <ExperienceEntry experience={'Figma'} level={'Basic'} />
+                  <ExperienceEntry
+                     experience={'Adobe Illustrator'}
+                     level={'Basic'}
                   />
                </div>
             </div>
