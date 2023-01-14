@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
 header {
-   height: 100vh;
+   /*height: 70vh;*/
    overflow: hidden;
-   padding: 7rem;
+   padding-top: 7rem;
 }
 
 .header__container {
@@ -12,10 +14,51 @@ header {
    align-items: center;
 }
 
+.header__container > h1 {
+   color: var(--color-primary);
+}
+
+@supports (-webkit-background-clip: text) {
+   .header__container > h1 {
+      color: transparent;
+      -webkit-background-clip: text;
+   }
+}
+
+.header__title-first {
+   background: linear-gradient(
+      7deg,
+      var(--color-ivory) 40%,
+      var(--color-primary) 0
+   );
+   font-size: 20vw;
+   line-height: 20vw;
+}
+
+.header__title-last {
+   background: linear-gradient(
+      7deg,
+      var(--color-ivory) 40%,
+      var(--color-primary-variant) 0
+   );
+   font-size: 15vw;
+   line-height: 15vw;
+}
+
+.header__description {
+   padding-top: 1.5rem;
+   color: var(--color-light);
+}
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
 
 @media screen and (max-width: 1024px) {
-   header {
-      height: 100vh;
+   .header__title-last {
+      font-size: 20vw;
+      line-height: 20vw;
+   }
+
+   .header__title-first {
+      font-size: 25vw;
+      line-height: 25vw;
    }
 }
