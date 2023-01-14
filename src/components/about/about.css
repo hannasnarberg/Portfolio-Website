@@ -1,16 +1,23 @@
 .about__container {
    display: grid;
-   grid-template-columns: 35% 50%;
+   grid-template-columns: 35% 65%;
+   text-align: center;
    gap: 5%;
 }
 
 .about__me {
    width: 100%;
    aspect-ratio: 1/1;
-   border-radius: 2rem;
+   border-radius: 0.6rem;
    background: var(--color-primary);
    display: grid;
    place-items: center;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.about__content {
+   margin: 1rem 0 1.5rem;
+   text-align: left;
 }
 
 .about__content p {
@@ -33,9 +40,7 @@
       width: 50%;
       margin: 0rem auto;
    }
-
    .about__content {
-      margin: 1rem 0 1.5rem;
       text-align: center;
    }
 }

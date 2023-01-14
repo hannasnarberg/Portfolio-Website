@@ -9,14 +9,14 @@ nav {
    top: 2rem;
    display: flex;
    gap: 0.5rem;
-   border-radius: 3rem;
+   /*border-radius: 1rem;*/
    backdrop-filter: blur(15px);
 }
 
 nav a {
    background: transparent;
    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
-   border-radius: 50%;
+   /*border-radius: 50%;*/
    color: var(--color-light);
    font-size: 1rem;
 }

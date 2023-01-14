@@ -7,9 +7,10 @@
 .projects__item {
    background: var(--color-bg-variant);
    padding: 1.2rem;
-   border-radius: 2rem;
+   border-radius: 0.6rem;
    border: 1px solid transparent;
    transition: var(--transition);
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .projects__item:hover {
@@ -18,12 +19,12 @@
 }
 
 .projects__item-image {
-   border-radius: 1.5rem;
+   border-radius: 0.6rem;
    overflow: hidden;
 }
 
 .projects__item h3 {
-   margin: 1.2 0 2rem;
+   margin: 1rem 0 2rem;
 }
 
 .projects__item-cta {

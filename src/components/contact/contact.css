@@ -15,7 +15,6 @@
 .contact__option {
    background: transparent;
    padding: 1.2rem;
-   border-radius: 1.2rem;
    text-align: center;
    transition: var(--transition);
 }
