@@ -6,7 +6,7 @@ function Skills() {
    /* I should definetley do mapping here to avoid repeating code*/
    return (
       <section id="skills">
-         <h2>My skills</h2>
+         <h2>Skills</h2>
          <div className="container skill__container">
             <div>
                <h3>Programming</h3>

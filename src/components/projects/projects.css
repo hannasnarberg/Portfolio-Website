@@ -1,6 +1,6 @@
 .projects__container {
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: 1fr 1fr 1fr; /*for no copy*/
    gap: 2.5rem;
 }
 
@@ -15,7 +15,8 @@
 
 .projects__item:hover {
    border-color: var(--color-primary-variant);
-   background: transparent;
+   cursor: pointer;
+   transform: scale(1.05);
 }
 
 .projects__item-image {
@@ -24,13 +25,55 @@
 }
 
 .projects__item h3 {
-   margin: 1rem 0 2rem;
+   margin: 1rem 0 1rem;
 }
 
-.projects__item-cta {
+.projects__item-links {
    display: flex;
    gap: 1rem;
-   margin: 1rem;
+}
+
+/* =============== PROJECT DETAILS ===============*/
+
+.project__details {
+   height: 100%;
+   background: var(--color-bg-variant);
+   padding: 1.2rem;
+   border-radius: 0.6rem;
+   border: 1px solid transparent;
+   transition: var(--transition);
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   position: relative;
+}
+
+.project__close {
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 0.5rem 0.9rem;
+   cursor: pointer;
+   font-size: 30px;
+}
+
+.project__info {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr;
+   padding: 2rem 2rem;
+   gap: 1rem;
+}
+
+.project__details-links {
+   display: flex;
+   gap: 1rem;
+}
+
+.project__description > h3 {
+   color: var(--color-primary);
+}
+
+.project__description > p {
+   text-align: justify;
 }
 
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
