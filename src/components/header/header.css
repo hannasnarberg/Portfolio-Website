@@ -13,6 +13,17 @@ header {
    align-items: center;
 }
 
+.header__container-hello {
+   padding: 0.5rem 5rem;
+   background-color: rgb(241, 209, 81);
+   color: rgba(182, 87, 19, 1);
+   -webkit-transform: skewY(-5deg);
+   -moz-transform: skewY(-5deg);
+   -ms-transform: skewY(-5deg);
+   -o-transform: skewY(-5deg);
+   transform: skewY(-5deg);
+}
+
 .header__container > h1 {
    color: var(--color-primary);
 }
@@ -22,16 +33,17 @@ header {
       color: transparent;
       -webkit-background-clip: text;
       background-clip: text;
-      -webkit-filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.343));
-      filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.343));
+      -webkit-filter: drop-shadow(10px 10px rgba(182, 87, 19, 1));
+      filter: drop-shadow(10px 10px rgba(182, 87, 19, 1));
    }
 }
 
 .header__title-first {
    background: linear-gradient(
       7deg,
-      var(--color-ivory) 40%,
-      var(--color-primary) 0
+      var(--color-ivory) 0%,
+      var(--color-primary) 50%,
+      var(--color-primary-variant) 100%
    );
    font-size: 20vw;
    line-height: 20vw;
@@ -40,16 +52,16 @@ header {
 .header__title-last {
    background: linear-gradient(
       7deg,
-      var(--color-ivory) 40%,
-      var(--color-primary-variant) 0
+      var(--color-ivory) 0%,
+      var(--color-primary) 50%,
+      var(--color-primary-variant) 100%
    );
    font-size: 13vw;
    line-height: 13vw;
 }
 
 .header__description {
-   padding-top: 1.5rem;
-   color: var(--color-light);
+   padding-top: 2rem;
 }
 
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/

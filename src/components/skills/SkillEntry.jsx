@@ -8,7 +8,7 @@ function SkillEntry({ skill, level }) {
          <BsPatchCheckFill className="skill__details-icon" />
          <div>
             <h4>{skill}</h4>
-            <small className="text-light">{level}</small>
+            <small>{level}</small>
          </div>
       </article>
    );

@@ -1,22 +1,23 @@
 nav {
-   background: rgba(0, 0, 0, 0.3);
-   width: max-content;
-   display: block;
+   background: linear-gradient(
+      120deg,
+      var(--color-ivory) 0%,
+      var(--color-primary) 100%
+   );
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    z-index: 2;
    position: fixed;
-   left: 50%;
-   transform: translateX(-50%);
-   top: 2rem;
-   display: flex;
    gap: 0.5rem;
-   backdrop-filter: blur(15px);
 }
 
 nav a {
    background: transparent;
    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
-   color: var(--color-light);
-   font-size: 1rem;
+   color: var(--color-bg);
+   font-size: 1.2rem;
+   text-align: center;
 }
 
 nav a:hover {

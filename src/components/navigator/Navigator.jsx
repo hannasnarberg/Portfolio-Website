@@ -6,7 +6,7 @@ import { useState } from 'react';
 function Navigator() {
    const [activeNav, setActiveNav] = useState('#'); //not working with the classname.Stylings don't stick
    return (
-      <nav id="padding">
+      <nav>
          <a
             href="#"
             onClick={() => setActiveNav('#')}

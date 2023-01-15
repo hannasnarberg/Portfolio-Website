@@ -2,7 +2,6 @@
 
 * {
    margin: 0;
-   padding: 0;
    border: 0;
    outline: 0;
    box-sizing: border-box;
@@ -11,12 +10,21 @@
 }
 
 html {
+   /*
    --color-bg: #27233a;
    --color-bg-variant: #54385e;
    --color-primary: #b3c0a4;
    --color-primary-variant: #94b1be;
    --color-ivory: #f5f8e8;
-   --color-light: #dcc48e;
+   --color-light: #dcc48e;*/
+
+   --color-bg: #364440;
+   --color-bg-variant: #4c5c55;
+   --color-cards: #748f89;
+   --color-primary: #eae7b1;
+   --color-primary-variant: #afbaa2;
+   --color-ivory: #f5f7ed;
+   --color-light: #ced9a8;
 
    --transition: all 400ms ease;
 
@@ -36,7 +44,8 @@ body {
    background: linear-gradient(
       170deg,
       var(--color-bg-variant) 0%,
-      var(--color-bg) 60%
+      var(--color-bg) 50%,
+      var(--color-bg-variant) 100%
    );
    color: var(--color-ivory);
    line-height: 1.7;
