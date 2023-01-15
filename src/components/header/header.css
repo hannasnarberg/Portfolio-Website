@@ -62,6 +62,7 @@ header {
 
 .header__description {
    padding-top: 2rem;
+   font-family: 'Test';
 }
 
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
 @font-face {
-   font-family: 'Test'; /*Can be any text*/
+   font-family: 'Test';
    src: local('cursive'),
       url('./assets/font/Courgette-Regular.ttf') format('truetype');
 }

@@ -6,13 +6,19 @@ import ProjectDetails from './ProjectDetails';
 import IMG1 from '../../assets/how_to_save_a_life.png';
 import IMG2 from '../../assets/Portfolio-trappkonst.svg';
 import IMG3 from '../../assets/hide-and-meet-1.png';
+import IMG4 from '../../assets/portfolio-humper.svg';
+import IMG5 from '../../assets/Storyhunter.png';
+import IMG6 from '../../assets/VR.svg';
+import IMG7 from '../../assets/Information-kiosk.svg';
+import IMG8 from '../../assets/Bländaren.svg';
+import IMG9 from '../../assets/Hide_and_meet.svg';
 
 function Projects() {
    const data = [
       {
          id: 1,
-         image: IMG1,
-         title: 'How to save a life',
+         image: IMG5,
+         title: 'Storyhunter',
          github: 'http://github.com',
          demo: 'http://dribble.com/Alien_pixels',
          description:
@@ -20,36 +26,52 @@ function Projects() {
       },
       {
          id: 2,
-         image: IMG2,
-         title: 'Project Title2',
+         image: IMG9,
+         title: 'Hide and Meet',
          github: 'http://github.com',
          demo: 'http://dribble.com/Alien_pixels',
       },
+
       {
          id: 3,
-         image: IMG3,
-         title: 'Project Title3',
+         image: IMG4,
+         title: 'Color Palettes & Memory',
          github: 'http://github.com',
          demo: 'http://dribble.com/Alien_pixels',
       },
       {
          id: 4,
-         image: IMG1,
-         title: 'Project Title4',
+         image: IMG6,
+         title: 'Weight Perception in VR',
          github: 'http://github.com',
          demo: 'http://dribble.com/Alien_pixels',
       },
       {
          id: 5,
-         image: IMG1,
-         title: 'Project Title5',
+         image: IMG8,
+         title: 'Bländaren',
+         github: 'http://github.com',
+         demo: 'http://dribble.com/Alien_pixels',
+      },
+
+      {
+         id: 6,
+         image: IMG7,
+         title: 'Redesigning Information System',
          github: 'http://github.com',
          demo: 'http://dribble.com/Alien_pixels',
       },
       {
-         id: 6,
+         id: 7,
          image: IMG1,
-         title: 'Project Title6',
+         title: 'How to Save a Life',
+         github: 'http://github.com',
+         demo: 'http://dribble.com/Alien_pixels',
+      },
+      {
+         id: 8,
+         image: IMG2,
+         title: 'The Takeoff',
          github: 'http://github.com',
          demo: 'http://dribble.com/Alien_pixels',
       },

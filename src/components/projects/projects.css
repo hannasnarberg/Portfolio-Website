@@ -14,7 +14,7 @@
 .projects__item:hover {
    border-color: var(--color-primary-variant);
    cursor: pointer;
-   transform: scale(1.05);
+   transform: scale(1.1);
 }
 
 .projects__item-image {
