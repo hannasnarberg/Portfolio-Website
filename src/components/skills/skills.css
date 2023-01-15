@@ -5,10 +5,10 @@
 }
 
 .skill__container > div {
-   background: var(--color-cards);
+   /*background: var(--color-cards);*/
+   background: linear-gradient(110deg, var(--color-cards) 60%, #8aaba4 60%);
    padding: 2rem 1rem 2rem 2rem;
    border-radius: 0.6rem;
-   border: 1px solid transparent;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -17,6 +17,7 @@
    text-align: center;
    margin-bottom: 2rem;
    color: var(--color-ivory);
+   font-size: x-large;
 }
 
 .skill__content {

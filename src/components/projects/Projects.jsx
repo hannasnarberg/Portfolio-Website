@@ -4,6 +4,8 @@ import ProjectsOverview from './ProjectsOverview';
 import { useState } from 'react';
 import ProjectDetails from './ProjectDetails';
 import IMG1 from '../../assets/how_to_save_a_life.png';
+import IMG2 from '../../assets/Portfolio-trappkonst.svg';
+import IMG3 from '../../assets/hide-and-meet-1.png';
 
 function Projects() {
    const data = [
@@ -18,14 +20,14 @@ function Projects() {
       },
       {
          id: 2,
-         image: IMG1,
+         image: IMG2,
          title: 'Project Title2',
          github: 'http://github.com',
          demo: 'http://dribble.com/Alien_pixels',
       },
       {
          id: 3,
-         image: IMG1,
+         image: IMG3,
          title: 'Project Title3',
          github: 'http://github.com',
          demo: 'http://dribble.com/Alien_pixels',

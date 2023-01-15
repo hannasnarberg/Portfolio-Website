@@ -15,7 +15,7 @@ header {
 .header__container-hello {
    font-family: 'Test';
    padding: 0.1rem 3rem;
-   background-color: rgb(241, 209, 81);
+   background-color: var(--color-yellow);
    color: var(--color-orange);
    -webkit-transform: skewY(-5deg);
    -moz-transform: skewY(-5deg);

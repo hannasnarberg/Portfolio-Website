@@ -8,15 +8,19 @@
 .about__me {
    width: 100%;
    aspect-ratio: 1/1;
-   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-   background: var(--color-cards);
+   border-radius: 58% 42% 55% 45% / 71% 74% 26% 29%;
    display: grid;
+   background: var(--color-cards);
    place-items: center;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   padding-left: 1rem;
 }
 
 .about__me img {
-   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+   width: 80%;
+   background: var(--color-primary);
+   border-radius: 58% 42% 55% 45% / 71% 74% 26% 29%;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .about__content {

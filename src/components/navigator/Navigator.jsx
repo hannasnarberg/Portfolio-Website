@@ -1,6 +1,7 @@
 import React from 'react';
 import './navigator.css';
 import { AiOutlineHome } from 'react-icons/ai';
+import { AiFillHome } from 'react-icons/ai';
 import { useState } from 'react';
 
 function Navigator() {
@@ -12,7 +13,7 @@ function Navigator() {
             onClick={() => setActiveNav('#')}
             className={activeNav === '#' ? 'active' : ''}
          >
-            <AiOutlineHome className="nav__icon" />
+            <AiOutlineHome className="nav__icon" fontSize={20} />
          </a>
          <a
             href="#about"
