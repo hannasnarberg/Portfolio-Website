@@ -9,7 +9,11 @@ function ProjectDetails({ currentProject, onClose }) {
             <div className="project__info">
                <div className="project__pictures">
                   <img src={currentProject.image} alt={currentProject.title} />
-                  <img src={currentProject.image} alt={currentProject.title} />
+                  <img
+                     className="project__image2"
+                     src={currentProject.image2}
+                     alt={currentProject.title}
+                  />
                </div>
                <div className="project__description">
                   <h3> {currentProject.title} </h3>

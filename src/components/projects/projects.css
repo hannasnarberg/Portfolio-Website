@@ -117,4 +117,10 @@
       grid-template-columns: 1fr;
       gap: 1rem;
    }
+   .project__pictures {
+      grid-template-columns: 1fr;
+   }
+   .project__image2 {
+      display: none;
+   }
 }

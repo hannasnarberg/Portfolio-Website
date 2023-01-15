@@ -6,11 +6,13 @@ import IMG6 from '../../assets/VR.svg';
 import IMG7 from '../../assets/Information-kiosk.svg';
 import IMG8 from '../../assets/Bländaren.svg';
 import IMG9 from '../../assets/Hide_and_meet.svg';
+import blandaren2 from '../../assets/Blandaren.svg';
 
 const projectsData = [
    {
       id: 1,
       image: IMG5,
+      image2: blandaren2,
       title: 'Storyhunter',
       github: 'http://github.com',
       demo: 'http://dribble.com/Alien_pixels',
@@ -23,6 +25,7 @@ const projectsData = [
    {
       id: 2,
       image: IMG9,
+      image2: blandaren2,
       title: 'Hide and Meet',
       github: 'http://github.com',
       demo: 'http://dribble.com/Alien_pixels',
@@ -35,6 +38,7 @@ const projectsData = [
    {
       id: 3,
       image: IMG4,
+      image2: blandaren2,
       title: 'Color Palettes & Memory',
       github: 'http://github.com',
       demo: 'http://dribble.com/Alien_pixels',
@@ -47,6 +51,7 @@ const projectsData = [
    {
       id: 4,
       image: IMG6,
+      image2: blandaren2,
       title: 'Weight Perception in VR',
       github: 'http://github.com',
       demo: 'http://dribble.com/Alien_pixels',
@@ -59,6 +64,7 @@ const projectsData = [
    {
       id: 5,
       image: IMG8,
+      image2: blandaren2,
       title: 'Bländaren',
       github: 'http://github.com',
       demo: 'http://dribble.com/Alien_pixels',
@@ -72,6 +78,7 @@ const projectsData = [
    {
       id: 6,
       image: IMG7,
+      image2: blandaren2,
       title: 'Play Beyond Play',
       github: 'http://github.com',
       demo: 'http://dribble.com/Alien_pixels',
@@ -84,6 +91,7 @@ const projectsData = [
    {
       id: 7,
       image: IMG1,
+      image2: blandaren2,
       title: 'How to Save a Life',
       github: 'http://github.com',
       demo: 'http://dribble.com/Alien_pixels',
@@ -96,6 +104,7 @@ const projectsData = [
    {
       id: 8,
       image: IMG2,
+      image2: blandaren2,
       title: 'The Takeoff',
       github: 'http://github.com',
       demo: 'http://dribble.com/Alien_pixels',
