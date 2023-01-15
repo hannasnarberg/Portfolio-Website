@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import './contact.css';
 import ContactOption from './ContactOption';
 import { MdOutlineEmail } from 'react-icons/md';
-import { BsLinkedin } from 'react-icons/bs';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 function Contact() {
    return (
@@ -20,9 +20,9 @@ function Contact() {
                reference={'https://www.linkedin.com/in/hanna-snarberg/'}
             />
             <ContactOption
-               icon={<BsLinkedin className="contact__option-icon" />}
-               me={'/hanna-snarberg'}
-               reference={'https://www.linkedin.com/in/hanna-snarberg/'}
+               icon={<BsGithub className="contact__option-icon" />}
+               me={'/hannasnarberg'}
+               reference={'https://www.github.com/hannasnarberg/'}
             />
          </div>
       </section>
