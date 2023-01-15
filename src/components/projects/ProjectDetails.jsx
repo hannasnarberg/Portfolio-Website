@@ -7,7 +7,10 @@ function ProjectDetails({ currentProject, onClose }) {
       <div className="container">
          <article key={currentProject.id} className="project__details">
             <div className="project__info">
-               <img src={currentProject.image} alt={currentProject.title} />
+               <div className="project__pictures">
+                  <img src={currentProject.image} alt={currentProject.title} />
+                  <img src={currentProject.image} alt={currentProject.title} />
+               </div>
                <div className="project__description">
                   <h3> {currentProject.title} </h3>
                   <p> {currentProject.description} </p>

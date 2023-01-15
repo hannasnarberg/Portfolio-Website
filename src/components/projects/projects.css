@@ -63,6 +63,17 @@
    gap: 1rem;
 }
 
+.project__pictures {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 2rem;
+}
+
+.project__pictures img {
+   border-radius: 0.6rem;
+}
+
 .project__details-links {
    display: flex;
    gap: 1rem;
