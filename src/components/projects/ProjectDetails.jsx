@@ -34,7 +34,6 @@ function ProjectDetails({ currentProject, onClose }) {
                   </a>
                </div>
             </div>
-
             <a onClick={() => onClose()} className="project__close">
                <AiOutlineClose />
             </a>

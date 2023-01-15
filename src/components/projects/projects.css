@@ -24,13 +24,23 @@
 }
 
 .projects__item h3 {
-   margin: 1rem 1.2rem 1rem 1.2rem;
+   font-size: x-large;
+   margin: 1rem 1.2rem 0 1.2rem;
 }
 
-.projects__item-links {
-   display: flex;
-   gap: 1rem;
-   margin: 1rem 1.2rem 1rem 1.2rem;
+.projects__shortDesription {
+   color: black;
+   margin: 0 1.2rem 1rem 1.2rem;
+}
+
+.__projects__keywords-container {
+   padding-left: 1.2rem;
+}
+
+.projects__keyWords {
+   color: var(--color-primary);
+   font-size: 20;
+   margin-right: 0.3rem;
 }
 
 /* =============== PROJECT DETAILS ===============*/
@@ -53,6 +63,10 @@
    padding: 0.5rem 0.9rem;
    cursor: pointer;
    font-size: 30px;
+}
+
+.project__close:hover {
+   transform: scale(1.1);
 }
 
 .project__info {

@@ -1,7 +1,15 @@
 import React from 'react';
 import './projects.css';
 
-function ProjectsEntry({ id, image, title, github, demo, setCurrentProject }) {
+function ProjectsEntry({
+   id,
+   image,
+   title,
+   keyWords,
+   shortDescription,
+   setCurrentProject,
+}) {
+   console.log(keyWords);
    return (
       <article
          key={id}
@@ -12,19 +20,16 @@ function ProjectsEntry({ id, image, title, github, demo, setCurrentProject }) {
             <img src={image} alt={title} />
          </div>
          <h3> {title} </h3>
-         <div className="projects__item-links">
-            <a href={github} className="btn" target="_blank" rel="noreferrer">
-               Github
-            </a>
-            <a
-               href={demo}
-               className="btn btn-primary"
-               target="_blank"
-               rel="noreferrer"
-            >
-               Demo
-            </a>
+         <div className="__projects__keywords-container">
+            {keyWords.map((keyWord, i) =>
+               i === keyWords.length - 1 ? (
+                  <span className="projects__keyWords">{keyWord}</span>
+               ) : (
+                  <span className="projects__keyWords"> {keyWord}, </span>
+               )
+            )}
          </div>
+         <p className="projects__shortDesription">{shortDescription}</p>
       </article>
    );
 }
