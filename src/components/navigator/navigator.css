@@ -1,15 +1,10 @@
 nav {
-   background: linear-gradient(
-      120deg,
-      var(--color-ivory) 0%,
-      var(--color-primary) 100%
-   );
+   background: var(--color-primary);
    width: 100%;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    z-index: 2;
    position: fixed;
-   gap: 0.5rem;
 }
 
 nav a {
@@ -21,16 +16,16 @@ nav a {
 }
 
 nav a:hover {
-   background: rgba(0, 0, 0, 0.3);
+   background: var(--color-orange);
 }
 
 nav a:active {
-   background: red;
+   background: var(--color-orange);
    color: var(--color-ivory);
 }
 
 .nav__icon {
-   margin-top: 0.37rem;
+   margin-top: 0.5rem;
 }
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
 

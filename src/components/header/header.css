@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton');
-
 header {
    overflow: hidden;
-   padding-top: 9rem;
+   padding-top: 8rem;
 }
 
 .header__container {
@@ -11,12 +9,14 @@ header {
    height: 100%;
    justify-content: center;
    align-items: center;
+   font-size: larger;
 }
 
 .header__container-hello {
-   padding: 0.5rem 5rem;
+   font-family: 'Test';
+   padding: 0.1rem 3rem;
    background-color: rgb(241, 209, 81);
-   color: rgba(182, 87, 19, 1);
+   color: var(--color-orange);
    -webkit-transform: skewY(-5deg);
    -moz-transform: skewY(-5deg);
    -ms-transform: skewY(-5deg);
@@ -42,7 +42,7 @@ header {
    background: linear-gradient(
       7deg,
       var(--color-ivory) 0%,
-      var(--color-primary) 50%,
+      var(--color-primary) 80%,
       var(--color-primary-variant) 100%
    );
    font-size: 20vw;
@@ -53,7 +53,7 @@ header {
    background: linear-gradient(
       7deg,
       var(--color-ivory) 0%,
-      var(--color-primary) 50%,
+      var(--color-primary) 80%,
       var(--color-primary-variant) 100%
    );
    font-size: 13vw;
