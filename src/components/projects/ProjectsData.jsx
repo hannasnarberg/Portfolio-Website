@@ -4,7 +4,7 @@ import IMG4 from '../../assets/portfolio-humper.svg';
 import IMG5 from '../../assets/Storyhunter.png';
 import IMG6 from '../../assets/VR.svg';
 import IMG7 from '../../assets/Information-kiosk.svg';
-import IMG8 from '../../assets/Bländaren.svg';
+import IMG8 from '../../assets/Blandaren1.svg';
 import IMG9 from '../../assets/Hide_and_meet.svg';
 import blandaren2 from '../../assets/Blandaren.svg';
 
