@@ -2,9 +2,9 @@ import React from 'react';
 import './projects.css';
 import { AiOutlineClose } from 'react-icons/ai';
 
-function ProjectDetails({ currentProject, onClose }) {
+function ProjectDetails({ currentProject, closeDetails }) {
    return (
-      <div className="container projects__test">
+      <div className="projects__test">
          <article key={currentProject.id} className="project__details">
             <div className="project__info">
                <div className="project__pictures">
@@ -38,7 +38,7 @@ function ProjectDetails({ currentProject, onClose }) {
                   </a>
                </div>
             </div>
-            <a onClick={() => onClose()} className="project__close">
+            <a onClick={() => closeDetails()} className="project__close">
                <AiOutlineClose />
             </a>
          </article>
