@@ -9,7 +9,6 @@ function ProjectsEntry({
    shortDescription,
    setCurrentProject,
 }) {
-   console.log(keyWords);
    return (
       <article
          key={id}

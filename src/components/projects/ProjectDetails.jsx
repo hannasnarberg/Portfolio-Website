@@ -4,7 +4,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 function ProjectDetails({ currentProject, onClose }) {
    return (
-      <div className="container">
+      <div className="container projects__test">
          <article key={currentProject.id} className="project__details">
             <div className="project__info">
                <div className="project__pictures">

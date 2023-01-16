@@ -44,6 +44,10 @@
 }
 
 /* =============== PROJECT DETAILS ===============*/
+.projects__test {
+   z-index: 99;
+   position: fixed;
+}
 
 .project__details {
    height: 100%;
