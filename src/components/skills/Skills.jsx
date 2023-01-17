@@ -21,7 +21,7 @@ function Skills() {
                <h3>Design</h3>
                <div className="skill__content">
                   <SkillEntry
-                     skill={'User-centered design'}
+                     skill={'User-Centered Design'}
                      level={'Experienced'}
                   />
                   <SkillEntry skill={'Accessibility'} level={'Experienced'} />
