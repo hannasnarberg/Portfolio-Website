@@ -1,7 +1,6 @@
 import React from 'react';
 import './navigator.css';
 import { AiOutlineHome } from 'react-icons/ai';
-import { AiFillHome } from 'react-icons/ai';
 import { useState } from 'react';
 
 function Navigator() {

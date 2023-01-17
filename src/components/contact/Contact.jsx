@@ -1,4 +1,3 @@
-import React, { useRef } from 'react';
 import './contact.css';
 import ContactOption from './ContactOption';
 import { MdOutlineEmail } from 'react-icons/md';
