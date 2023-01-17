@@ -4,7 +4,6 @@ import Navigator from './components/navigator/Navigator';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Contact from './components/contact/Contact';
-import ProjectDetails from './components/projects/ProjectDetails';
 import ProjectsOverview from './components/projects/ProjectsOverview';
 import './assets/font/Courgette-Regular.ttf';
 import { useState } from 'react';
@@ -33,6 +32,15 @@ function App() {
 }
 
 export default App;
+
+/*{currentProject && (
+   <Grow in={true}>
+      <ProjectModal
+         currentProject={currentProject}
+         closeDetails={() => setCurrentProject(null)}
+      />
+   </Grow>
+)}/*
 
 /*
 import React from 'react';

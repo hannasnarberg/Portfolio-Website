@@ -1,6 +1,7 @@
 import Modal from 'react-modal';
 import React from 'react';
 import './projects.css';
+import { AiOutlineClose } from 'react-icons/ai';
 
 function ProjectModal({ currentProject, closeDetails }) {
    Modal.defaultStyles = {};
@@ -9,42 +10,91 @@ function ProjectModal({ currentProject, closeDetails }) {
          closeDetails();
       }
    }
-
    return (
       <Modal
          isOpen={currentProject}
          onRequestClose={closeModal}
          contentLabel="Example Modal"
+         closeTimeoutMS={500}
       >
-         <h2>
-            Hello fkjbslkfjbaskdfbaksjdbfaksjbdflakjs askdjfbksjbfksjbfkbs
-            skjbksbfksb ksjdbfaksbfkasbdf aksbdfksb askdfbaksbfkasjbfkb ksdb
-            kajsbfk sdkfb skdfbksbd kb skbfkbs kfb Hello
-            fkjbslkfjbaskdfbaksjdbfaksjbdflakjs askdjfbksjbfksjbfkbs skjbksbfksb
-            ksjdbfaksbfkasbdf aksbdfksb askdfbaksbfkasjbfkb ksdb kajsbfk sdkfb
-            skdfbksbd kb skbfkbs kfb Hello fkjbslkfjbaskdfbaksjdbfaksjbdflakjs
-            askdjfbksjbfksjbfkbs skjbksbfksb ksjdbfaksbfkasbdf aksbdfksb
-            askdfbaksbfkasjbfkb ksdb kajsbfk sdkfb skdfbksbd kb skbfkbs kfb
-            Hello fkjbslkfjbaskdfbaksjdbfaksjbdflakjs askdjfbksjbfksjbfkbs
-            skjbksbfksb ksjdbfaksbfkasbdf aksbdfksb askdfbaksbfkasjbfkb ksdb
-            kajsbfk sdkfb skdfbksbd kb skbfkbs kfb Hello
-            fkjbslkfjbaskdfbaksjdbfaksjbdflakjs askdjfbksjbfksjbfkbs skjbksbfksb
-            ksjdbfaksbfkasbdf aksbdfksb askdfbaksbfkasjbfkb ksdb kajsbfk sdkfb
-            skdfbksbd kb skbfkbs kfb Hello fkjbslkfjbaskdfbaksjdbfaksjbdflakjs
-            askdjfbksjbfksjbfkbs skjbksbfksb ksjdbfaksbfkasbdf aksbdfksb
-            askdfbaksbfkasjbfkb ksdb kajsbfk sdkfb skdfbksbd kb skbfkbs kfb
-         </h2>
-         <button onClick={() => closeDetails()}>close</button>
-         <div>{currentProject.id}</div>
-         <form>
-            <input />
-            <button>tab navigation</button>
-            <button>stays</button>
-            <button>inside</button>
-            <button>the modal</button>
-         </form>
+         <article key={currentProject.id} className="project__details">
+            <div className="project__info">
+               <div className="project__pictures">
+                  <img src={currentProject.image} alt={currentProject.title} />
+                  <img
+                     className="project__image2"
+                     src={currentProject.image2}
+                     alt={currentProject.title}
+                  />
+               </div>
+               <div className="project__description">
+                  <h3> {currentProject.title} </h3>
+                  <p> {currentProject.description} </p>
+               </div>
+               <div className="project__details-links">
+                  <a
+                     href={currentProject.github}
+                     className="btn"
+                     target="_blank"
+                     rel="noreferrer"
+                  >
+                     Github
+                  </a>
+                  <a
+                     href={currentProject.demo}
+                     className="btn btn-primary"
+                     target="_blank"
+                     rel="noreferrer"
+                  >
+                     Demo
+                  </a>
+               </div>
+            </div>
+            <a onClick={() => closeDetails()} className="project__close">
+               <AiOutlineClose />
+            </a>
+         </article>
       </Modal>
    );
 }
 
 export default ProjectModal;
+
+/*<article key={currentProject.id} className="project__details">
+            <div className="project__info">
+               <div className="project__pictures">
+                  <img src={currentProject.image} alt={currentProject.title} />
+                  <img
+                     className="project__image2"
+                     src={currentProject.image2}
+                     alt={currentProject.title}
+                  />
+               </div>
+               <div className="project__description">
+                  <h3> {currentProject.title} </h3>
+                  <p> {currentProject.description} </p>
+               </div>
+               <div className="project__details-links">
+                  <a
+                     href={currentProject.github}
+                     className="btn"
+                     target="_blank"
+                     rel="noreferrer"
+                  >
+                     Github
+                  </a>
+                  <a
+                     href={currentProject.demo}
+                     className="btn btn-primary"
+                     target="_blank"
+                     rel="noreferrer"
+                  >
+                     Demo
+                  </a>
+               </div>
+            </div>
+            <a onClick={() => closeDetails()} className="project__close">
+               <AiOutlineClose />
+            </a>
+         </article>
+      */
