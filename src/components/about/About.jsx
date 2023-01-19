@@ -26,7 +26,7 @@ function About() {
                   unknown printer took a galley of type and scrambled it to make
                   a type specimen book. Lorem Ipsum has been the industry's
                </p>
-               <a href={CV} download className="btn btn-primary">
+               <a href={CV} download className="btn">
                   Download CV
                </a>
             </div>

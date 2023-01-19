@@ -4,19 +4,17 @@
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    gap: 2.5rem;
-   color: var(--color-primary);
 }
 
 .projects__item {
-   background: #789576;
-   border-radius: 0.6rem;
+   background: var(--color-primary);
+   border-radius: 0.3rem;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .projects__item > h3 {
-   -webkit-filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.3));
-   filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.3));
+   color: black;
 }
 
 .projects__item:hover {
@@ -26,28 +24,29 @@
 }
 
 .projects__item-image {
-   border-top-left-radius: 0.6em 0.6em;
-   border-top-right-radius: 0.6em 0.6em;
+   border-top-left-radius: 0.3rem 0.3rem;
+   border-top-right-radius: 0.3rem 0.3rem;
    overflow: hidden;
 }
 
 .projects__item h3 {
    margin: 1rem 1.2rem 0 1.2rem;
+   font-size: 1.4rem;
+   line-height: 1.6rem;
 }
 
 .projects__shortDesription {
-   color: var(--color-bg);
+   color: black;
    margin: 0 1.2rem 1rem 1.2rem;
 }
-
 .__projects__keywords-container {
    padding-left: 1.2rem;
 }
 
 .projects__keyWords {
-   color: var(--color-ivory);
-   font-size: 20;
    margin-right: 0.3rem;
+   color: black;
+   background: #fae389;
 }
 
 /* =============== PROJECT MODAL===============*/
@@ -71,7 +70,7 @@
 
 .ReactModal__Content {
    background: transparent;
-   border-radius: 0.6rem;
+   border-radius: 0.3rem;
    width: 50rem;
    max-width: calc(100vw - 2rem);
    max-height: calc(100vh - 2rem);
@@ -98,9 +97,9 @@
 
 .project__details {
    height: 100%;
-   background: #789576;
+   background: var(--color-primary);
    padding: 1.2rem;
-   border-radius: 0.6rem;
+   border-radius: 0.3rem;
    border: 1px solid transparent;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -114,6 +113,7 @@
    padding: 0.5rem 0.9rem;
    cursor: pointer;
    font-size: 30px;
+   color: black;
 }
 
 .project__close:hover {
@@ -126,7 +126,7 @@
    grid-template-columns: 1fr;
    padding: 2rem 2rem;
    gap: 1rem;
-   color: var(--color-ivory);
+   color: black;
 }
 
 .project__pictures {
@@ -137,7 +137,7 @@
 }
 
 .project__pictures img {
-   border-radius: 0.6rem;
+   border-radius: 0.3rem;
 }
 
 .project__details-links {
@@ -146,7 +146,7 @@
 }
 
 .project__description > h3 {
-   color: var(--color-primary);
+   color: black;
 }
 
 .project__description > p {

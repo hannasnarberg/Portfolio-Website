@@ -9,7 +9,7 @@
    width: 90%;
    aspect-ratio: 1/1;
    display: grid;
-   border-radius: 50%;
+   border-radius: 0.3rem;
    place-items: center;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -17,7 +17,7 @@
 .about__me img {
    width: 100%;
    background: var(--color-primary);
-   border-radius: 50%;
+   border-radius: 0.3rem;
 }
 
 .about__content {
