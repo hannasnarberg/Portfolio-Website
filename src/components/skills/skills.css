@@ -6,7 +6,8 @@
 
 .skill__container > div {
    /*background: var(--color-cards);*/
-   background: linear-gradient(110deg, #87a984 60%, #749171 60%);
+
+   background: #789576;
    padding: 2rem 1rem 2rem 2rem;
    border-radius: 0.6rem;
    transition: var(--transition);
@@ -17,8 +18,9 @@
    text-align: center;
    margin-bottom: 2rem;
    color: var(--color-primary);
+   -webkit-filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.3));
+   filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.3));
    font-size: x-large;
-   font-family: 'Test';
 }
 
 .skill__content {

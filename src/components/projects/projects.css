@@ -8,10 +8,15 @@
 }
 
 .projects__item {
-   background: #87a984;
+   background: #789576;
    border-radius: 0.6rem;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.projects__item > h3 {
+   -webkit-filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.3));
+   filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.3));
 }
 
 .projects__item:hover {
@@ -28,7 +33,6 @@
 
 .projects__item h3 {
    margin: 1rem 1.2rem 0 1.2rem;
-   font-family: 'Test';
 }
 
 .projects__shortDesription {
@@ -94,7 +98,7 @@
 
 .project__details {
    height: 100%;
-   background: #87a984;
+   background: #789576;
    padding: 1.2rem;
    border-radius: 0.6rem;
    border: 1px solid transparent;
@@ -122,7 +126,7 @@
    grid-template-columns: 1fr;
    padding: 2rem 2rem;
    gap: 1rem;
-   color: black;
+   color: var(--color-ivory);
 }
 
 .project__pictures {
