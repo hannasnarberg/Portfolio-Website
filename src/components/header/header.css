@@ -14,14 +14,14 @@ header {
 }
 
 .header__circle {
-   border-radius: 50% 50% 48% 52% / 50% 49% 51% 50%;
+   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
    background-color: var(--color-yellow);
    position: absolute;
    top: 0px;
    right: 0px;
    width: 12vw;
    height: 12vw;
-   padding: 0.5rem;
+   padding: 0.5vw;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -92,8 +92,8 @@ header {
       font-size: 17vw;
       line-height: 16vw;
    }
-   .header__container-hello {
-      font-size: 4vw;
-      padding: 0.1rem 1rem;
+
+   .header__circle {
+      display: none;
    }
 }
