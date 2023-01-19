@@ -37,7 +37,7 @@
 }
 
 .projects__shortDesription {
-   color: var(--color-bg);
+   color: var(--color-ivory);
    margin: 0 1.2rem 1rem 1.2rem;
    font-size: medium;
 }
@@ -115,7 +115,7 @@
 }
 
 .wrapper > h3 {
-   color: var(--color-bg);
+   color: var(--color-ivory);
    font-size: 2rem;
 }
 

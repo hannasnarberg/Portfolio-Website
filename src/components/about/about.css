@@ -6,7 +6,7 @@
 }
 
 .about__me {
-   width: 90%;
+   width: 100%;
    aspect-ratio: 1/1;
    display: grid;
    border-radius: 0.3rem;

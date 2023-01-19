@@ -23,7 +23,8 @@ html {
    --color-bg: #23281f;
    --color-bg-variant: #567154;
    --color-cards: #748f89;
-   --color-primary: rgb(111, 117, 100);
+   /*--color-primary: rgb(111, 117, 100);*/
+   --color-primary: #3b3b3b;
    --color-primary-variant: #e7eadf;
    --color-ivory: #f5f7ed;
    --color-light: #aeaeae;
@@ -44,7 +45,8 @@ html {
 
 body {
    font-family: 'Lato', sans-serif;
-   background: rgb(85, 90, 77);
+   /*background: rgb(85, 90, 77);*/
+   background: #262626;
    color: var(--color-ivory);
    line-height: 1.7;
 }
