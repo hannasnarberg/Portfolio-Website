@@ -16,7 +16,7 @@
 
 .about__me img {
    width: 100%;
-   background: var(--color-primary);
+   background: var(--color-primary-variant);
    border-radius: 0.3rem;
 }
 

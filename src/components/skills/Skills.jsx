@@ -11,8 +11,8 @@ function Skills() {
             <div>
                <h3>Programming</h3>
                <div className="skill__content">
-                  <SkillEntry skill={'JavaScript'} level={'Experienced'} />
-                  <SkillEntry skill={'HTML, CSS'} level={'Experienced'} />
+                  <SkillEntry skill={'JavaScript'} level={'Intermediete'} />
+                  <SkillEntry skill={'HTML, CSS'} level={'Intermediete'} />
                   <SkillEntry skill={'Python'} level={'Experienced'} />
                   <SkillEntry skill={'C#, C/C++'} level={'Basic'} />
                </div>
@@ -20,13 +20,10 @@ function Skills() {
             <div>
                <h3>Design</h3>
                <div className="skill__content">
-                  <SkillEntry
-                     skill={'User-Centered Design'}
-                     level={'Experienced'}
-                  />
+                  <SkillEntry skill={'UX-Design'} level={'Experienced'} />
                   <SkillEntry skill={'Accessibility'} level={'Experienced'} />
                   <SkillEntry skill={'Figma'} level={'Basic'} />
-                  <SkillEntry skill={'Adobe Illustrator'} level={'Basic'} />
+                  <SkillEntry skill={'User Research'} level={'Experienced'} />
                </div>
             </div>
          </div>

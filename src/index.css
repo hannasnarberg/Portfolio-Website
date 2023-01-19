@@ -20,15 +20,15 @@
 }
 
 html {
-   --color-bg: #2c3835;
+   --color-bg: #23281f;
    --color-bg-variant: #567154;
    --color-cards: #748f89;
-   --color-primary: #e2dec3;
-   --color-primary-variant: #a5a69e;
+   --color-primary: rgb(111, 117, 100);
+   --color-primary-variant: #e7eadf;
    --color-ivory: #f5f7ed;
    --color-light: #aeaeae;
-   --color-orange: #ec8237;
-   --color-yellow: #f1d151;
+   --color-orange: #df8443;
+   --color-yellow: #f1d669;
    --transition: all 400ms ease;
 
    --container-width-lg: 75%;
@@ -44,7 +44,7 @@ html {
 
 body {
    font-family: 'Lato', sans-serif;
-   background: rgb(82, 86, 74);
+   background: rgb(85, 90, 77);
    color: var(--color-ivory);
    line-height: 1.7;
 }
@@ -95,7 +95,7 @@ a:hover {
 .btn {
    width: max-content;
    display: inline-block;
-   background: var(--color-primary);
+   background: var(--color-ivory);
    color: var(--color-bg);
    padding: 0.75rem 1.2rem;
    border-radius: 0.3rem;
@@ -104,20 +104,15 @@ a:hover {
 }
 
 .btn:hover {
+   transform: scale(1.05);
    background: var(--color-ivory);
    color: var(--color-bg);
-   transform: scale(1.05);
    border-color: transparent;
 }
 
 .btn-primary {
    background: var(--color-bg);
    color: var(--color-ivory);
-}
-
-.btn-primary:hover {
-   background: var(--color-ivory);
-   color: var(--color-bg);
 }
 
 img {
@@ -130,8 +125,7 @@ p {
    font-weight: 200;
 }
 
-header,
-nav {
+header {
    animation: fadeIn 3s;
    -webkit-animation: fadeIn 3s;
    -moz-animation: fadeIn 3s;

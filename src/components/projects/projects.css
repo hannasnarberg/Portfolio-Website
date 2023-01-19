@@ -14,7 +14,7 @@
 }
 
 .projects__item > h3 {
-   color: black;
+   color: var(--color-ivory);
 }
 
 .projects__item:hover {
@@ -33,11 +33,13 @@
    margin: 1rem 1.2rem 0 1.2rem;
    font-size: 1.4rem;
    line-height: 1.6rem;
+   font-size: larger;
 }
 
 .projects__shortDesription {
-   color: black;
+   color: var(--color-bg);
    margin: 0 1.2rem 1rem 1.2rem;
+   font-size: medium;
 }
 .__projects__keywords-container {
    padding-left: 1.2rem;
@@ -45,8 +47,10 @@
 
 .projects__keyWords {
    margin-right: 0.3rem;
-   color: black;
-   background: #fae389;
+   color: var(--color-yellow);
+   font-size: medium;
+   border-radius: 0.2rem;
+   padding: 0.1rem;
 }
 
 /* =============== PROJECT MODAL===============*/
@@ -75,10 +79,9 @@
    max-width: calc(100vw - 2rem);
    max-height: calc(100vh - 2rem);
    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.25);
-   overflow-y: auto;
-   position: relative;
    -webkit-transform: scale(0.8);
    transform: scale(0.8);
+   overflow-y: auto;
 }
 
 .ReactModal__Content--after-open {
@@ -103,17 +106,37 @@
    border: 1px solid transparent;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   position: relative;
+}
+
+.wrapper {
+   display: flex;
+   gap: 1.5rem;
+   justify-content: center;
+}
+
+.wrapper > h3 {
+   color: var(--color-bg);
+   font-size: 2rem;
+}
+
+.project__details-links {
+   display: flex;
+   gap: 1rem;
+   padding-bottom: 1rem;
+}
+
+.project__desription {
+   text-align: justify;
 }
 
 .project__close {
    position: absolute;
    top: 0;
    right: 0;
-   padding: 0.5rem 0.9rem;
    cursor: pointer;
    font-size: 30px;
-   color: black;
+   color: var(--color-ivory);
+   padding: 0.5rem 0.9rem;
 }
 
 .project__close:hover {
@@ -126,31 +149,20 @@
    grid-template-columns: 1fr;
    padding: 2rem 2rem;
    gap: 1rem;
-   color: black;
+   color: var(--color-ivory);
 }
 
-.project__pictures {
+.project__picture {
    width: 100%;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 2rem;
-}
-
-.project__pictures img {
    border-radius: 0.3rem;
 }
 
-.project__details-links {
-   display: flex;
-   gap: 1rem;
-}
-
-.project__description > h3 {
-   color: black;
-}
-
-.project__description > p {
-   text-align: justify;
+.project__picture img {
+   border-radius: 0.3rem;
+   width: 60%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
