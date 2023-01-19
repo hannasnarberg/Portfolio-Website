@@ -6,7 +6,7 @@
 
 .skill__container > div {
    /*background: var(--color-cards);*/
-   background: linear-gradient(110deg, var(--color-cards) 60%, #8aaba4 60%);
+   background: linear-gradient(110deg, #87a984 60%, #749171 60%);
    padding: 2rem 1rem 2rem 2rem;
    border-radius: 0.6rem;
    transition: var(--transition);
@@ -16,7 +16,7 @@
 .skill__container > div h3 {
    text-align: center;
    margin-bottom: 2rem;
-   color: var(--color-ivory);
+   color: var(--color-primary);
    font-size: x-large;
 }
 
@@ -32,6 +32,7 @@
    display: flex;
    justify-content: left;
    gap: 1rem;
+   color: var(--color-ivory);
 }
 
 .skill__details small {
@@ -39,7 +40,7 @@
 }
 
 .skill__details-icon {
-   color: var(--color-primary);
+   color: var(--color-bg);
    height: 2em;
 }
 

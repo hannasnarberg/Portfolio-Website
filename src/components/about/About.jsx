@@ -13,19 +13,18 @@ function About() {
             </div>
             <div className="about__content">
                <p className="about__description">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's an
-                  unknown printer took a galley of type and scrambled it to make
-                  a type specimen book.Lorem Ipsum has been the industry's an
-                  unknown printer took a galley of type and scrambled it to make
-                  a type specimen book. <br />
+                  I am a creative. With my backround in HCI. Lorem Ipsum is
+                  simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's an unknown printer took a
+                  galley of type and scrambled it to make a type specimen
+                  book.Lorem Ipsum has been the industry's an unknown printer
+                  took a galley of type and scrambled it to make a type specimen
+                  book. <br />
                   <br />
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   unknown printer took a galley of type and scrambled it to make
                   a type specimen book. Lorem Ipsum has been the industry's
-                  unknown printer took a galley of type and scrambled it to make
-                  a type specimen book.
                </p>
                <a href={CV} download className="btn btn-primary">
                   Download CV

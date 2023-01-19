@@ -1,6 +1,6 @@
 header {
    overflow: hidden;
-   padding-top: 8rem;
+   padding-top: 10rem;
 }
 
 .header__container {
@@ -10,43 +10,54 @@ header {
    justify-content: center;
    align-items: center;
    font-size: larger;
+   position: relative;
 }
 
-.header__container-hello {
-   font-family: 'Test';
-   padding: 0.1rem 3rem;
+.header__circle {
+   border-radius: 50% 50% 48% 52% / 50% 49% 51% 50%;
    background-color: var(--color-yellow);
-   color: var(--color-orange);
-   -webkit-transform: skewY(-5deg);
-   -moz-transform: skewY(-5deg);
-   -ms-transform: skewY(-5deg);
-   -o-transform: skewY(-5deg);
-   transform: skewY(-5deg);
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   width: 12vw;
+   height: 12vw;
+   padding: 0.5rem;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header__circle-content {
+   fill: currentColor;
+   height: auto;
+   max-width: 66vmin;
+   transform-origin: center;
+   width: 100%;
+   color: var(--color-bg);
+   font-size: small;
+   word-spacing: 0.2rem;
 }
 
 .header__container > h1 {
    color: var(--color-primary);
+   position: relative;
 }
 
 @supports (-webkit-background-clip: text) {
    .header__container > h1 {
+      font-family: 'Test2';
       color: transparent;
       -webkit-background-clip: text;
       background-clip: text;
-      -webkit-filter: drop-shadow(10px 10px rgba(182, 87, 19, 1));
-      filter: drop-shadow(10px 10px rgba(182, 87, 19, 1));
    }
 }
 
 .header__title-first {
-   background: linear-gradient(
-      7deg,
-      var(--color-ivory) 0%,
-      var(--color-primary) 80%,
-      var(--color-primary-variant) 100%
-   );
-   font-size: 20vw;
-   line-height: 20vw;
+   background: var(--color-orange);
+   font-size: 17vw;
+   line-height: 17vw;
+   margin-top: 3vw;
+   margin-right: 5vw;
+   -webkit-filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.3));
+   filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.3));
 }
 
 .header__title-last {
@@ -56,13 +67,17 @@ header {
       var(--color-primary) 80%,
       var(--color-primary-variant) 100%
    );
-   font-size: 13vw;
-   line-height: 13vw;
+   font-size: 11.5vw;
+   line-height: 11.5vw;
+   padding-bottom: 1rem;
+   margin-left: 5vw;
+   -webkit-filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.3));
+   filter: drop-shadow(1px 1px rgba(0, 0, 0, 0.3));
 }
 
 .header__description {
-   padding-top: 2rem;
    font-family: 'Test';
+   color: var(--color-primary);
 }
 
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/

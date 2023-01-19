@@ -4,10 +4,11 @@
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    gap: 2.5rem;
+   color: var(--color-primary);
 }
 
 .projects__item {
-   background: var(--color-cards);
+   background: #87a984;
    border-radius: 0.6rem;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -26,12 +27,11 @@
 }
 
 .projects__item h3 {
-   font-size: x-large;
    margin: 1rem 1.2rem 0 1.2rem;
 }
 
 .projects__shortDesription {
-   color: black;
+   color: var(--color-bg);
    margin: 0 1.2rem 1rem 1.2rem;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .projects__keyWords {
-   color: var(--color-primary);
+   color: var(--color-ivory);
    font-size: 20;
    margin-right: 0.3rem;
 }
@@ -93,7 +93,7 @@
 
 .project__details {
    height: 100%;
-   background: var(--color-cards);
+   background: #87a984;
    padding: 1.2rem;
    border-radius: 0.6rem;
    border: 1px solid transparent;
@@ -121,6 +121,7 @@
    grid-template-columns: 1fr;
    padding: 2rem 2rem;
    gap: 1rem;
+   color: black;
 }
 
 .project__pictures {
