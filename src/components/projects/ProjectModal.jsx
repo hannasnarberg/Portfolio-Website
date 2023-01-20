@@ -10,11 +10,12 @@ function ProjectModal({ currentProject, closeDetails }) {
          closeDetails();
       }
    }
+
    return (
       <Modal
          isOpen={currentProject}
          onRequestClose={closeModal}
-         contentLabel="Example Modal"
+         contentLabel="Modal"
          closeTimeoutMS={400}
       >
          <article key={currentProject.id} className="project__details">
@@ -23,30 +24,23 @@ function ProjectModal({ currentProject, closeDetails }) {
                   <img src={currentProject.image} alt={currentProject.title} />
                </div>
                <div>
-                  <div className="wrapper">
+                  <div className="project__wrapper">
                      <h3> {currentProject.title} </h3>
-                     <span className="project__details-links">
-                        <a
-                           href={currentProject.github}
-                           className="btn"
-                           target="_blank"
-                           rel="noreferrer"
-                        >
-                           Github
-                        </a>
-                        <a
-                           href={currentProject.demo}
-                           className="btn btn-primary"
-                           target="_blank"
-                           rel="noreferrer"
-                        >
-                           Demo
-                        </a>
+                     <span className="project__links">
+                        {currentProject.links.map((link) => (
+                           <a
+                              href={link.link}
+                              className="btn"
+                              target="_blank"
+                              rel="noreferrer"
+                           >
+                              {link.buttonText}
+                           </a>
+                        ))}
                      </span>
                   </div>
                   <p className="project__desription">
-                     {' '}
-                     {currentProject.description}{' '}
+                     {currentProject.description}
                   </p>
                </div>
             </div>

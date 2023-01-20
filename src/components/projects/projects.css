@@ -33,16 +33,12 @@
    margin: 1rem 1.2rem 0 1.2rem;
    font-size: 1.4rem;
    line-height: 1.6rem;
-   font-size: larger;
+   font-size: large;
 }
 
-.projects__shortDesription {
-   color: var(--color-ivory);
-   margin: 0 1.2rem 1rem 1.2rem;
-   font-size: medium;
-}
 .__projects__keywords-container {
    padding-left: 1.2rem;
+   padding-bottom: 1rem;
 }
 
 .projects__keyWords {
@@ -100,26 +96,49 @@
 
 .project__details {
    height: 100%;
-   background: var(--color-primary);
-   padding: 1.2rem;
+   background: var(--color-ivory);
    border-radius: 0.3rem;
    border: 1px solid transparent;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.wrapper {
+.project__info {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr;
+   padding: 2rem 2rem;
+   gap: 1rem;
+   color: black;
+}
+
+.project__picture {
+   width: 100%;
+   border-radius: 0.3rem;
+}
+
+.project__picture > img {
+   border-radius: 0.3rem;
+   width: 60%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.project__wrapper {
    display: flex;
    gap: 1.5rem;
    justify-content: center;
+   width: 100%;
 }
 
-.wrapper > h3 {
-   color: var(--color-ivory);
-   font-size: 2rem;
+.project__wrapper > h3 {
+   color: black;
+   font-size: 3vh;
+   margin-top: 0.4rem;
 }
 
-.project__details-links {
+.project__links {
    display: flex;
    gap: 1rem;
    padding-bottom: 1rem;
@@ -135,34 +154,12 @@
    right: 0;
    cursor: pointer;
    font-size: 30px;
-   color: var(--color-ivory);
-   padding: 0.5rem 0.9rem;
+   color: black;
+   padding: 0.5rem 0.5rem;
 }
 
 .project__close:hover {
    transform: scale(1.1);
-}
-
-.project__info {
-   width: 100%;
-   display: grid;
-   grid-template-columns: 1fr;
-   padding: 2rem 2rem;
-   gap: 1rem;
-   color: var(--color-ivory);
-}
-
-.project__picture {
-   width: 100%;
-   border-radius: 0.3rem;
-}
-
-.project__picture img {
-   border-radius: 0.3rem;
-   width: 60%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
 }
 
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
@@ -171,6 +168,14 @@
    .projects__container {
       grid-template-columns: 1fr 1fr;
       gap: 1.2rem;
+   }
+
+   .project__wrapper > h3 {
+      font-size: large;
+   }
+
+   .project__picture > img {
+      width: 100%;
    }
 }
 
@@ -181,10 +186,13 @@
       grid-template-columns: 1fr;
       gap: 1rem;
    }
-   .project__pictures {
-      grid-template-columns: 1fr;
+
+   .project__close {
+      font-size: 25px;
    }
-   .project__image2 {
-      display: none;
+
+   .project__wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
    }
 }

@@ -28,7 +28,6 @@ function ProjectsEntry({
                )
             )}
          </div>
-         <p className="projects__shortDesription">{shortDescription}</p>
       </article>
    );
 }
