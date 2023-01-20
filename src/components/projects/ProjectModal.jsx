@@ -30,7 +30,7 @@ function ProjectModal({ currentProject, closeDetails }) {
                         {currentProject.links.map((link) => (
                            <a
                               href={link.link}
-                              className="btn"
+                              className="btn btn-primary"
                               target="_blank"
                               rel="noreferrer"
                            >

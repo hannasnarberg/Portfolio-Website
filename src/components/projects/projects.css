@@ -14,7 +14,7 @@
 }
 
 .projects__item > h3 {
-   color: var(--color-ivory);
+   color: var(--color-bg);
 }
 
 .projects__item:hover {
@@ -43,7 +43,7 @@
 
 .projects__keyWords {
    margin-right: 0.3rem;
-   color: var(--color-yellow);
+   color: var(--color-bg);
    font-size: medium;
    border-radius: 0.2rem;
    padding: 0.1rem;
@@ -96,7 +96,7 @@
 
 .project__details {
    height: 100%;
-   background: var(--color-ivory);
+   background: var(--color-primary);
    border-radius: 0.3rem;
    border: 1px solid transparent;
    transition: var(--transition);
@@ -133,7 +133,7 @@
 }
 
 .project__wrapper > h3 {
-   color: black;
+   color: var(--color-bg);
    font-size: 3vh;
    margin-top: 0.4rem;
 }
@@ -154,7 +154,7 @@
    right: 0;
    cursor: pointer;
    font-size: 30px;
-   color: black;
+   color: var(--color-bg);
    padding: 0.5rem 0.5rem;
 }
 
