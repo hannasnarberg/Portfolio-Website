@@ -12,15 +12,19 @@ const projectsData = [
    {
       id: 1,
       image: IMG5,
-      title: 'Storyhunter',
+      title: 'Story Hunter',
       links: [
          {
             link: 'http://github.com',
-            buttonText: 'Github',
+            buttonText: 'GitHub',
+         },
+         {
+            link: 'https://storyhunter-2a3c7.web.app/',
+            buttonText: 'Live Demo',
          },
       ],
       description:
-         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
+         'Story Hunter is a React app where visitors can browse TV series. You can search for series, add them to your watchlist, see what’s trending or receive recommendations based on other series you like. For the adventurous, there is also an option for receiving randomized suggestions. The app was implemented in a group of four, using a model-view-presenter architecture. I was mainly responsible for the model and the presenters, meaning I worked less with CSS and more with JavaScript. Data was retrieved from The Movie Database (TMDB) API. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
       shortDescription:
          'Lorem Ipsum is simply dummy text of the printing and typesetting industry...',
       keyWords: ['Web Development'],
@@ -32,7 +36,7 @@ const projectsData = [
       links: [
          {
             link: 'http://github.com',
-            buttonText: 'Github',
+            buttonText: 'GitHub',
          },
       ],
       description:
@@ -51,24 +55,22 @@ const projectsData = [
             link: 'https://library.iated.org/view/SNARBERG2022PRE',
             buttonText: 'Abstract',
          },
-         {
-            link: 'https://library.iated.org/view/SNARBERG2022PRE',
-            buttonText: 'Study Proposal',
-         },
       ],
       description: (
          <p>
             In spring 2022, I took part in conducting a research project on
-            accessibility at KTH. My responsibility was to chart course an
+            accessibility at KTH. My responsibility was to chart course and
             learning activities with relation to accessibility. The article that
-            resulted from the work, for which I am the first author, was
-            published in EDULEARN22 Proceedings.<br></br>
-            <br></br>I was given the opportunity to take part in this project
-            because of another report on accessibility I wrote as a school
-            project. In that report, I propose a study to investigate how the
-            learning management system used at KTH could be improved to increase
-            accessibility for people with cognitive disabilities. Both papers
-            are linked above.
+            resulted from the work was published in EDULEARN22 Proceedings,
+            where I am listed as the first author.
+            <br></br>
+            <br></br>
+            My lecturer, who I carried out the project with, first gained trust
+            in me from reading another report of mine on the subject of
+            accessibility. In that report, I propose a study to investigate how
+            the learning management system used at KTH could be improved to
+            increase accessibility for people with cognitive disabilities. I
+            linked it as a bonus report, for the interested.
          </p>
       ),
       shortDescription: (
@@ -87,7 +89,7 @@ const projectsData = [
       links: [
          {
             link: 'http://github.com',
-            buttonText: 'http://dribble.com/Alien_pixels',
+            buttonText: 'GitHub',
          },
       ],
       description:
@@ -103,11 +105,11 @@ const projectsData = [
       links: [
          {
             link: 'http://github.com',
-            buttonText: 'http://dribble.com/Alien_pixels',
+            buttonText: 'GitHub',
          },
       ],
       description:
-         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+         "In this study, three classmates and I extended the existing work of my friend’s bachelor's thesis on how to communicate weight in virtual reality. To their already implemented virtual environment where users throw virtual spheres at a target, we added auditory and/or haptic feedback as a response to ball movement. The aim was to see if varying frequencies and amplitudes in the feedback could induce a sense of weight difference between balls. Models for sound and haptic feedback were carefully designed with regards to previous research on cross-sensory correspondences between audio, haptics and weight. User tests showed that both audio and haptics can effectively communicate ball weight. However, no statistically significant results were shown when comparing sound and haptic feedback.",
       shortDescription:
          'Lorem Ipsum is simply dummy of the printing and typesetting industry...',
       keyWords: ['Perceptual Study'],
@@ -119,7 +121,7 @@ const projectsData = [
       links: [
          {
             link: 'http://github.com',
-            buttonText: 'http://dribble.com/Alien_pixels',
+            buttonText: 'GitHub',
          },
       ],
       description:
@@ -136,7 +138,7 @@ const projectsData = [
       links: [
          {
             link: 'http://github.com',
-            buttonText: 'http://dribble.com/Alien_pixels',
+            buttonText: 'GitHub',
          },
       ],
       description:
@@ -152,7 +154,7 @@ const projectsData = [
       links: [
          {
             link: 'http://github.com',
-            buttonText: 'http://dribble.com/Alien_pixels',
+            buttonText: 'GitHub',
          },
       ],
       description:
@@ -168,7 +170,7 @@ const projectsData = [
       links: [
          {
             link: 'http://github.com',
-            buttonText: 'http://dribble.com/Alien_pixels',
+            buttonText: 'GitHub',
          },
       ],
       description:
