@@ -26,13 +26,13 @@
 .contact__option-icon {
    font-size: 1.5rem;
    margin-bottom: 0.5rem;
-   color: ivory;
+   color: rgb(26, 85, 92);
 }
 
 .contact__option a {
    display: inline-block;
    font-size: 0.8rem;
-   color: ivory;
+   color: rgb(26, 85, 92);
    font-size: medium;
 }
 
