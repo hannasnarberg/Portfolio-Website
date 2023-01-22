@@ -8,10 +8,11 @@ function ProjectModal({ currentProject, closeDetails }) {
    function closeModal() {
       closeDetails();
    }
+   Modal.setAppElement('body');
 
    return (
       <Modal
-         isOpen={currentProject}
+         isOpen={currentProject ? true : false}
          onRequestClose={closeModal}
          contentLabel="Modal"
          closeTimeoutMS={400}
@@ -41,9 +42,9 @@ function ProjectModal({ currentProject, closeDetails }) {
                         ''
                      )}
                   </div>
-                  <p className="project__desription">
+                  <div className="project__desription">
                      {currentProject.description}
-                  </p>
+                  </div>
                </div>
             </div>
             <button onClick={() => closeModal()} className="project__close">

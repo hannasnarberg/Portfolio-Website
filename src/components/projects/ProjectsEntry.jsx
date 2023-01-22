@@ -15,9 +15,14 @@ function ProjectsEntry({ id, image, title, keyWords, setCurrentProject }) {
          <div className="__projects__keywords-container">
             {keyWords.map((keyWord, i) =>
                i === keyWords.length - 1 ? (
-                  <span className="projects__keyWords">{keyWord}</span>
+                  <span key={i} className="projects__keyWords">
+                     {keyWord}
+                  </span>
                ) : (
-                  <span className="projects__keyWords"> {keyWord}, </span>
+                  <span key={i} className="projects__keyWords">
+                     {' '}
+                     {keyWord},{' '}
+                  </span>
                )
             )}
          </div>

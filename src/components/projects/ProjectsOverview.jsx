@@ -11,6 +11,7 @@ function ProjectsOverview({ setCurrentProject }) {
             {projectsData.map(({ id, image, title, keyWords }) => {
                return (
                   <ProjectsEntry
+                     key={id}
                      id={id}
                      image={image}
                      title={title}
