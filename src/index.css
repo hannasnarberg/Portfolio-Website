@@ -23,11 +23,13 @@ html {
    --color-bg: #23281f;
    --color-bg-variant: #567154;
    --color-cards: #748f89;
-   --color-primary: #c0c1aa;
+   /*--color-primary: #c0c1aa;*/
+   --color-primary: rgb(168, 185, 172);
    --color-primary-variant: #e7eadf;
    --color-ivory: #f5f7ed;
    --color-light: #aeaeae;
-   --color-orange: #df8443;
+   /*--color-orange: #df8443;*/
+   --color-orange: #292a29;
    --color-yellow: #f1d669;
    --transition: all 400ms ease;
 
@@ -44,7 +46,10 @@ html {
 
 body {
    font-family: 'Lato', sans-serif;
-   background: rgb(85, 90, 77);
+   /* background: rgb(85, 90, 77);*/
+   background: rgb(156, 170, 159);
+   background: url(/src/assets/Untitled_Artwork-3.png) no-repeat,
+      url(/src/assets/Untitled_Artwork-4.png);
    color: var(--color-ivory);
    line-height: 1.7;
 }
@@ -67,13 +72,15 @@ h1 {
 }
 
 section {
-   padding-top: 7rem;
+   padding-top: 3.5rem;
+   padding-bottom: 3.5rem;
+   scroll-margin-top: 3.5rem;
 }
 
 section > h2 {
    font-size: 2rem;
    text-align: center;
-   color: var(--color-yellow);
+   color: rgb(26, 85, 92);
    margin-bottom: 1.5rem;
    -webkit-filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
    filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
@@ -95,8 +102,8 @@ a:hover {
 .btn {
    width: max-content;
    display: inline-block;
-   background: var(--color-primary);
-   color: var(--color-bg);
+   background: rgb(26, 85, 92);
+   color: var(--color-ivory);
    padding: 0.75rem 1.2rem;
    border-radius: 0.3rem;
    transition: var(--transition);

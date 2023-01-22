@@ -16,8 +16,8 @@
 
 .about__me img {
    width: 100%;
-   background: var(--color-primary);
    border-radius: 0.3rem;
+   background: rgb(255, 255, 240, 0.65);
 }
 
 .about__content {
@@ -27,7 +27,7 @@
 
 .about__content p {
    margin: 0 0 1.5rem;
-   color: var(--color-ivory);
+   color: var(--color-orange);
 }
 
 .about__description {

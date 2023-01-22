@@ -7,14 +7,14 @@
 }
 
 .projects__item {
-   background: var(--color-primary);
+   background: rgb(223, 230, 225, 0.7);
    border-radius: 0.3rem;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .projects__item > h3 {
-   color: var(--color-bg);
+   color: rgb(26, 85, 92);
 }
 
 .projects__item:hover {
@@ -96,7 +96,7 @@
 
 .project__details {
    height: 100%;
-   background: var(--color-primary);
+   background: rgb(223, 230, 225);
    border-radius: 0.3rem;
    border: 1px solid transparent;
    transition: var(--transition);

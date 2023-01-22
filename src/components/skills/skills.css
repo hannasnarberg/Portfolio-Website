@@ -5,7 +5,7 @@
 }
 
 .skill__container > div {
-   background: var(--color-primary);
+   background: rgb(223, 230, 225, 0.7);
    /*background: var(--color-primary);*/
    padding: 2rem 1rem 2rem 2rem;
    border-radius: 0.3rem;
@@ -16,7 +16,7 @@
 .skill__container > div h3 {
    text-align: center;
    margin-bottom: 2rem;
-   color: var(--color-bg);
+   color: rgb(26, 85, 92);
    font-size: x-large;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .skill__details-icon {
-   color: var(--color-bg);
+   color: rgb(26, 85, 92);
    height: 1.5em;
 }
 

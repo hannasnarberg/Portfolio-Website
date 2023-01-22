@@ -1,6 +1,7 @@
 header {
    overflow: hidden;
    padding-top: 10rem;
+   padding-bottom: 3.5rem;
 }
 
 .header__container {
@@ -15,7 +16,7 @@ header {
 
 .header__circle {
    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-   background-color: var(--color-yellow);
+   background-color: rgb(89, 125, 128);
    position: absolute;
    top: 0px;
    right: 0px;
@@ -31,7 +32,7 @@ header {
    max-width: 66vmin;
    transform-origin: center;
    width: 100%;
-   color: var(--color-bg);
+   color: rgb(211, 223, 214);
    font-size: small;
    word-spacing: 0.2rem;
 }
@@ -72,7 +73,7 @@ header {
 
 .header__description {
    font-family: 'Test';
-   color: var(--color-primary-variant);
+   color: var(--color-bg);
 }
 
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
