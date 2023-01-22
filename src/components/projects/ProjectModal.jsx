@@ -27,9 +27,10 @@ function ProjectModal({ currentProject, closeDetails }) {
                      <h3> {currentProject.title} </h3>
                      {currentProject.links.length ? (
                         <span className="project__links">
-                           {currentProject.links.map((link) => (
+                           {currentProject.links.map((link, i) => (
                               <a
                                  href={link.link}
+                                 key={i}
                                  className="btn btn-primary"
                                  target="_blank"
                                  rel="noreferrer"
