@@ -2,12 +2,12 @@
 @font-face {
    font-family: 'Test';
    src: local('cursive'),
-      url('./assets/font/Courgette-Regular.ttf') format('truetype');
+      url('./assets/fonts/Courgette-Regular.ttf') format('truetype');
 }
 @font-face {
    font-family: 'Test2';
    src: local('cursive'),
-      url('./assets/font/Boiling-BlackDemo.ttf') format('truetype');
+      url('./assets/fonts/Boiling-BlackDemo.ttf') format('truetype');
 }
 
 * {
@@ -48,8 +48,8 @@ body {
    font-family: 'Lato', sans-serif;
    /* background: rgb(85, 90, 77);*/
    background: rgb(156, 170, 159);
-   background: url(/src/assets/Untitled_Artwork-5.png) no-repeat,
-      url(/src/assets/Untitled_Artwork-6.png);
+   background: url(/src/assets/pictures/background1.png) no-repeat,
+      url(/src/assets/pictures/background2.png);
    line-height: 1.7;
 }
 

@@ -149,6 +149,7 @@
 }
 
 .project__close {
+   background-color: transparent;
    position: absolute;
    top: 0;
    right: 0;
@@ -162,7 +163,7 @@
    transform: scale(1.1);
 }
 
-/* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
+/* =============== MEDIUM DEVICES ===============*/
 
 @media screen and (max-width: 1024px) {
    .projects__container {
@@ -179,7 +180,7 @@
    }
 }
 
-/* =============== MEDIA QUERIES, SMALL DEVICES) ===============*/
+/* =============== SMALL DEVICES ===============*/
 
 @media screen and (max-width: 600px) {
    .projects__container {

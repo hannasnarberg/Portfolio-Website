@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/me.png';
-import CV from '../../assets/CV_Hanna_Snarberg.pdf';
+import ME from '../../assets/pictures/me.png';
+import CV from '../../assets/cv.pdf';
 
 function About() {
    return (

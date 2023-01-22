@@ -6,9 +6,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 function ProjectModal({ currentProject, closeDetails }) {
    Modal.defaultStyles = {};
    function closeModal() {
-      {
-         closeDetails();
-      }
+      closeDetails();
    }
 
    return (
@@ -26,27 +24,31 @@ function ProjectModal({ currentProject, closeDetails }) {
                <div>
                   <div className="project__wrapper">
                      <h3> {currentProject.title} </h3>
-                     <span className="project__links">
-                        {currentProject.links.map((link) => (
-                           <a
-                              href={link.link}
-                              className="btn btn-primary"
-                              target="_blank"
-                              rel="noreferrer"
-                           >
-                              {link.buttonText}
-                           </a>
-                        ))}
-                     </span>
+                     {currentProject.links.length ? (
+                        <span className="project__links">
+                           {currentProject.links.map((link) => (
+                              <a
+                                 href={link.link}
+                                 className="btn btn-primary"
+                                 target="_blank"
+                                 rel="noreferrer"
+                              >
+                                 {link.buttonText}
+                              </a>
+                           ))}
+                        </span>
+                     ) : (
+                        ''
+                     )}
                   </div>
                   <p className="project__desription">
                      {currentProject.description}
                   </p>
                </div>
             </div>
-            <a onClick={() => closeModal()} className="project__close">
+            <button onClick={() => closeModal()} className="project__close">
                <AiOutlineClose />
-            </a>
+            </button>
          </article>
       </Modal>
    );

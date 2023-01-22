@@ -1,14 +1,7 @@
 import React from 'react';
 import './projects.css';
 
-function ProjectsEntry({
-   id,
-   image,
-   title,
-   keyWords,
-   shortDescription,
-   setCurrentProject,
-}) {
+function ProjectsEntry({ id, image, title, keyWords, setCurrentProject }) {
    return (
       <article
          key={id}

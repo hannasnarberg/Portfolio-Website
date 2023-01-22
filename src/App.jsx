@@ -5,8 +5,6 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Contact from './components/contact/Contact';
 import ProjectsOverview from './components/projects/ProjectsOverview';
-import './assets/font/Courgette-Regular.ttf';
-import './assets/font/Boiling-BlackDemo.ttf';
 import { useState } from 'react';
 import ProjectModal from './components/projects/ProjectModal';
 
