@@ -12,22 +12,18 @@ function About() {
                <img src={ME} alt="me" />
             </div>
             <div className="about__content">
-               <p className="about__description">
-                  I am a KTH student with a bachelor in Media Technology,
-                  currently halfway through my first year at the Interactive
-                  Media Technology master’s programme. This means I have
-                  experience in designing, developing and evaluating interactive
-                  products as well as researching topics related to
-                  human-computer interaction
-                  <br></br>
-                  <br></br>
-                  My dream job involves front-end development or UX/UI-design
-                  and allows me to explore my creative sides. Topics I find
-                  important, and have taken additional courses in, are
-                  accessibility and sustainability. Other than that, I have a
-                  big interest in painting and sports activities of all sorts.
-                  Please have a look at my CV or scroll down to see some of my
-                  projects.
+               <p>
+                  Looking for a creative front-end developer or UX/UI-designer?
+                  I am your (wo)man! I have a bachelor’s degree in Media
+                  Technology from KTH and am currently in my first year at the
+                  Interactive Media Technology master’s programme. This means I
+                  have experience in designing, developing and evaluating
+                  interactive products and researching topics related to
+                  human-computer interaction. I highly value accessibility and
+                  sustainability and have taken additional courses in those
+                  areas. Other than that, I love painting and sports activities
+                  of all sorts. Please take a look at my CV or scroll down to
+                  see some of my projects.
                </p>
                <a href={CV} download className="btn">
                   Download CV

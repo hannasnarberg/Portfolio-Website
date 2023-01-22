@@ -1,12 +1,11 @@
 .about__container {
    display: grid;
    grid-template-columns: 31% 64%;
-   text-align: center;
    gap: 5%;
 }
 
 .about__me {
-   width: 90%;
+   width: 80%;
    aspect-ratio: 1/1;
    display: grid;
    border-radius: 0.3rem;
@@ -17,22 +16,19 @@
 .about__me img {
    width: 100%;
    border-radius: 0.3rem;
-   background: rgb(255, 255, 240, 0.65);
+   background: rgb(255, 255, 240, 0.5);
 }
 
 .about__content {
    width: 100%;
-   text-align: left;
+   margin-top: 0.5rem;
 }
 
 .about__content p {
    margin: 0 0 1.5rem;
-   color: var(--color-orange);
-}
-
-.about__description {
    text-align: justify;
 }
+
 /* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
 
 @media screen and (max-width: 1024px) {
