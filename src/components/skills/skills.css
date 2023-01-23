@@ -5,7 +5,7 @@
 }
 
 .skill__container > div {
-   background: rgb(223, 230, 225, 0.7);
+   background: rgba(77, 77, 82, 0.5);
    padding: 2rem 1rem 2rem 2rem;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -14,7 +14,7 @@
 .skill__container > div h3 {
    text-align: center;
    margin-bottom: 2rem;
-   color: rgb(26, 85, 92);
+   color: #9c67b7;
    font-size: x-large;
 }
 
@@ -31,15 +31,15 @@
    display: flex;
    justify-content: left;
    gap: 1rem;
-   color: var(--color-dark);
+   color: rgb(212, 212, 199);
 }
 
 .skill__details small {
-   color: rgb(85, 90, 77);
+   color: rgb(212, 212, 199);
 }
 
 .skill__details-icon {
-   color: rgb(26, 85, 92);
+   color: rgb(38, 123, 132);
    height: 1.5em;
 }
 

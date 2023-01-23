@@ -22,7 +22,7 @@ header {
 
 .header__circle {
    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-   background-color: rgb(89, 125, 128);
+   background-color: rgb(183, 109, 169);
    position: absolute;
    top: 0px;
    right: 0px;
@@ -36,33 +36,33 @@ header {
    fill: currentColor;
    height: auto;
    width: 100%;
-   color: #e7eadf;
+   color: rgb(46, 47, 52);
    font-size: small;
    word-spacing: 0.2rem;
 }
 
 .header__title-first {
-   color: #292a29;
+   color: rgb(183, 109, 169);
    font-size: 17vw;
    line-height: 17vw;
-   margin-right: 5vw;
+   margin-right: 7vw;
    -webkit-filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
    filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
 }
 
 .header__title-last {
-   color: var(--color-ivory);
+   color: rgb(183, 109, 169);
    font-size: 11.5vw;
    line-height: 11.5vw;
    padding-bottom: 1rem;
-   margin-left: 5vw;
+   margin-left: 7vw;
    -webkit-filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
    filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
 }
 
 .header__subtitle {
    font-family: 'Cursive';
-   color: var(--color-dark);
+   color: rgb(212, 212, 199);
 }
 
 /* =============== MEDIUM DEVICES) ===============*/

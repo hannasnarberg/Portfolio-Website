@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/pictures/me.png';
+import ME from '../../assets/pictures/me2.JPG';
 import CV from '../../assets/cv.pdf';
 
 function About() {

@@ -8,10 +8,7 @@
    width: 75%;
    aspect-ratio: 1/1;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.about__image-container img {
-   background: rgb(255, 255, 240, 0.5);
+   position: relative;
 }
 
 .about__content {
@@ -22,7 +19,7 @@
 .about__content p {
    margin: 0 0 1.5rem;
    text-align: justify;
-   color: var(--color-dark);
+   color: rgb(193, 193, 180);
 }
 
 /* =============== MEDIUM DEVICES ===============*/

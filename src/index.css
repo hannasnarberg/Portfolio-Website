@@ -37,9 +37,11 @@ html {
 
 body {
    font-family: 'Lato', sans-serif;
-   background: rgb(156, 170, 159);
-   background: url(/src/assets/pictures/background1.png) no-repeat,
-      url(/src/assets/pictures/background2.png);
+   background: rgb(46, 47, 52);
+   background-image: url(/src/assets/pictures/Untitled_Artwork\ 28.png),
+      url(/src/assets/pictures/Untitled_Artwork\ 29.png);
+   background-repeat: no-repeat, repeat;
+   background-size: 100%;
    line-height: 1.7;
 }
 
@@ -65,7 +67,7 @@ section {
 section > h2 {
    font-size: 2rem;
    text-align: center;
-   color: rgb(26, 85, 92);
+   color: #815697;
    margin-bottom: 1.5rem;
    -webkit-filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
    filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
@@ -80,8 +82,8 @@ img {
 .btn {
    display: inline-block;
    width: max-content;
-   background: rgb(26, 85, 92);
-   color: #d6e3d8;
+   background: #815697;
+   color: rgb(212, 212, 199);
    padding: 0.75rem 0.75rem;
    border-radius: 0.3rem;
    transition: var(--transition);
@@ -159,5 +161,9 @@ a:hover {
 @media screen and (max-width: 600px) {
    .container {
       width: var(--container-width-small);
+   }
+
+   body {
+      background-repeat: no-repeat;
    }
 }
