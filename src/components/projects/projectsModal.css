@@ -44,13 +44,13 @@
 
 .projectModal__details {
    height: 100%;
-   background: rgb(223, 230, 225);
+   background: rgba(77, 77, 82, 1);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    display: grid;
    grid-template-columns: 1fr;
    padding: 2rem 2rem;
    gap: 1rem;
-   color: var(--color-dark);
+   color: rgb(219, 219, 206);
 }
 
 .projectModal__img {
@@ -68,7 +68,7 @@
 }
 
 .projectModal__title-links > h3 {
-   color: rgb(26, 85, 92);
+   color: rgb(219, 219, 206);
    font-size: 4vh;
 }
 
