@@ -68,7 +68,7 @@ const projectsData = [
             disabilities. I linked it as a bonus report.
          </p>
       ),
-      keyWords: ['Conference Paper, Accessibility'],
+      keyWords: ['Conference Paper', 'Accessibility'],
    },
 
    {
@@ -120,7 +120,7 @@ const projectsData = [
       ],
       description:
          "In this study, three classmates and I extended the existing work of my friend’s bachelor's thesis on how to communicate weight in virtual reality. To their already implemented virtual environment where users throw virtual spheres at a target, we added auditory and/or haptic feedback as a response to ball movement. The aim was to see if varying frequencies and amplitudes in the feedback could induce a sense of weight difference between balls. Models for sound and haptic feedback were carefully designed with regards to previous research on cross-sensory correspondences between audio, haptics and weight. User tests showed that both audio and haptics can effectively communicate ball weight. However, no statistically significant results were shown when comparing sound and haptic feedback.",
-      keyWords: ['User Research, Unity, VR'],
+      keyWords: ['User Research', 'Unity', 'VR'],
    },
 
    {

@@ -1,25 +1,23 @@
 import React from 'react';
-import './projects.css';
+import './projectsEntry.css';
 
 function ProjectsEntry({ id, image, title, keyWords, setCurrentProject }) {
    return (
       <article
          key={id}
-         className="projects__item"
+         className="projectsEntry"
          onClick={() => setCurrentProject(id)}
       >
-         <div className="projects__item-image">
-            <img src={image} alt={title} />
-         </div>
+         <img src={image} alt={title} />
          <h3> {title} </h3>
-         <div className="__projects__keywords-container">
+         <div className="projectsEntry__keywords-container">
             {keyWords.map((keyWord, i) =>
                i === keyWords.length - 1 ? (
-                  <span key={i} className="projects__keyWords">
+                  <span key={i} className="projectsEntry__keyWords">
                      {keyWord}
                   </span>
                ) : (
-                  <span key={i} className="projects__keyWords">
+                  <span key={i} className="projectsEntry__keyWords">
                      {' '}
                      {keyWord},{' '}
                   </span>

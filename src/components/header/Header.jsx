@@ -31,7 +31,7 @@ function Header() {
             </div>
             <h1 className="header__title-first">Hanna</h1>
             <h1 className="header__title-last">Snarberg</h1>
-            <h3 className="header__description"> Welcome to my page! </h3>
+            <h3 className="header__subtitle"> Welcome to my page! </h3>
          </div>
       </header>
    );

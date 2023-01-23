@@ -1,5 +1,5 @@
 import React from 'react';
-import './projects.css';
+import './projectsOverview.css';
 import projectsData from './ProjectsData';
 import ProjectsEntry from './ProjectsEntry';
 
@@ -7,7 +7,7 @@ function ProjectsOverview({ setCurrentProject }) {
    return (
       <section id="projects">
          <h2>Projects</h2>
-         <div className="container projects__container">
+         <div className="container projectsOverview__container">
             {projectsData.map(({ id, image, title, keyWords }) => {
                return (
                   <ProjectsEntry

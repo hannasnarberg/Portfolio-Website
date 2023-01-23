@@ -1,6 +1,6 @@
 import Modal from 'react-modal';
 import React from 'react';
-import './projects.css';
+import './projectsModal.css';
 import { AiOutlineClose } from 'react-icons/ai';
 
 function ProjectModal({ currentProject, closeDetails }) {
@@ -17,38 +17,39 @@ function ProjectModal({ currentProject, closeDetails }) {
          contentLabel="Modal"
          closeTimeoutMS={400}
       >
-         <article key={currentProject.id} className="project__details">
-            <div className="project__info">
-               <div className="project__picture">
-                  <img src={currentProject.image} alt={currentProject.title} />
-               </div>
-               <div>
-                  <div className="project__wrapper">
-                     <h3> {currentProject.title} </h3>
-                     {currentProject.links.length ? (
-                        <span className="project__links">
-                           {currentProject.links.map((link, i) => (
-                              <a
-                                 href={link.link}
-                                 key={i}
-                                 className="btn btn-primary"
-                                 target="_blank"
-                                 rel="noreferrer"
-                              >
-                                 {link.buttonText}
-                              </a>
-                           ))}
-                        </span>
-                     ) : (
-                        ''
-                     )}
-                  </div>
-                  <div className="project__desription">
-                     {currentProject.description}
-                  </div>
-               </div>
+         <article key={currentProject.id} className="projectModal__details">
+            <img
+               src={currentProject.image}
+               alt={currentProject.title}
+               className="projectModal__img"
+            />
+            <div className="projectModal__title-links">
+               <h3> {currentProject.title} </h3>
+               {currentProject.links.length ? (
+                  <span className="projectModal__links">
+                     {currentProject.links.map((link, i) => (
+                        <a
+                           href={link.link}
+                           key={i}
+                           className="btn"
+                           target="_blank"
+                           rel="noreferrer"
+                        >
+                           {link.buttonText}
+                        </a>
+                     ))}
+                  </span>
+               ) : (
+                  ''
+               )}
             </div>
-            <button onClick={() => closeModal()} className="project__close">
+            <div className="projectModal__desription">
+               {currentProject.description}
+            </div>
+            <button
+               onClick={() => closeModal()}
+               className="projectModal__close"
+            >
                <AiOutlineClose />
             </button>
          </article>

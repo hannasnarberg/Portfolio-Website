@@ -1,41 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Lato:ital,wght@0,400;0,900;1,100&display=swap');
 @font-face {
-   font-family: 'Test';
+   font-family: 'Cursive';
    src: local('cursive'),
       url('./assets/fonts/Courgette-Regular.ttf') format('truetype');
 }
 @font-face {
-   font-family: 'Test2';
-   src: local('cursive'),
+   font-family: 'Header';
+   src: local('header'),
       url('./assets/fonts/Boiling-BlackDemo.ttf') format('truetype');
 }
 
 * {
-   margin: 0;
    border: 0;
    outline: 0;
+   margin: 0;
    box-sizing: border-box;
    list-style: none;
    text-decoration: none;
 }
 
 html {
-   --color-bg: #23281f;
-   --color-bg-variant: #567154;
-   --color-cards: #748f89;
-   /*--color-primary: #c0c1aa;*/
-   --color-primary: rgb(168, 185, 172);
-   --color-primary-variant: #e7eadf;
+   --color-dark: #23281f;
    --color-ivory: #f5f7ed;
-   --color-light: #aeaeae;
-   /*--color-orange: #df8443;*/
-   --color-orange: #292a29;
-   --color-yellow: #f1d669;
    --transition: all 400ms ease;
 
-   --container-width-lg: 75%;
-   --container-width-md: 86%;
-   --container-width-sm: 90%;
+   --container-width-large: 75%;
+   --container-width-medium: 85%;
+   --container-width-small: 90%;
 
    scroll-behavior: smooth;
 }
@@ -46,7 +37,6 @@ html {
 
 body {
    font-family: 'Lato', sans-serif;
-   /* background: rgb(85, 90, 77);*/
    background: rgb(156, 170, 159);
    background: url(/src/assets/pictures/background1.png) no-repeat,
       url(/src/assets/pictures/background2.png);
@@ -54,20 +44,16 @@ body {
 }
 
 .container {
-   width: var(--container-width-lg);
+   width: var(--container-width-large);
    margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-   font-weight: 700;
-}
-
-h1 {
-   font-size: 2.5rem;
+header {
+   animation: fadeIn 3s;
+   -webkit-animation: fadeIn 3s;
+   -moz-animation: fadeIn 3s;
+   -o-animation: fadeIn 3s;
+   -ms-animation: fadeIn 3s;
 }
 
 section {
@@ -85,25 +71,18 @@ section > h2 {
    filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
 }
 
-.text-light {
-   color: var(--color-light);
-}
-
-a {
-   color: var(--color-primary);
-   transition: var(--transition);
-}
-
-a:hover {
-   color: var(--color-ivory);
+img {
+   width: 100%;
+   display: block;
+   object-fit: cover;
 }
 
 .btn {
-   width: max-content;
    display: inline-block;
+   width: max-content;
    background: rgb(26, 85, 92);
-   color: var(--color-ivory);
-   padding: 0.75rem 1.2rem;
+   color: #d6e3d8;
+   padding: 0.75rem 0.75rem;
    border-radius: 0.3rem;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -111,32 +90,16 @@ a:hover {
 
 .btn:hover {
    transform: scale(1.05);
-   background: var(--color-ivory);
-   color: var(--color-bg);
-   border-color: transparent;
+   background: #d6e3d8;
+   color: var(--color-dark);
 }
 
-.btn-primary {
-   background: var(--color-bg);
+a {
+   transition: var(--transition);
+}
+
+a:hover {
    color: var(--color-ivory);
-}
-
-img {
-   display: block;
-   width: 100%;
-   object-fit: cover;
-}
-
-p {
-   font-weight: 200;
-}
-
-header {
-   animation: fadeIn 3s;
-   -webkit-animation: fadeIn 3s;
-   -moz-animation: fadeIn 3s;
-   -o-animation: fadeIn 3s;
-   -ms-animation: fadeIn 3s;
 }
 
 @keyframes fadeIn {
@@ -184,17 +147,17 @@ header {
    }
 }
 
-/* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
+/* ===============  MEDIUM DEVICES) ===============*/
 
 @media screen and (max-width: 1024px) {
    .container {
-      width: var(--container-width-md);
+      width: var(--container-width-medium);
    }
 }
 
-/* =============== MEDIA QUERIES, SMALL DEVICES) ===============*/
+/* =============== SMALL DEVICES) ===============*/
 @media screen and (max-width: 600px) {
    .container {
-      width: var(--container-width-sm);
+      width: var(--container-width-small);
    }
 }

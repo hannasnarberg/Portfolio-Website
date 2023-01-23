@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/header/Header';
-import Navigator from './components/navigator/Navigator';
+import Navigation from './components/navigation/Navigation';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Contact from './components/contact/Contact';
@@ -18,7 +18,7 @@ function App() {
                closeDetails={() => setCurrentProject(null)}
             />
          )}
-         <Navigator />
+         <Navigation />
          <Header />
          <About />
          <Skills />

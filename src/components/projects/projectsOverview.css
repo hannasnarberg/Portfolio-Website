@@ -1,0 +1,22 @@
+.projectsOverview__container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 2.5rem;
+}
+
+/* =============== MEDIUM DEVICES ===============*/
+
+@media screen and (max-width: 1024px) {
+   .projectsOverview__container {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+   }
+}
+
+/* =============== SMALL DEVICES ===============*/
+
+@media screen and (max-width: 600px) {
+   .projectsOverview__container {
+      grid-template-columns: 1fr;
+   }
+}

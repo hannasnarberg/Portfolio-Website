@@ -1,7 +1,8 @@
 header {
    overflow: hidden;
-   padding-top: 10rem;
+   padding-top: 7.5rem;
    padding-bottom: 3.5rem;
+   height: 100vh;
 }
 
 .header__container {
@@ -12,6 +13,11 @@ header {
    align-items: center;
    font-size: larger;
    position: relative;
+}
+
+.header__container > h1 {
+   position: relative;
+   font-family: 'Header';
 }
 
 .header__circle {
@@ -29,40 +35,23 @@ header {
 .header__circle-content {
    fill: currentColor;
    height: auto;
-   max-width: 66vmin;
-   transform-origin: center;
    width: 100%;
-   color: rgb(211, 223, 214);
+   color: #e7eadf;
    font-size: small;
    word-spacing: 0.2rem;
 }
 
-.header__container > h1 {
-   color: var(--color-primary);
-   position: relative;
-}
-
-@supports (-webkit-background-clip: text) {
-   .header__container > h1 {
-      font-family: 'Test2';
-      color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text;
-   }
-}
-
 .header__title-first {
-   background: var(--color-orange);
+   color: #292a29;
    font-size: 17vw;
    line-height: 17vw;
-   margin-top: 3vw;
    margin-right: 5vw;
    -webkit-filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
    filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
 }
 
 .header__title-last {
-   background: var(--color-ivory) 0%;
+   color: var(--color-ivory);
    font-size: 11.5vw;
    line-height: 11.5vw;
    padding-bottom: 1rem;
@@ -71,33 +60,27 @@ header {
    filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
 }
 
-.header__description {
-   font-family: 'Test';
-   color: var(--color-bg);
+.header__subtitle {
+   font-family: 'Cursive';
+   color: var(--color-dark);
 }
 
-/* =============== MEDIA QUERIES, MEDIUM DEVICES) ===============*/
+/* =============== MEDIUM DEVICES) ===============*/
 
 @media screen and (max-width: 1024px) {
    .header__title-first {
       font-size: 27vw;
       line-height: 25vw;
+      margin-right: 0;
    }
 
    .header__title-last {
       font-size: 17vw;
       line-height: 16vw;
+      margin-left: 0;
    }
 
    .header__circle {
       display: none;
-   }
-
-   .header__title-first {
-      margin-right: 0;
-   }
-
-   .header__title-last {
-      margin-left: 0;
    }
 }

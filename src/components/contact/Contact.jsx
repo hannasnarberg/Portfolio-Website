@@ -6,7 +6,7 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs';
 function Contact() {
    return (
       <section id="contact">
-         <h2> Contact Me</h2>
+         <h2>Contact Me</h2>
          <div className="container contact__container">
             <ContactOption
                icon={<MdOutlineEmail className="contact__option-icon" />}
