@@ -22,7 +22,7 @@ header {
 
 .header__circle {
    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-   background-color: rgb(183, 109, 169);
+   background-color: rgb(158, 133, 176);
    position: absolute;
    top: 0px;
    right: 0px;

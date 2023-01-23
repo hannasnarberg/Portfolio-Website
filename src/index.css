@@ -67,7 +67,7 @@ section {
 section > h2 {
    font-size: 2rem;
    text-align: center;
-   color: #815697;
+   color: rgb(183, 109, 169);
    margin-bottom: 1.5rem;
    -webkit-filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
    filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
@@ -82,7 +82,7 @@ img {
 .btn {
    display: inline-block;
    width: max-content;
-   background: #815697;
+   background: rgb(119, 65, 109);
    color: rgb(212, 212, 199);
    padding: 0.75rem 0.75rem;
    border-radius: 0.3rem;

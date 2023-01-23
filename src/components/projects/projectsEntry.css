@@ -1,17 +1,16 @@
 .projectsEntry {
-   background: rgba(77, 77, 82, 0.5);
+   background: rgba(77, 77, 82, 0.7);
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .projectsEntry:hover {
-   background: rgba(251, 252, 252, 0.9);
    cursor: pointer;
    transform: scale(1.1);
 }
 
 .projectsEntry > h3 {
-   color: #815697;
+   color: rgb(212, 212, 199);
    margin: 1rem 1.2rem 0 1.2rem;
    font-size: 1.4rem;
    line-height: 1.6rem;
@@ -25,7 +24,7 @@
 
 .projectsEntry__keyWords {
    margin-right: 0.1rem;
-   color: rgb(212, 212, 199);
+   color: rgb(183, 109, 169);
    font-size: medium;
    padding: 0.1rem;
 }
