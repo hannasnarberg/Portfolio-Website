@@ -31,13 +31,12 @@
    display: flex;
    justify-content: left;
    gap: 1rem;
-   color: rgb(212, 212, 199);
+   color: rgb(219, 219, 206);
 }
 
 .skill__details small {
-   color: rgb(212, 212, 199);
+   color: rgb(219, 219, 206);
 }
-
 .skill__details-icon {
    color: rgb(183, 109, 169);
    height: 1.5em;

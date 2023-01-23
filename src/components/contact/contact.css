@@ -18,14 +18,14 @@
 .contact__option a {
    display: inline-block;
    font-size: 0.8rem;
-   color: rgb(226, 238, 229);
+   color: rgb(219, 219, 206);
    font-size: medium;
 }
 
 .contact__option-icon {
    font-size: 1.5rem;
    margin-bottom: 0.2rem;
-   color: rgb(226, 238, 229);
+   color: rgb(219, 219, 206);
 }
 
 .contact__option a:hover {
