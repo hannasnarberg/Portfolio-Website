@@ -65,6 +65,7 @@
    gap: 1.5rem;
    justify-content: center;
    width: 100%;
+   align-items: center;
 }
 
 .projectModal__title-links > h3 {
@@ -75,7 +76,6 @@
 .projectModal__links {
    display: flex;
    gap: 1rem;
-   padding-bottom: 1rem;
 }
 
 .projectModal__desription {

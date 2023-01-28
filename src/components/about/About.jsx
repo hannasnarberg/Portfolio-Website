@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/pictures/me2.JPG';
-import CV from '../../assets/cv.pdf';
+import MyPicture from '../../assets/pictures/me.png';
+import MyCV from '../../assets/cv.pdf';
 
 function About() {
    return (
@@ -9,7 +9,7 @@ function About() {
          <h2>About me</h2>
          <div className="container about__container">
             <div className="about__image-container">
-               <img src={ME} alt="me" />
+               <img src={MyPicture} alt="me" />
             </div>
             <div className="about__content">
                <p>
@@ -25,7 +25,7 @@ function About() {
                   of all sorts. Please take a look at my CV or scroll down to
                   see some of my projects.
                </p>
-               <a href={CV} download className="btn">
+               <a href={MyCV} download className="btn">
                   Download CV
                </a>
             </div>
