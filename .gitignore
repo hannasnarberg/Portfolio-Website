@@ -12,7 +12,7 @@
 .firebaserc
 
 #VS Code
-.vscode/settings.json
+**/.vscode/
 
 # misc
 .DS_Store
