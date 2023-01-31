@@ -67,4 +67,9 @@ header {
       color: rgb(219, 219, 206);
       font-size: small;
    }
+
+   header {
+      background-image: url(/src/assets/pictures/Background2.png);
+      background-size: cover;
+   }
 }
