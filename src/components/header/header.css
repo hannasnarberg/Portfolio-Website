@@ -49,13 +49,13 @@ header {
 @media screen and (max-width: 1024px) {
    .header__title-first {
       font-size: 27vw;
-      line-height: 25vw;
+      line-height: 27vw;
       margin-right: 0;
    }
 
    .header__title-last {
       font-size: 17vw;
-      line-height: 16vw;
+      line-height: 17vw;
       margin-left: 0;
    }
 }
@@ -63,8 +63,6 @@ header {
 /* =============== SMALL DEVICES) ===============*/
 @media screen and (max-width: 600px) {
    .header__subtitle {
-      font-family: 'Cursive';
-      color: rgb(219, 219, 206);
       font-size: small;
    }
 
