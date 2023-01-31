@@ -13,14 +13,14 @@ function About() {
             </div>
             <div className="about__content">
                <p>
-                  Looking for a creative UX/UI-designer or front-end developer?
-                  Look no further! I have a bachelor’s degree in Media
-                  Technology from KTH and am currently in my first year at the
-                  Interactive Media Technology master’s programme. This means I
-                  have experience in designing, developing and evaluating
-                  interactive products and researching topics related to
-                  human-computer interaction. I have also taken additional
-                  courses in sustainability and accessibility, two topics I find
+                  Looking for a creative UX/UI-designer or front-end developer
+                  for a part time job or a summer internship? Look no further! I
+                  am a KTH student with a bachelor’s degree in Media Technology,
+                  currently in my first year at the Interactive Media Technology
+                  master’s programme. This means I have experience in designing,
+                  developing and evaluating interactive products and researching
+                  topics related to human-computer interaction. I have also
+                  taken additional courses in sustainability, a topic I find
                   very important. Other than that, I love painting and sports
                   activities of all sorts. Please take a look at my CV or scroll
                   down to view some of my projects.
