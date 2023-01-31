@@ -13,17 +13,17 @@ function About() {
             </div>
             <div className="about__content">
                <p>
-                  Looking for a creative front-end developer or UX/UI-designer?
-                  I am your (wo)man! I have a bachelor’s degree in Media
+                  Looking for a creative UX/UI-designer or front-end developer?
+                  Look no further! I have a bachelor’s degree in Media
                   Technology from KTH and am currently in my first year at the
                   Interactive Media Technology master’s programme. This means I
                   have experience in designing, developing and evaluating
                   interactive products and researching topics related to
-                  human-computer interaction. I highly value accessibility and
-                  sustainability and have taken additional courses in those
-                  areas. Other than that, I love painting and sports activities
-                  of all sorts. Please take a look at my CV or scroll down to
-                  see some of my projects.
+                  human-computer interaction. I have also taken additional
+                  courses in sustainability and accessibility, two topics I find
+                  very important. Other than that, I love painting and sports
+                  activities of all sorts. Please take a look at my CV or scroll
+                  down to view some of my projects.
                </p>
                <a href={MyCV} download className="btn">
                   Download CV

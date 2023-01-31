@@ -19,7 +19,8 @@ nav a {
 }
 
 nav a:hover {
-   background: #653e79;
+   background: rgb(209, 136, 196);
+   color: var(--color-dark);
 }
 
 /* =============== SMALL DEVICES) ===============*/

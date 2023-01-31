@@ -5,7 +5,7 @@ import StoryHunter from '../../assets/pictures/storyhunter.png';
 import VR from '../../assets/pictures/vr.png';
 import InformationScreen from '../../assets/pictures/informationScreen.png';
 import Blandaren from '../../assets/pictures/blandaren.png';
-import HideAndMeet from '../../assets/pictures/hideAndMeet.png';
+import HideAndMeet from '../../assets/pictures/Hide_and_meet.png';
 import Edulearn from '../../assets/pictures/edulearn.png';
 
 const projectsData = [
@@ -24,16 +24,21 @@ const projectsData = [
          },
       ],
       description:
-         'Story Hunter is a React app where visitors can browse TV series. You can search for series, add them to your watchlist, see what’s trending or receive recommendations based on other series you like. For the adventurous, there is also an option for receiving randomized suggestions. The app was implemented in a group of four, using a model-view-presenter architecture. I was mainly responsible for the model and the presenters, meaning I worked less with CSS and more with JavaScript. Data was retrieved from The Movie Database (TMDB) API. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
+         'Story Hunter is a web app where visitors can browse TV series. You can search for series, add them to your watchlist, see what’s trending or receive recommendations based on other series you like. For the adventurous, there is also an option for receiving randomized suggestions. Story Hunter was created in a group of four, using a model-view-presenter architecture. I was mainly responsible for the model and the presenters, meaning I worked less with CSS and more with JavaScript. Data was retrieved from The Movie Database (TMDB) API. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
       keyWords: ['Web Development', 'React'],
    },
    {
       id: 2,
       image: HideAndMeet,
-      title: 'Hide and Meet',
-      links: [],
+      title: 'Hide & Meet',
+      links: [
+         {
+            link: 'https://drive.google.com/file/d/1egBN99wePSRnZie1saCc41BtbMA6mFo0/view?usp=sharing',
+            buttonText: 'Workbook',
+         },
+      ],
       description:
-         'Hide and Meet is the result of a design process which aimed to support introverted practices in a hypothetical future world of only introverted people. The Double Diamond framework was used, with emphasis on the stages of discovery and definition. My team chose to focus on the context of parties since they today are dominated by extroverts. What would a party with only introverted people look like? What do they want to do and how do we support that? For details on how we went about to answer those questions, please have a look at the workbook.',
+         'Hide & Meet is an app prototype and the result of a double diamond design process which aimed to support introverted practices in a hypothetical future world of only introverted people. It provides people at parties with a fun way of socializing, ruling out the possibilities of face-to-face rejection or not having anything to talk about. The party attendees scan the environment with their mobile camera to find virtual objects that other people have placed in the room using AR technology. If you want to meet up with the creator of an object you find interesting, the object is both the meeting point and the conversation starter. Users are invited by the party host, and meeting invites only remain until the end of the party. The memories, however, are eternal and embodied in the personal objects of others which the user can collect on their virtual memory shelf. Check out the workbook for details on the design process!',
       keyWords: ['Interaction Design'],
    },
 
@@ -53,19 +58,19 @@ const projectsData = [
       ],
       description: (
          <p>
-            Preparing for the Future for All is a conference paper published in
-            EDULEARN22 Proceedings for which I am the first author. The paper
-            reports on a research project on accessibility education at KTH,
-            which I was part of conducting. My responsibility was to chart
-            course and learning activities with relation to the subject of
-            accessibility.
+            I am the first author for a conference paper called Preparing for
+            the Future for All which was published in EDULEARN22 Proceedings.
+            The paper reports on a research project about accessibility
+            education at KTH, which I was part of conducting. My responsibility
+            was to chart course and learning activities with relation to the
+            subject of accessibility.
             <br></br>
             <br></br>
             My lecturer, who I carried out the project with, first gained trust
             in me from reading another report of mine on accessibility. In that
             report, I propose a study to investigate how the learning management
             system used at KTH could be improved for people with cognitive
-            disabilities. I linked it as a bonus report.
+            disabilities. I linked it as a bonus report!
          </p>
       ),
       keyWords: ['Conference Paper', 'Accessibility'],
@@ -82,7 +87,7 @@ const projectsData = [
          },
       ],
       description:
-         'At the request of Tekniska Museet, three classmates and I investigated how the information screens in their Play Beyond Play exhibition could be redesigned to improve user experience for visitors with dyslexia. Accessibility guidelines were used for evaluating the original design and for creating a new prototype to better comply with the guidelines. Both versions were then subjects for user testing. Take a look at the report for more information about the process and to see pictures of the prototype.',
+         'As a final project of a KTH course on accessibility, three classmates and I investigated how the information screens in the Play Beyond Play exhibition at Tekniska Museet could be redesigned to improve user experience for visitors with dyslexia. Accessibility guidelines were used for evaluating the original design and for creating a new prototype. Both the original version and then new prototype were then subjects for user testing. Take a look at the report for more information about the process and for pictures of the prototype.',
       keyWords: ['Interaction Design', 'Accessibility'],
    },
 
@@ -101,7 +106,7 @@ const projectsData = [
          },
       ],
       description:
-         'This project aimed at investigating how the degree of similarity in the color scheme of a website affects memorability of its content and user experience. With a Wix website template as a starting point, two websites which were identical in all aspects but the color scheme were created. An experiment with a total of 12 participants was then conducted for comparison. The project was too small-scaled to yield any statistically significant results, but it did teach me a lot about the process of perceptual experiments. Please have a look at the poster which summarizes the study. Or why not read the whole report?',
+         'This project aimed at investigating how the degree of similarity in the color scheme of a website affects memorability of its content and user experience. With a Wix website template as a starting point, two websites which were identical in all aspects but the color scheme were created. An experiment with a total of 12 participants was then conducted for comparison. The project was too small-scaled to yield any statistically significant results, but it did teach me a lot about the process of perceptual experiments. Please have a look at the poster which summarizes the study, or why not read the whole report?',
       keyWords: ['User Research'],
    },
    {

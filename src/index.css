@@ -92,7 +92,7 @@ img {
 
 .btn:hover {
    transform: scale(1.05);
-   background: #d6e3d8;
+   background: var(--color-ivory);
    color: var(--color-dark);
 }
 

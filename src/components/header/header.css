@@ -20,27 +20,6 @@ header {
    font-family: 'Header';
 }
 
-.header__circle {
-   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-   background-color: rgb(209, 136, 196);
-   position: absolute;
-   top: 0px;
-   right: 0px;
-   width: 12vw;
-   height: 12vw;
-   padding: 0.5vw;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.header__circle-content {
-   fill: currentColor;
-   height: auto;
-   width: 100%;
-   color: rgb(33, 33, 37);
-   font-size: small;
-   word-spacing: 0.2rem;
-}
-
 .header__title-first {
    color: rgb(209, 136, 196);
    font-size: 17vw;
@@ -79,8 +58,13 @@ header {
       line-height: 16vw;
       margin-left: 0;
    }
+}
 
-   .header__circle {
-      display: none;
+/* =============== SMALL DEVICES) ===============*/
+@media screen and (max-width: 600px) {
+   .header__subtitle {
+      font-family: 'Cursive';
+      color: rgb(219, 219, 206);
+      font-size: small;
    }
 }
