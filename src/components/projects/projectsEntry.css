@@ -29,3 +29,12 @@
    font-size: medium;
    padding: 0.1rem;
 }
+
+/* =============== SMALL DEVICES ===============*/
+
+@media screen and (max-width: 600px) {
+   .projectsEntry:hover {
+      transform: scale(1);
+      background: rgba(77, 77, 82, 0.8);
+   }
+}
