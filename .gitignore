@@ -11,6 +11,9 @@
 .firebase
 .firebaserc
 
+#VS Code
+.vscode/settings.json
+
 # misc
 .DS_Store
 .env.local
