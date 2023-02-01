@@ -24,7 +24,7 @@ const projectsData = [
          },
       ],
       description:
-         'Story Hunter is a web app where visitors can browse TV series. You can search for series, add them to your watchlist, see what’s trending or receive recommendations based on other series you like. For the adventurous, there is also an option for receiving randomized suggestions. Story Hunter was created in a group of four, using a model-view-presenter architecture. I was mainly responsible for the model and the presenters, meaning I worked less with CSS and more with JavaScript. Data was retrieved from The Movie Database (TMDB) API. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
+         'Story Hunter is a web app for browsing TV series. Visitors can search for series, add them to your watchlist, see what’s trending or receive recommendations based on other series you like. For the adventurous, there is also an option for receiving randomized suggestions. Story Hunter was created in a group of four, using a model-view-presenter architecture. I was mainly responsible for the model and the presenters, meaning I worked less with CSS and more with JavaScript. Data was retrieved from The Movie Database (TMDB) API. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
       keyWords: ['Web Development', 'React'],
    },
    {
@@ -38,7 +38,7 @@ const projectsData = [
          },
       ],
       description:
-         'Hide & Meet is an app prototype and the result of a double diamond design process which aimed to support introverted practices in a hypothetical future world of only introverted people. It provides people at parties with a fun way of socializing, ruling out the possibilities of face-to-face rejection or not having anything to talk about. The party attendees scan the environment with their mobile camera to find virtual objects that other people have placed in the room using AR technology. If you want to meet up with the creator of an object you find interesting, the object is both the meeting point and the conversation starter. Users are invited by the party host, and meeting invites only remain until the end of the party. The memories, however, are eternal and embodied in the personal objects of others which the user can collect on their virtual memory shelf. Check out the workbook for details on the design process!',
+         'Hide & Meet is an app prototype and the result of a double diamond design process which aimed to support introverted practices in a hypothetical future world of only introverted people. It provides people at parties with a fun way of socializing, ruling out the possibilities of face-to-face rejection or not having anything to talk about. The party attendees scan the environment with their mobile camera to find virtual objects that other people have placed in the room using AR technology. If you want to meet up with the creator of an object you find interesting, the object is both the meeting point and the conversation starter. Users are invited by the party host, and meeting invites only remain until the end of the party. Check out the workbook for details on the design process!',
       keyWords: ['Interaction Design'],
    },
 
