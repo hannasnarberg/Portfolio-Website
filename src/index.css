@@ -33,6 +33,7 @@ html {
    --color-dark: #23281f;
    --color-ivory: #f5f7ed;
    --transition: all 400ms ease;
+   --container-width-x-large: 60%;
    --container-width-large: 75%;
    --container-width-medium: 85%;
    --container-width-small: 90%;
@@ -55,7 +56,7 @@ body {
 }
 
 .container {
-   width: var(--container-width-large);
+   width: var(--container-width-x-large);
    margin: 0 auto;
 }
 
@@ -97,7 +98,15 @@ img {
    color: var(--color-dark);
 }
 
-/* ===============  MEDIUM DEVICES) ===============*/
+/* ===============  LARGE DEVICES ===============*/
+
+@media screen and (max-width: 1600px) {
+   .container {
+      width: var(--container-width-large);
+   }
+}
+
+/* ===============  MEDIUM DEVICES ===============*/
 
 @media screen and (max-width: 1024px) {
    .container {
@@ -105,7 +114,7 @@ img {
    }
 }
 
-/* =============== SMALL DEVICES) ===============*/
+/* =============== SMALL DEVICES ===============*/
 @media screen and (max-width: 600px) {
    body {
       background-image: none;
