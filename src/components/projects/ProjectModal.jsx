@@ -43,7 +43,7 @@ function ProjectModal({ currentProject, closeDetails }) {
                   ''
                )}
             </div>
-            <div className="projectModal__desription">
+            <div className="projectModal__description">
                {currentProject.description}
             </div>
             <button

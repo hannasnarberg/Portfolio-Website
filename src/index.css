@@ -36,8 +36,6 @@ html {
    --container-width-large: 75%;
    --container-width-medium: 85%;
    --container-width-small: 90%;
-   scrollbar-width: none;
-   -ms-overflow-style: none;
    scroll-behavior: smooth;
 }
 
