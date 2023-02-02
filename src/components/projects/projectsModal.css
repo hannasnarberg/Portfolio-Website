@@ -19,7 +19,7 @@
 
 .ReactModal__Content {
    background: transparent;
-   width: 60rem;
+   width: 50rem;
    height: 35rem;
    max-width: calc(100vw - 2rem);
    max-height: calc(100vh - 2rem);
@@ -53,6 +53,7 @@
    gap: 1rem;
    color: var(--color-dark);
    overflow-y: auto;
+   font-size: 14px;
 }
 
 .projectModal__img {
@@ -128,7 +129,7 @@
    }
 
    .ReactModal__Content {
-      margin-bottom: 4rem;
+      margin-bottom: 5rem;
       margin-top: 2rem;
    }
    .projectModal__description {

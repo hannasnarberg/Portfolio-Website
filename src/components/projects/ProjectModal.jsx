@@ -3,12 +3,10 @@ import React from 'react';
 import './projectsModal.css';
 import { AiOutlineClose } from 'react-icons/ai';
 
-function ProjectModal({ currentProject, closeDetails, windowOffset }) {
+function ProjectModal({ currentProject, closeDetails }) {
    Modal.defaultStyles = {};
    function closeModal() {
       closeDetails();
-      document.body.setAttribute('style', '');
-      window.scrollTo({ top: windowOffset, behavior: 'instant' });
    }
    Modal.setAppElement('body');
 
