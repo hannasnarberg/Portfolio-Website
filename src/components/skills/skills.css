@@ -71,4 +71,12 @@
       width: 100%;
       padding: 2rem 1rem;
    }
+   .skill__content {
+      font-size: small;
+   }
+
+   .skill__details small {
+      color: rgb(219, 219, 206);
+      font-size: smaller;
+   }
 }

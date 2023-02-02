@@ -24,7 +24,7 @@ const projectsData = [
          },
       ],
       description:
-         'Story Hunter is a web app for browsing TV series. Visitors can search for series, add them to your watchlist, see what’s trending or receive recommendations based on other series you like. For the adventurous, there is also an option for receiving randomized suggestions. Story Hunter was created in a group of four, using a model-view-presenter architecture. I was mainly responsible for the model and the presenters, meaning I worked less with CSS and more with JavaScript. Data was retrieved from The Movie Database (TMDB) API. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
+         'Story Hunter is a web app for browsing TV series. Visitors can search for series, add them to their watchlist, see what’s trending or receive recommendations based on other series they like. For the adventurous, there is also an option for receiving randomized suggestions. Story Hunter was created in a group of four, using a model-view-presenter architecture. I was mainly responsible for the model and the presenters, meaning I worked less with CSS and more with JavaScript. Data was retrieved from The Movie Database (TMDB) API. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
       keyWords: ['Web Development', 'React'],
    },
    {
@@ -38,7 +38,7 @@ const projectsData = [
          },
       ],
       description:
-         'Hide & Meet is an app prototype and the result of a double diamond design process which aimed to support introverted practices in a hypothetical future world of only introverted people. It provides people at parties with a fun way of socializing, ruling out the possibilities of face-to-face rejection or not having anything to talk about. The party attendees scan the environment with their mobile camera to find virtual objects that other people have placed in the room using AR technology. If you want to meet up with the creator of an object you find interesting, the object is both the meeting point and the conversation starter. Users are invited by the party host, and meeting invites only remain until the end of the party. Check out the workbook for details on the design process!',
+         'Hide & Meet is an app prototype and the result of a double diamond design process which aimed to support introverted practices in a hypothetical future world of only introverted people. It provides people at parties with a fun way of socializing, diminishing the risks of face-to-face rejection and not having anything to talk about. The party attendees scan the environment with their mobile camera to find virtual objects that other guests have placed in the room using AR technology. If you want to meet up with the creator of an object you find interesting, the object is both the meeting point and the conversation starter. Users are invited by the party host, and within-app connection is not possible after the end of the party. Check out the workbook for details on the design process!',
       keyWords: ['Interaction Design'],
    },
 
@@ -56,23 +56,8 @@ const projectsData = [
             buttonText: 'Bonus Report',
          },
       ],
-      description: (
-         <p>
-            I am the first author for a conference paper called Preparing for
-            the Future for All which was published in EDULEARN22 Proceedings.
-            The paper reports on a research project about accessibility
-            education at KTH, which I was part of conducting. My responsibility
-            was to chart course and learning activities with relation to the
-            subject of accessibility.
-            <br></br>
-            <br></br>
-            My lecturer, who I carried out the project with, first gained trust
-            in me from reading another report of mine on accessibility. In that
-            report, I propose a study to investigate how the learning management
-            system used at KTH could be improved for people with cognitive
-            disabilities. I linked it as a bonus report!
-         </p>
-      ),
+      description:
+         'I am the first author of a conference paper called Preparing for the Future for All which was published in EDULEARN22 Proceedings. The paper reports on a research project about accessibility education at KTH. My responsibility was to chart course and learning activities with relation to the subject of accessibility. I was given the opportunity to take part in the project thanks to another report of mine on the subject. In that report, I propose a study to investigate how the learning management system used at KTH could be improved for people with cognitive disabilities. I linked it as a bonus report!',
       keyWords: ['Conference Paper', 'Accessibility'],
    },
 
