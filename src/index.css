@@ -37,7 +37,7 @@ html {
    --container-width-large: 75%;
    --container-width-medium: 85%;
    --container-width-small: 90%;
-   scroll-behavior: smooth !important;
+   scroll-behavior: smooth;
 }
 
 body {
@@ -48,7 +48,6 @@ body {
    background-repeat: no-repeat, repeat;
    background-size: 100%;
    line-height: 1.7;
-   scroll-behavior: smooth !important;
 }
 
 ::-webkit-scrollbar {

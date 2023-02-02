@@ -3,7 +3,7 @@ import './projectsOverview.css';
 import projectsData from './ProjectsData';
 import ProjectsEntry from './ProjectsEntry';
 
-function ProjectsOverview({ setCurrentProject }) {
+function ProjectsOverview({ setCurrentProject, setWindowOffset }) {
    return (
       <section id="projects">
          <h2>Projects</h2>
@@ -16,11 +16,16 @@ function ProjectsOverview({ setCurrentProject }) {
                      image={image}
                      title={title}
                      keyWords={keyWords}
-                     setCurrentProject={(id) =>
+                     setCurrentProject={(id) => {
                         setCurrentProject(
                            projectsData.find((project) => project.id === id)
-                        )
-                     }
+                        );
+                        setWindowOffset(window.pageYOffset);
+                        document.body.setAttribute(
+                           'style',
+                           `position:fixed; top: -${window.pageYOffset}px; left:0; right:0;`
+                        );
+                     }}
                   />
                );
             })}

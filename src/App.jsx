@@ -10,12 +10,14 @@ import ProjectModal from './components/projects/ProjectModal';
 
 function App() {
    const [currentProject, setCurrentProject] = useState(null);
+   const [windowOffset, setWindowOffset] = useState(0);
    return (
       <>
          {currentProject && (
             <ProjectModal
                currentProject={currentProject}
                closeDetails={() => setCurrentProject(null)}
+               windowOffset={windowOffset}
             />
          )}
          <Navigation />
@@ -24,6 +26,7 @@ function App() {
          <Skills />
          <ProjectsOverview
             setCurrentProject={(project) => setCurrentProject(project)}
+            setWindowOffset={(windowOffset) => setWindowOffset(windowOffset)}
          />
          <Contact />
       </>
