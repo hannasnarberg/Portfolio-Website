@@ -10,8 +10,8 @@ function Contact() {
          <div className="container contact__container">
             <ContactOption
                icon={<MdOutlineEmail className="contact__option-icon" />}
-               me={'hannasnaris@gmail.com'}
-               reference={'mailto:hannasnaris@gmail.com'}
+               me={'hanna.m.snarberg@gmail.com'}
+               reference={'mailto:hanna.m.snarberg@gmail.com'}
             />
             <ContactOption
                icon={<BsLinkedin className="contact__option-icon" />}
