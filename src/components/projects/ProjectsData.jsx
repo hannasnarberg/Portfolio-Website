@@ -38,7 +38,7 @@ const projectsData = [
          },
       ],
       description:
-         'Introducing Hide & Meet, a mobile app prototype designed through a double diamond process with the aim of supporting introverted practices in a hypothetical world populated solely by introverts. This app offers party-goers a unique way to socialize, diminishing the risks of face-to-face rejection and lack of conversation starters. Using AR technology, users can scan their surroundings with their mobile camera to discover virtual objects placed in the room by other guests. If a user finds an object of interest and its creator is open to meeting, the object becomes both the meeting point and a conversation starter. Want to learn more about the design process? Take a peek at the workbook."',
+         'Introducing Hide & Meet, a mobile app prototype designed through a double diamond process with the aim of supporting introverted practices in a hypothetical world populated solely by introverts. This app offers party-goers a unique way to socialize, diminishing the risks of face-to-face rejection and lack of conversation starters. Using AR technology, users can scan their surroundings with their mobile camera to discover virtual objects placed in the room by other guests. If a user finds an object of interest and its creator is open to meeting, the object becomes both the meeting point and a conversation starter. Want to learn more about the design process? Take a peek at the workbook.',
       keyWords: ['Interaction Design'],
    },
 
