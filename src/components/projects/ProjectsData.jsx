@@ -23,8 +23,20 @@ const projectsData = [
             buttonText: 'Live Demo',
          },
       ],
-      description:
-         'Find your next TV obsession on Story Hunter, a web app designed for browsing series. Search, add to your watchlist, stay current with trending shows, or get personalized recommendations based on your preferences. Feeling daring? Try a randomized suggestion. The website was developed by a team of four, using a model-view-presenter architecture, and I was mainly responsible for developing the model and presenters. This was my first experience with web development and sparked my interest for a future career in the field. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
+      description: (
+         <p>
+            Find your next TV obsession on Story Hunter, a web app designed for
+            browsing series. Search, add to your watchlist, stay current with
+            trending shows, or get personalized recommendations based on your
+            preferences. Feeling daring? Try a randomized suggestion. The
+            website was developed by a team of four, using a
+            model-view-presenter architecture, and I was mainly responsible for
+            developing the model and presenters. This was my first experience
+            with web development and sparked my interest for a future career in
+            the field. For the live demo, feel free to use our guest account:
+            <b> guest@gmail.com, password: guest1</b>{' '}
+         </p>
+      ),
       keyWords: ['Web Development', 'React'],
    },
    {
@@ -91,7 +103,7 @@ const projectsData = [
          },
       ],
       description:
-         'The purpose of this study was to explore the impact of color similarity on memorability of website content and user experience. Using a Wix website template as a base, two identical websites were created, differing only in their color scheme. Then twelve participants took part in experiments to gather data for comparison. While the results of the small-scale study were far from statistically significant, it taught me a lot about the process of conducting perceptual experiments. Check out the poster for a summary or read the full report for more information.',
+         'The purpose of this study was to explore the impact of color similarity on memorability of website content and user experience. Using a Wix website template as a base, two identical websites were created, differing only in their color scheme. Then twelve participants took part in experiments to gather data for comparison. While the results of the small-scale study were far from statistically significant, I learned a lot about the process of conducting perceptual experiments. Check out the poster for a summary or read the full report for more information.',
       keyWords: ['User Research'],
    },
    {
@@ -109,7 +121,7 @@ const projectsData = [
          },
       ],
       description:
-         "In this study, my team of four extended a friend’s bachelor's thesis on communicating weight in virtual reality. To their already implemented virtual environment where users throw spheres at a target, we added auditory and/or haptic feedback to respond to ball movement. The goal was to investigate if varying frequencies and amplitudes in the feedback could convey a sense of weight difference between balls. Models for auditory and haptic feedback were designed based on prior research on cross-sensory correspondences between audio, haptics, and weight. User testing revealed that both audio and haptics effectively communicate ball weight, but there were no notable differences in performance between the different feedback systems.",
+         "In this study, my team of three extended a friend’s bachelor's thesis on communicating weight in virtual reality. To their already implemented virtual environment where users throw spheres at a target, we added auditory and/or haptic feedback to respond to ball movement. The goal was to investigate if varying frequencies and amplitudes in the feedback could convey a sense of weight difference between balls. Models for auditory and haptic feedback were designed based on prior research on cross-sensory correspondences between audio, haptics, and weight. User testing revealed that both audio and haptics effectively communicate ball weight, but there were no notable differences in performance between the different feedback systems.",
       keyWords: ['User Research', 'Unity', 'VR'],
    },
 
