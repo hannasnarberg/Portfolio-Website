@@ -13,17 +13,16 @@ function About() {
             </div>
             <div className="about__content">
                <p>
-                  Looking for a creative UX/UI-designer or front-end developer
-                  for a part time job or a summer internship? Look no further! I
-                  am a KTH student with a bachelor’s degree in Media Technology,
-                  currently in my first year at the Interactive Media Technology
-                  master’s programme. This means I have experience in designing,
-                  developing and evaluating interactive products and researching
-                  topics related to human-computer interaction. I have also
-                  taken additional courses in sustainability, a topic I find
-                  very important. Other than that, I love painting and sports
-                  activities of all sorts. Please take a look at my CV or scroll
-                  down to view some of my projects.
+                  Are you seeking a creative UX/UI Designer or Front-End
+                  Developer for a part-time role or summer internship? As a
+                  Master's degree student in Interactive Media Technology, I may
+                  be the ideal match. I have experience in designing,
+                  developing, and evaluating interactive products, as well as
+                  researching human-computer interaction topics. I am also
+                  interested in the intersection between sustainability and
+                  technology. Other than that, I enjoy painting and sports
+                  activities of all sorts. To learn more about me, have a look
+                  at my CV or view some of my past projects below.
                </p>
                <a href={MyCV} download className="btn">
                   Download CV

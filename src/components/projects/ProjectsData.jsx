@@ -24,7 +24,7 @@ const projectsData = [
          },
       ],
       description:
-         'Story Hunter is a web app for browsing TV series. Visitors can search for series, add them to their watchlist, see what’s trending or receive recommendations based on other series they like. For the adventurous, there is also an option for receiving randomized suggestions. Story Hunter was created in a group of four, using a model-view-presenter architecture. I was mainly responsible for the model and the presenters, meaning I worked less with CSS and more with JavaScript. Data was retrieved from The Movie Database (TMDB) API. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
+         'Find your next TV obsession on Story Hunter, a web app designed for browsing series. Search, add to your watchlist, stay current with trending shows, or get personalized recommendations based on your preferences. Feeling daring? Try a randomized suggestion. This website was developed by a team of four, using a model-view-presenter architecture, and I was mainly responsible for developing the model and presenters. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
       keyWords: ['Web Development', 'React'],
    },
    {
@@ -38,7 +38,7 @@ const projectsData = [
          },
       ],
       description:
-         'Hide & Meet is an app prototype and the result of a double diamond design process which aimed to support introverted practices in a hypothetical future world of only introverted people. It provides people at parties with a fun way of socializing, diminishing the risks of face-to-face rejection and not having anything to talk about. The party attendees scan the environment with their mobile camera to find virtual objects that other guests have placed in the room using AR technology. If you want to meet up with the creator of an object you find interesting, the object is both the meeting point and the conversation starter. Users are invited by the party host, and within-app connection is not possible after the end of the party. Check out the workbook for details on the design process!',
+         'Introducing Hide & Meet, a mobile app prototype designed through a double diamond process with the aim of supporting introverted practices in a hypothetical world populated solely by introverts. This app offers party-goers a unique way to socialize, diminishing the risks of face-to-face rejection and lack of conversation starters. Using AR technology, users can scan their surroundings with their mobile camera to discover virtual objects placed in the room by other guests. If a user finds an object of interest and its creator is open to meeting, the object becomes both the meeting point and a conversation starter. Want to learn more about the design process? Take a peek at the workbook."',
       keyWords: ['Interaction Design'],
    },
 
@@ -57,7 +57,7 @@ const projectsData = [
          },
       ],
       description:
-         'I am the first author of a conference paper called Preparing for the Future for All which was published in EDULEARN22 Proceedings. The paper reports on a research project about accessibility education at KTH. My responsibility was to chart course and learning activities with relation to the subject of accessibility. I was given the opportunity to take part in the project thanks to another report of mine on the subject. In that report, I propose a study to investigate how the learning management system used at KTH could be improved for people with cognitive disabilities. I linked it as a bonus report!',
+         'I am the first author of a conference paper titled Preparing for the Future for All, published in EDULEARN22 Proceedings. The paper showcases a research project on accessibility education at technical universities, where I played a role in charting courses and learning activities at KTH related to accessibility. My involvement in the project stemmed from another report I wrote on accessible web applications. In that report, I propose a study to  investigate how the KTH learning management system could be improved for people with cognitive disabilities. I linked it as a bonus report!',
       keyWords: ['Conference Paper', 'Accessibility'],
    },
 
@@ -72,14 +72,14 @@ const projectsData = [
          },
       ],
       description:
-         'As a final project of a KTH course on accessibility, three classmates and I investigated how the information screens in the Play Beyond Play exhibition at Tekniska Museet could be redesigned to improve user experience for visitors with dyslexia. Accessibility guidelines were used for evaluating the original design and for creating a new prototype. Both the original version and then new prototype were then subjects for user testing. Take a look at the report for more information about the process and for pictures of the prototype.',
+         'In the final project of a KTH course on accessible design, my team of four assessed the information screens at the Play Beyond Play exhibition at Tekniska Museet and prototyped a new design with a focus on enhanced user experience for visitors with dyslexia. Our work was guided by accessibility guidelines, and we conducted user testing on both the original design and our new prototype. For an overview of our process and a visual of the prototype, check out the report.',
       keyWords: ['Interaction Design', 'Accessibility'],
    },
 
    {
       id: 5,
       image: ColorSchemeStudy,
-      title: 'Color Palettes & Memory',
+      title: 'Color Relations & Memory',
       links: [
          {
             link: 'https://drive.google.com/file/d/1tl5-RH55G4qZGn3mOSHZ6bCVQsjGK3g1/view?usp=sharing',
@@ -91,7 +91,7 @@ const projectsData = [
          },
       ],
       description:
-         'This project aimed at investigating how the degree of similarity in the color scheme of a website affects memorability of its content and user experience. With a Wix website template as a starting point, two websites which were identical in all aspects but the color scheme were created. An experiment with a total of 12 participants was then conducted for comparison. The project was too small-scaled to yield any statistically significant results, but it did teach me a lot about the process of perceptual experiments. Please have a look at the poster which summarizes the study, or why not read the whole report?',
+         'The purpose of this study was to explore the impact of color similarity on memorability of website content and user experience. Using a Wix website template as a base, two identical websites were created, differing only in their color scheme. Then twelve participants took part in experiments to gather data for comparison. While the results of the small-scale study were far from statistically significant, it taught me a lot about the process of conducting perceptual experiments. Check out the poster for a summary or read the full report for more information.',
       keyWords: ['User Research'],
    },
    {
@@ -109,7 +109,7 @@ const projectsData = [
          },
       ],
       description:
-         "In this study, three classmates and I extended the existing work of my friend’s bachelor's thesis on how to communicate weight in virtual reality. To their already implemented virtual environment where users throw virtual spheres at a target, we added auditory and/or haptic feedback as a response to ball movement. The aim was to see if varying frequencies and amplitudes in the feedback could induce a sense of weight difference between balls. Models for sound and haptic feedback were carefully designed with regards to previous research on cross-sensory correspondences between audio, haptics and weight. User tests showed that both audio and haptics can effectively communicate ball weight. However, no statistically significant results were shown when comparing sound and haptic feedback.",
+         "In this study, my team of four extended a friend’s bachelor's thesis on communicating weight in virtual reality. To their already implemented virtual environment where users throw spheres at a target, we added auditory and/or haptic feedback to respond to ball movement. The goal was to investigate if varying frequencies and amplitudes in the feedback could convey a sense of weight difference between balls. Models for auditory and haptic feedback were designed based on prior research on cross-sensory correspondences between audio, haptics, and weight. User testing revealed that both audio and haptics effectively communicate ball weight, but there were no notable differences in performance between the different feedback systems.",
       keyWords: ['User Research', 'Unity', 'VR'],
    },
 
@@ -124,7 +124,7 @@ const projectsData = [
          },
       ],
       description:
-         'How to Save a Life is an interactive simulation of a life-saving process involving chest compressions, mouth-to-mouth resuscitation and emergency calls. The star of the show is Tage, the CPR doll, who was created using a wide range of sensors and actuators as well as everyday materials found at home (yes, the head is an easter egg). This is among the most engaging projects I have been involved with at KTH, since there was room for a lot of creativity and because I was introduced to new and exciting programming languages, software and hardware. To read more, please visit the GitHub Repository.',
+         'How to Save a Life is an interactive simulation of a life-saving process involving chest compressions, mouth-to-mouth resuscitation and emergency calls. The centerpiece is Tage, the CPR doll, built using a variety of sensors, actuators, and everyday materials, including an Easter egg for the head. This is among my favorite projects, because of the creative freedom and the introduction to new and exciting programming languages, software, and hardware. Find the code and an in-depth description of the project in the GitHub repository.',
       keyWords: ['Physical Interaction Design', 'Arduino'],
    },
 
@@ -134,7 +134,7 @@ const projectsData = [
       title: 'Bländaren',
       links: [],
       description:
-         "In 2021, I participated in the KTH Media Technology chapter’s reception of new students. My main role was editor in chief of the reception's weekly magazine Bländaren. I gained experience in leadership and in working with inDesign, Illustrator and Procreate. Above you can see the front covers of each publication. I illustrated the second edition, depicting a scene from one of my favorite movies, The Shining.",
+         "In 2021, I participated in the KTH Media Technology chapter’s reception of new students. My main role was editor-in-chief of the reception's weekly magazine Bländaren. I gained experience in leadership and in working with inDesign, Illustrator and Procreate.You can see the front covers of each edition above. I illustrated the second one, which features a scene from The Shining, one of my favorite movies.",
       keyWords: ['Graphic Design', 'Leadership'],
    },
    {
@@ -143,7 +143,7 @@ const projectsData = [
       title: 'The Takeoff',
       links: [],
       description:
-         'I have always loved art, especially when I get to create it myself.  Here is me at the inauguration of my artwork “The Takeoff” with which I won an art competition hosted by Stockholms Studentbostäder. The design was created digitally using Adobe Illustrator and Procreate.',
+         'I have always loved art, especially when I get to create it myself.  This is a photo of me at the inauguration of my artwork “The Takeoff” with which I won an art competition hosted by Stockholms Studentbostäder. I designed it digitally using Adobe Illustrator and Procreate.',
       keyWords: ['Art', 'Fun!'],
    },
 ];
