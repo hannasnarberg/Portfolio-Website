@@ -24,7 +24,7 @@ const projectsData = [
          },
       ],
       description:
-         'Find your next TV obsession on Story Hunter, a web app designed for browsing series. Search, add to your watchlist, stay current with trending shows, or get personalized recommendations based on your preferences. Feeling daring? Try a randomized suggestion. This website was developed by a team of four, using a model-view-presenter architecture, and I was mainly responsible for developing the model and presenters. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
+         'Find your next TV obsession on Story Hunter, a web app designed for browsing series. Search, add to your watchlist, stay current with trending shows, or get personalized recommendations based on your preferences. Feeling daring? Try a randomized suggestion. The website was developed by a team of four, using a model-view-presenter architecture, and I was mainly responsible for developing the model and presenters. This was my first experience with web development and sparked my interest for a future career in the field. For the live demo, feel free to use our guest account. Email: guest@gmail.com. Password: guest1.',
       keyWords: ['Web Development', 'React'],
    },
    {

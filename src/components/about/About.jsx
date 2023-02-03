@@ -15,8 +15,8 @@ function About() {
                <p>
                   Are you seeking a creative UX/UI Designer or Front-End
                   Developer for a part-time role or summer internship? As a
-                  Master's degree student in Interactive Media Technology, I may
-                  be the ideal match. I have experience in designing,
+                  Master's degree student in Interactive Media Technology, I
+                  could be the ideal match. I have experience in designing,
                   developing, and evaluating interactive products, as well as
                   researching human-computer interaction topics. I am also
                   interested in the intersection between sustainability and
