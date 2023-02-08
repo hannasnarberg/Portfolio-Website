@@ -25,7 +25,7 @@ const projectsData = [
       ],
       description: (
          <p>
-            Find your next TV obsession on Story Hunter, a web app designed for
+            Let's find your new favorite TV show on Story Hunter, a web app for
             browsing series. Search, add to your watchlist, stay current with
             trending shows, or get personalized recommendations based on your
             preferences. Feeling daring? Try a randomized suggestion. The
