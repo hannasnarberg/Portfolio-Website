@@ -7,10 +7,37 @@ import InformationScreen from '../../assets/pictures/informationScreen.png';
 import Blandaren from '../../assets/pictures/blandaren.png';
 import HideAndMeet from '../../assets/pictures/Hide_and_meet.png';
 import Edulearn from '../../assets/pictures/edulearn.png';
+import RobinHoodCalc from '../../assets/pictures/robinHoodCalc.png';
 
 const projectsData = [
    {
       id: 1,
+      image: RobinHoodCalc,
+      title: 'Robin Hood Calculator',
+      links: [
+         {
+            link: 'https://robinhoodcalculator.web.app/',
+            buttonText: 'Live Demo',
+         },
+         {
+            link: 'https://drive.google.com/file/d/1ZDPjmmekMsvQOR7Xl2S9m3FX-u6d7B_u/view?usp=sharing',
+            buttonText: 'Video Demo',
+         },
+      ],
+      description: (
+         <p>
+            As a part of the KTH course DH2321 Information Visualization, four
+            classmates and I, supervised by Angie Hjort at Gapminder, set up a
+            web application for visualizing global income distribution. It is
+            called the Robin Hood Calculator and is built using React and D3.js.
+            I was mainly responsible for the React part of the project. Follow
+            the links above for a live demo and a video demo.
+         </p>
+      ),
+      keyWords: ['Web Development', 'React', 'D3'],
+   },
+   {
+      id: 2,
       image: StoryHunter,
       title: 'Story Hunter',
       links: [
@@ -25,22 +52,22 @@ const projectsData = [
       ],
       description: (
          <p>
-            Let's find your new favorite TV show on Story Hunter, a web app for
-            browsing series. Search, add to your watchlist, stay current with
-            trending shows, or get personalized recommendations based on your
-            preferences. Feeling daring? Try a randomized suggestion. The
-            website was developed by a team of four, using a
-            model-view-presenter architecture, and I was mainly responsible for
-            developing the model and presenters. This was my first experience
-            with web development and sparked my interest for a future career in
-            the field. For the live demo, feel free to use our guest account:
+            Story Hunter is a web app for browsing series. Search, add to your
+            watchlist, stay current with trending shows, or get personalized
+            recommendations based on your preferences. Feeling daring? Try a
+            randomized suggestion. The website was developed by a team of four,
+            using a model-view-presenter architecture, and I was mainly
+            responsible for developing the model and presenters. This was my
+            first experience with web development and it had me very interested
+            in a future career in the field. For the live demo, feel free to use
+            our guest account:
             <b> guest@gmail.com, password: guest1</b>{' '}
          </p>
       ),
       keyWords: ['Web Development', 'React'],
    },
    {
-      id: 2,
+      id: 3,
       image: HideAndMeet,
       title: 'Hide & Meet',
       links: [
@@ -50,12 +77,12 @@ const projectsData = [
          },
       ],
       description:
-         'Introducing Hide & Meet, a mobile app prototype designed through a double diamond process with the aim of supporting introverted practices in a hypothetical world populated solely by introverts. This app offers party-goers a unique way to socialize, diminishing the risks of face-to-face rejection and lack of conversation starters. Using AR technology, users can scan their surroundings with their mobile camera to discover virtual objects placed in the room by other guests. If a user finds an object of interest and its creator is open to meeting, the object becomes both the meeting point and a conversation starter. Want to learn more about the design process? Take a peek at the workbook.',
+         'Hide & Meet is a mobile app prototype designed through a double diamond process with the aim of supporting introverted practices in a hypothetical world populated solely by introverts. It offers party guests a unique way to socialize, diminishing the risks of face-to-face rejection and lack of conversation starters. Using AR technology, users can scan their surroundings with their mobile camera to discover virtual objects placed in the room by other guests. If a user finds an object of interest and its creator is open to meeting, the object becomes both the meeting point and a conversation starter. Want to learn more about the design process? Take a peek at the workbook.',
       keyWords: ['Interaction Design'],
    },
 
    {
-      id: 3,
+      id: 4,
       image: Edulearn,
       title: 'Preparing for the Future for All',
       links: [
@@ -74,7 +101,7 @@ const projectsData = [
    },
 
    {
-      id: 4,
+      id: 5,
       image: InformationScreen,
       title: 'Play Beyond Play',
       links: [
@@ -89,7 +116,7 @@ const projectsData = [
    },
 
    {
-      id: 5,
+      id: 6,
       image: ColorSchemeStudy,
       title: 'Color Relations & Memory',
       links: [
@@ -107,7 +134,7 @@ const projectsData = [
       keyWords: ['User Research'],
    },
    {
-      id: 6,
+      id: 7,
       image: VR,
       title: 'Weight Perception in VR',
       links: [
@@ -126,7 +153,7 @@ const projectsData = [
    },
 
    {
-      id: 7,
+      id: 8,
       image: CPR,
       title: 'How to Save a Life',
       links: [
@@ -138,16 +165,6 @@ const projectsData = [
       description:
          'How to Save a Life is an interactive simulation of a life-saving process involving chest compressions, mouth-to-mouth resuscitation and emergency calls. The centerpiece is Tage, the CPR doll, built using a variety of sensors, actuators, and everyday materials, including an Easter egg for the head. This is among my favorite projects, because of the creative freedom and the introduction to new and exciting programming languages, software, and hardware. Find the code and an in-depth description of the project in the GitHub repository.',
       keyWords: ['Physical Interaction Design', 'Arduino'],
-   },
-
-   {
-      id: 8,
-      image: Blandaren,
-      title: 'Bländaren',
-      links: [],
-      description:
-         "In 2021, I participated in the KTH Media Technology chapter’s reception of new students. My main role was editor-in-chief of the reception's weekly magazine Bländaren. I gained experience in leadership and in working with inDesign, Illustrator and Procreate.You can see the front covers of each edition above. I illustrated the second one, which features a scene from The Shining, one of my favorite movies.",
-      keyWords: ['Graphic Design', 'Leadership'],
    },
    {
       id: 9,

@@ -1,4 +1,5 @@
 .projectsEntry {
+   border-radius: 0.6rem;
    background: rgba(77, 77, 82, 0.8);
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -8,6 +9,10 @@
    cursor: pointer;
    transform: scale(1.1);
    background: rgba(114, 114, 122);
+}
+
+.projectsEntry > img {
+   border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 .projectsEntry > h3 {

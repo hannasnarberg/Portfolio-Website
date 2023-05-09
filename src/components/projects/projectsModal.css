@@ -46,6 +46,7 @@
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    padding-top: 2rem;
    padding-bottom: 2rem;
+   border-radius: 0.6rem;
 }
 
 .projectModal__details {

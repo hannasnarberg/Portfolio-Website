@@ -19,10 +19,10 @@ function About() {
                   could be the ideal match. I have experience in designing,
                   developing, and evaluating interactive products, as well as
                   researching human-computer interaction topics. I am also
-                  interested in the intersection between sustainability and
-                  technology. Other than that, I enjoy painting and sports
-                  activities of all sorts. To learn more about me, have a look
-                  at my CV or view some of my past projects below.
+                  interested in sustainability and its relation to technology.
+                  Other than that, I enjoy painting and sports activities of all
+                  sorts. To learn more about me, have a look at my CV or view
+                  some of my past projects below.
                </p>
                <a href={MyCV} download className="btn">
                   Download CV
