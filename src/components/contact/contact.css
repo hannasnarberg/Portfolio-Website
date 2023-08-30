@@ -1,6 +1,6 @@
 #contact {
    margin-top: 3.5rem;
-   background: rgba(46, 47, 52);
+   background: rgb(255, 255, 255);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .contact__container {
@@ -18,14 +18,14 @@
 .contact__option a {
    display: inline-block;
    font-size: 0.8rem;
-   color: rgb(219, 219, 206);
+   color: rgb(4, 32, 54);
    font-size: medium;
 }
 
 .contact__option-icon {
    font-size: 1.5rem;
    margin-bottom: 0.2rem;
-   color: rgb(219, 219, 206);
+   color: rgb(35, 126, 146);
 }
 
 .contact__option a:hover {

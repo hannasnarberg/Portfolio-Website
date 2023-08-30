@@ -23,7 +23,7 @@
 .about__content p {
    margin: 0 0 1.5rem;
    text-align: justify;
-   color: rgb(219, 219, 206);
+   color: rgb(4, 32, 54);
 }
 
 /* =============== MEDIUM DEVICES ===============*/
@@ -35,7 +35,7 @@
    }
 
    .about__image-container {
-      width: 50%;
+      width: 40%;
       margin: 0rem auto;
    }
    .about__content {

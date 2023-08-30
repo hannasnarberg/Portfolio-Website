@@ -1,14 +1,13 @@
 .projectsEntry {
    border-radius: 0.6rem;
-   background: rgba(77, 77, 82, 0.8);
+   background: rgba(255, 255, 255, 0.8);
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .projectsEntry:hover {
    cursor: pointer;
-   transform: scale(1.1);
-   background: rgba(114, 114, 122);
+   transform: translateY(-0.5rem);
 }
 
 .projectsEntry > img {
@@ -16,7 +15,7 @@
 }
 
 .projectsEntry > h3 {
-   color: rgb(219, 219, 206);
+   color: rgb(4, 32, 54);
    margin: 1rem 1.2rem 0 1.2rem;
    font-size: 1.4rem;
    line-height: 1.6rem;
@@ -30,7 +29,7 @@
 
 .projectsEntry__keyWords {
    margin-right: 0.1rem;
-   color: rgb(209, 136, 196);
+   color: rgb(35, 126, 146);
    font-size: medium;
    padding: 0.1rem;
 }

@@ -30,8 +30,6 @@
 }
 
 html {
-   --color-dark: #23281f;
-   --color-ivory: #f5f7ed;
    --transition: all 400ms ease;
    --container-width-x-large: 60%;
    --container-width-large: 75%;
@@ -42,9 +40,9 @@ html {
 
 body {
    font-family: 'Lato', sans-serif;
-   background: rgb(46, 47, 52);
-   background-image: url(/src/assets/pictures/Background1.png),
-      url(/src/assets/pictures/Background2.png);
+   background: rgb(255, 255, 255);
+   background-image: url(/src/assets/pictures/background1.png),
+      url(/src/assets/pictures/background2.png);
    background-repeat: no-repeat, repeat;
    background-size: 100%;
    line-height: 1.7;
@@ -69,7 +67,7 @@ section {
 section > h2 {
    font-size: 2rem;
    text-align: center;
-   color: rgb(209, 136, 196);
+   color: rgb(4, 32, 54);
    margin-bottom: 1.5rem;
    -webkit-filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
    filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
@@ -84,9 +82,9 @@ img {
 .btn {
    display: inline-block;
    width: max-content;
-   background: rgb(209, 136, 196);
-   color: rgba(46, 47, 52, 1);
-   padding: 0.75rem 0.75rem;
+   background: rgb(4, 32, 54);
+   color: white;
+   padding: 0.5rem 0.75rem;
    border-radius: 0.3rem;
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -94,8 +92,8 @@ img {
 
 .btn:hover {
    transform: scale(1.05);
-   background: var(--color-ivory);
-   color: var(--color-dark);
+   background: white;
+   color: rgb(4, 32, 54);
 }
 
 /* ===============  LARGE DEVICES ===============*/
@@ -116,10 +114,6 @@ img {
 
 /* =============== SMALL DEVICES ===============*/
 @media screen and (max-width: 600px) {
-   body {
-      background-image: none;
-   }
-
    .container {
       width: var(--container-width-small);
    }

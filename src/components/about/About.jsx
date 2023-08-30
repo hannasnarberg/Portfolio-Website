@@ -13,11 +13,11 @@ function About() {
             </div>
             <div className="about__content">
                <p>
-                  Are you seeking a creative UX/UI Designer or Front-End
+                  Are you looking for a creative UX/UI Designer or Front-End
                   Developer for a part-time role or summer internship? As a
                   Master's degree student in Interactive Media Technology, I
-                  could be the ideal match. I have experience in designing,
-                  developing, and evaluating interactive products, as well as
+                  could be the perfect match. I have experience in designing,
+                  developing and evaluating interactive products, as well as
                   researching human-computer interaction topics. I am also
                   interested in sustainability and its relation to technology.
                   Other than that, I enjoy painting and sports activities of all

@@ -21,7 +21,7 @@ header {
 }
 
 .header__title-first {
-   color: rgb(209, 136, 196);
+   color: rgb(4, 32, 54);
    font-size: 17vw;
    line-height: 17vw;
    margin-right: 7vw;
@@ -30,7 +30,7 @@ header {
 }
 
 .header__title-last {
-   color: rgb(209, 136, 196);
+   color: rgb(4, 32, 54);
    font-size: 11.5vw;
    line-height: 11.5vw;
    padding-bottom: 1rem;
@@ -41,7 +41,7 @@ header {
 
 .header__subtitle {
    font-family: 'Cursive';
-   color: rgb(219, 219, 206);
+   color: rgb(4, 32, 54);
 }
 
 /* =============== MEDIUM DEVICES) ===============*/
@@ -64,10 +64,5 @@ header {
 @media screen and (max-width: 600px) {
    .header__subtitle {
       font-size: small;
-   }
-
-   header {
-      background-image: url(/src/assets/pictures/Background2.png);
-      background-size: cover;
    }
 }

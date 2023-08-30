@@ -42,7 +42,7 @@
 
 .projectModal__details-wrapper {
    height: 100%;
-   background: rgb(190, 190, 197);
+   background: rgba(255, 255, 255);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    padding-top: 2rem;
    padding-bottom: 2rem;
@@ -66,6 +66,8 @@
    display: block;
    margin-left: auto;
    margin-right: auto;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 0.6rem;
 }
 
 .projectModal__title-links {
@@ -114,6 +116,7 @@
 
    .projectModal__img {
       width: 80%;
+      border-radius: 0.6rem;
    }
    .projectModal__close {
       right: -0.5rem;
