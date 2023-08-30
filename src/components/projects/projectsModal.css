@@ -57,7 +57,7 @@
    padding-left: 2.5rem;
    padding-right: 2.5rem;
    gap: 1rem;
-   color: var(--color-dark);
+   color: rgb(4, 32, 54);
    overflow-y: auto;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .projectModal__title-links > h3 {
-   color: var(--color-dark);
+   color: rgb(4, 32, 54);
    font-size: 1.5rem;
 }
 
@@ -97,7 +97,7 @@
    background-color: transparent;
    position: absolute;
    cursor: pointer;
-   color: rgb(74, 74, 74);
+   color: rgb(4, 32, 54);
    z-index: 9999;
    top: 0.2rem;
    right: -0.2rem;
@@ -150,7 +150,6 @@
       text-align: left;
    }
    .projectModal__details {
-      border-top: 1px solid rgb(175, 170, 170);
       padding-bottom: 5rem;
    }
 

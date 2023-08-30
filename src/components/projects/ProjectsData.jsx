@@ -25,10 +25,14 @@ const projectsData = [
       ],
       description: (
          <p>
-            The Robin Hood Calculator is a web application for visualizing
-            global income distribution. It was built by me and four classmates
-            using React and D3.js. I was mainly responsible for the React part
-            of the project. Follow the links above for a live demo and a video
+            The Robin Hood Calculator is a web application that visualizes how
+            income is distributed worldwide. It also lets the user make a
+            difference through tax adjustments. The so-called Robin Hood taxes
+            are taken from the wealthier individuals and given to those in
+            extreme poverty. The main goal is to create awareness about income
+            inequality. It was built by me and four classmates using React and
+            D3.js. My primary role involved working on the interactive aspect
+            using React. Follow the links above for a live demo and a video
             demo.
          </p>
       ),
