@@ -39,6 +39,5 @@
 @media screen and (max-width: 1024px) {
    .projectsEntry:hover {
       transform: scale(1);
-      background: rgba(77, 77, 82, 0.8);
    }
 }

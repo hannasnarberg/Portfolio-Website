@@ -36,7 +36,9 @@ function ProjectModal({ currentProject, closeDetails }) {
                               <a
                                  href={link.link}
                                  key={i}
-                                 className="btn"
+                                 className={
+                                    i === 0 ? 'btn' : 'btn alternativeBtn'
+                                 }
                                  target="_blank"
                                  rel="noreferrer"
                               >
