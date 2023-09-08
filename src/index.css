@@ -94,11 +94,13 @@ img {
 }
 
 .alternativeBtn {
-   background: rgb(35, 126, 146);
+   border: 0.08rem solid rgb(4, 32, 54);
+   background: white;
+   color: rgb(4, 32, 54);
 }
 
 .alternativeBtn:hover {
-   background: rgb(27, 95, 110);
+   background: rgb(240, 240, 240);
 }
 
 /* ===============  LARGE DEVICES ===============*/
