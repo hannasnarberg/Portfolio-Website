@@ -1,7 +1,7 @@
 #contact {
    margin-top: 3.5rem;
    background: rgb(255, 255, 255);
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
 }
 .contact__container {
    display: grid;
