@@ -8,7 +8,7 @@ function ProjectsEntry({ id, image, title, keyWords, setCurrentProject }) {
          className="projectsEntry"
          onClick={() => setCurrentProject(id)}
       >
-         <img src={image} alt={title} />
+         <img src={image} alt={title} loading="lazy" />
          <h3> {title} </h3>
          <div className="projectsEntry__keywords-container">
             {keyWords.map((keyWord, i) =>
