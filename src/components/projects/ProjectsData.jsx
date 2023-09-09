@@ -1,12 +1,12 @@
-import CPR from '../../assets/pictures/cpr.jpeg';
-import ColorSchemeStudy from '../../assets/pictures/colorSchemeStudy.png';
-import StoryHunter from '../../assets/pictures/storyhunter.png';
-import VR from '../../assets/pictures/vr.png';
-import InformationScreen from '../../assets/pictures/informationScreen.png';
-import HideAndMeet from '../../assets/pictures/Hide_and_meet.png';
-import Edulearn from '../../assets/pictures/edulearn.png';
-import RobinHoodCalc from '../../assets/pictures/robinHoodCalc.png';
-import GameDev from '../../assets/pictures/gameDev.png';
+import CPR from '../../assets/pictures/compressed/cpr.jpeg';
+import ColorSchemeStudy from '../../assets/pictures/compressed/colorSchemeStudy.png';
+import StoryHunter from '../../assets/pictures/compressed/storyhunter.png';
+import VR from '../../assets/pictures/compressed/vr.png';
+import InformationScreen from '../../assets/pictures/compressed/informationScreen.png';
+import HideAndMeet from '../../assets/pictures/compressed/Hide_and_meet.png';
+import Edulearn from '../../assets/pictures/compressed/edulearn.png';
+import RobinHoodCalc from '../../assets/pictures/compressed/robinHoodCalc.png';
+import GameDev from '../../assets/pictures/compressed/gameDev.png';
 
 const projectsData = [
    {

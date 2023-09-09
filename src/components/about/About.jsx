@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import './about.css';
-import MyPicture from '../../assets/pictures/me3.JPG';
+import MyPicture from '../../assets/pictures/compressed/me3.jpg';
 import MyCV from '../../assets/cv.pdf';
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
          <h2>About me</h2>
          <div className="container about__container">
             <div className="about__image-container">
-               <img src={MyPicture} alt="me" />
+               <img src={MyPicture} alt="me" loading="lazy" />
             </div>
             <div className="about__content">
                <p>
