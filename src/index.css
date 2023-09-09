@@ -47,6 +47,10 @@ body {
    background-size: 100%;
    line-height: 1.7;
    scroll-behavior: smooth;
+   display: inline-block;
+   font-size: 0.8rem;
+   color: rgb(4, 32, 54);
+   font-size: medium;
 }
 
 ::-webkit-scrollbar {
@@ -84,7 +88,7 @@ img {
    width: max-content;
    background: rgb(4, 32, 54);
    color: white;
-   padding: 0.5rem 0.75rem;
+   padding: 0.4rem 0.75rem;
    border-radius: 0.3rem;
    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
 }
