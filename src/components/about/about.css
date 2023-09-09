@@ -11,10 +11,6 @@
    position: relative;
 }
 
-.about__image-container > img {
-   border-radius: 0.5rem;
-}
-
 .about__content {
    width: 100%;
    margin-top: 0.5rem;

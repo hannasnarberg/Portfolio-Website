@@ -1,5 +1,4 @@
 .projectsEntry {
-   border-radius: 0.6rem;
    background: rgba(255, 255, 255);
    transition: var(--transition);
    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
@@ -8,10 +7,6 @@
 .projectsEntry:hover {
    cursor: pointer;
    transform: translateY(-0.5rem);
-}
-
-.projectsEntry > img {
-   border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 .projectsEntry > h3 {

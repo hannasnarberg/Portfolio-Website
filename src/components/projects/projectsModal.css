@@ -46,7 +46,6 @@
    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
    padding-top: 2rem;
    padding-bottom: 2rem;
-   border-radius: 0.6rem;
 }
 
 .projectModal__details {
@@ -67,7 +66,6 @@
    margin-left: auto;
    margin-right: auto;
    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
-   border-radius: 0.6rem;
 }
 
 .projectModal__title-links {
@@ -116,7 +114,6 @@
 
    .projectModal__img {
       width: 80%;
-      border-radius: 0.6rem;
    }
    .projectModal__close {
       right: -0.5rem;

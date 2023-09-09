@@ -1,14 +1,31 @@
 import React from 'react';
 import './navigation.css';
-import { AiOutlineHome } from 'react-icons/ai';
+import { useState } from 'react';
 
 function Navigation() {
+   const [solidNavBar, setSolidNavbar] = useState(false);
+
+   function scrollFunction() {
+      if (
+         document.body.scrollTop > 20 ||
+         document.documentElement.scrollTop > 20
+      ) {
+         setSolidNavbar(true);
+      } else {
+         setSolidNavbar(false);
+      }
+   }
+
+   window.onscroll = function () {
+      scrollFunction();
+   };
+
    return (
-      <nav>
-         <a href="#" className="nav1">
+      <nav className={solidNavBar ? 'navSolid' : ''}>
+         <a href="#" className="navHome">
             Hanna
          </a>
-         <a href="#about" className="nav2">
+         <a href="#about" className="navAbout">
             About
          </a>
          <a href="#skills">Skills</a>
