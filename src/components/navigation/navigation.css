@@ -39,6 +39,10 @@ nav a:hover {
    color: rgb(35, 126, 146);
 }
 
+.navHome:hover {
+   color: rgb(4, 32, 54);
+}
+
 /* =============== SMALL DEVICES) ===============*/
 @media screen and (max-width: 600px) {
    nav {
