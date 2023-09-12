@@ -30,7 +30,7 @@ function Navigation() {
 
    return (
       <nav className={solidNavBar ? 'navSolid' : ''}>
-         <a href="home" className="navHome" onClick={() => scrollTo('header')}>
+         <a className="navHome" onClick={() => scrollTo('header')}>
             Hanna{' '}
          </a>
          <a onClick={() => scrollTo('about')} className="navAbout">
