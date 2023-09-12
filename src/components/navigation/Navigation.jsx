@@ -20,17 +20,25 @@ function Navigation() {
       scrollFunction();
    };
 
+   function scrollTo(ref) {
+      const reference = document.getElementById(ref);
+      if (!reference) {
+         return;
+      }
+      reference.scrollIntoView({ behavior: 'smooth' });
+   }
+
    return (
       <nav className={solidNavBar ? 'navSolid' : ''}>
-         <a href="#" className="navHome">
-            Hanna
+         <a href="home" className="navHome" onClick={() => scrollTo('header')}>
+            Hanna{' '}
          </a>
-         <a href="#about" className="navAbout">
+         <a onClick={() => scrollTo('about')} className="navAbout">
             About
          </a>
-         <a href="#skills">Skills</a>
-         <a href="#projects">Projects</a>
-         <a href="#contact">Contact</a>
+         <a onClick={() => scrollTo('skills')}>Skills</a>
+         <a onClick={() => scrollTo('projects')}>Projects</a>
+         <a onClick={() => scrollTo('contact')}>Contact</a>
       </nav>
    );
 }

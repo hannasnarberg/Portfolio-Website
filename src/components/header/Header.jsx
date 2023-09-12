@@ -3,7 +3,7 @@ import './header.css';
 
 function Header() {
    return (
-      <header>
+      <header id="header">
          <div className="container header__container">
             <h1 className="header__title-first">Hanna</h1>
             <h1 className="header__title-last">Snarberg</h1>
