@@ -1,6 +1,7 @@
 import React from 'react';
 import './navigation.css';
 import { useState } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 function Navigation() {
    const [solidNavBar, setSolidNavbar] = useState(false);
@@ -20,25 +21,31 @@ function Navigation() {
       scrollFunction();
    };
 
-   function scrollTo(ref) {
-      const reference = document.getElementById(ref);
-      if (!reference) {
-         return;
-      }
-      reference.scrollIntoView({ behavior: 'smooth' });
-   }
+   // function scrollTo(ref) {
+   //    const reference = document.getElementById(ref);
+   //    if (!reference) {
+   //       return;
+   //    }
+   //    reference.scrollIntoView({ behavior: 'smooth' });
+   // }
 
    return (
       <nav className={solidNavBar ? 'navSolid' : ''}>
-         <a className="navHome" onClick={() => scrollTo('header')}>
+         <HashLink to="/#home" className="navHome" smooth>
             Hanna{' '}
-         </a>
-         <a onClick={() => scrollTo('about')} className="navAbout">
+         </HashLink>
+         <HashLink to="/#about" className="navAbout" smooth>
             About
-         </a>
-         <a onClick={() => scrollTo('skills')}>Skills</a>
-         <a onClick={() => scrollTo('projects')}>Projects</a>
-         <a onClick={() => scrollTo('contact')}>Contact</a>
+         </HashLink>
+         <HashLink to="/#skills" smooth>
+            Skills
+         </HashLink>
+         <HashLink to="/#projects" smooth>
+            Projects
+         </HashLink>
+         <HashLink to="/#contact" smooth>
+            Contact
+         </HashLink>
       </nav>
    );
 }
