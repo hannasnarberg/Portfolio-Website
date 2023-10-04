@@ -23,7 +23,7 @@ function Skills() {
             <div>
                <h3>Programming Tools</h3>
                <div className="skill__content">
-                  <SkillEntry skill={'React.js'} level={'Experienced'} />
+                  <SkillEntry skill={'React'} level={'Experienced'} />
                   <SkillEntry skill={'Node.js'} level={'Basic'} />
                   <SkillEntry skill={'Express'} level={'Basic'} />
                   <SkillEntry skill={'Unity'} level={'Basic'} />

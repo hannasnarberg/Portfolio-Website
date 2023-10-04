@@ -3,24 +3,20 @@ import './projectsOverview.css';
 import projectsData from './ProjectsData';
 import ProjectsEntry from './ProjectsEntry';
 
-function ProjectsOverview({ setCurrentProject }) {
+function ProjectsOverview() {
    return (
       <section id="projects">
          <h2>Projects</h2>
          <div className="container projectsOverview__container">
-            {projectsData.map(({ id, image, title, keyWords }) => {
+            {projectsData.map(({ id, image, title, urlParam, keyWords }) => {
                return (
                   <ProjectsEntry
                      key={id}
                      id={id}
                      image={image}
                      title={title}
+                     urlParam={urlParam}
                      keyWords={keyWords}
-                     setCurrentProject={(id) =>
-                        setCurrentProject(
-                           projectsData.find((project) => project.id === id)
-                        )
-                     }
                   />
                );
             })}

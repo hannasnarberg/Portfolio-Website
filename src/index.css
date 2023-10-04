@@ -35,7 +35,6 @@ html {
    --container-width-large: 80%;
    --container-width-medium: 85%;
    --container-width-small: 87%;
-   scroll-behavior: smooth;
 }
 
 body {

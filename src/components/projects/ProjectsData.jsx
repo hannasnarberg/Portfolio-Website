@@ -1,18 +1,19 @@
-import CPR from '../../assets/pictures/compressed/cpr.jpeg';
-import ColorSchemeStudy from '../../assets/pictures/compressed/colorSchemeStudy.png';
-import StoryHunter from '../../assets/pictures/compressed/storyhunter.png';
-import VR from '../../assets/pictures/compressed/vr.png';
-import InformationScreen from '../../assets/pictures/compressed/informationScreen.png';
-import HideAndMeet from '../../assets/pictures/compressed/Hide_and_meet.png';
-import Edulearn from '../../assets/pictures/compressed/edulearn.png';
-import RobinHoodCalc from '../../assets/pictures/compressed/robinHoodCalc.png';
-import GameDev from '../../assets/pictures/compressed/gameDev.png';
+import CPR from '../../assets/pictures/cpr.jpeg';
+import ColorSchemeStudy from '../../assets/pictures/colorSchemeStudy.png';
+import StoryHunter from '../../assets/pictures/storyhunter.png';
+import VR from '../../assets/pictures/vr.png';
+import InformationScreen from '../../assets/pictures/informationScreen.png';
+import HideAndMeet from '../../assets/pictures/Hide_and_meet.png';
+import Edulearn from '../../assets/pictures/edulearn.png';
+import RobinHoodCalc from '../../assets/pictures/robinHoodCalc.png';
+import GameDev from '../../assets/pictures/gameDev.png';
 
 const projectsData = [
    {
       id: 1,
       image: RobinHoodCalc,
       title: 'Robin Hood Calculator',
+      urlParam: 'Robin-Hood-Calculator',
       links: [
          {
             link: 'https://robinhoodcalculator.web.app/',
@@ -42,6 +43,7 @@ const projectsData = [
       id: 2,
       image: GameDev,
       title: 'Slipped Away',
+      urlParam: 'Slipped-Away',
       links: [
          {
             link: 'https://slippedawaygame.com/',
@@ -71,6 +73,7 @@ const projectsData = [
       id: 3,
       image: StoryHunter,
       title: 'Story Hunter',
+      urlParam: 'Story-Hunter',
       links: [
          {
             link: 'https://github.com/hannasnarberg/StoryHunter',
@@ -100,6 +103,7 @@ const projectsData = [
       id: 4,
       image: HideAndMeet,
       title: 'Hide & Meet',
+      urlParam: 'Hide-and-Meet',
       links: [
          {
             link: 'https://drive.google.com/file/d/1egBN99wePSRnZie1saCc41BtbMA6mFo0/view?usp=sharing',
@@ -127,6 +131,7 @@ const projectsData = [
       id: 5,
       image: Edulearn,
       title: 'Preparing for the Future for All',
+      urlParam: 'Preparing-for-the-Future-for-All',
       links: [
          {
             link: 'https://library.iated.org/view/SNARBERG2022PRE',
@@ -158,6 +163,7 @@ const projectsData = [
       id: 6,
       image: InformationScreen,
       title: 'Play Beyond Play',
+      urlParam: 'Play-Beyond-Play',
       links: [
          {
             link: 'https://drive.google.com/file/d/1CsnUxK1v-UIV2AtePGUON0zo6z7nMkp7/view?usp=sharing',
@@ -182,6 +188,7 @@ const projectsData = [
       id: 7,
       image: ColorSchemeStudy,
       title: 'Color Relations & Memory',
+      urlParam: 'Color-Relations-and-Memory',
       links: [
          {
             link: 'https://drive.google.com/file/d/1tl5-RH55G4qZGn3mOSHZ6bCVQsjGK3g1/view?usp=sharing',
@@ -211,6 +218,7 @@ const projectsData = [
       id: 8,
       image: VR,
       title: 'Weight Perception in VR',
+      urlParam: 'Weight-Perception-in-VR',
       links: [
          {
             link: 'https://drive.google.com/file/d/1iXENIKhr20vGGwE8diwG-ebJceo9nNgy/view?usp=sharing',
@@ -244,6 +252,7 @@ const projectsData = [
       id: 9,
       image: CPR,
       title: 'How to Save a Life',
+      urlParam: 'How-to-Save-a-Life',
       links: [
          {
             link: 'https://github.com/hannasnarberg/How-to-Save-a-Life',

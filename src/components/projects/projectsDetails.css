@@ -49,7 +49,7 @@
    border-radius: 1rem;
 }
 
-.projectModal__details {
+.projectDetails__details {
    height: 100%;
    display: grid;
    grid-template-columns: 1fr;
@@ -61,7 +61,7 @@
    overflow-y: auto;
 }
 
-.projectModal__img {
+.projectDetails__img {
    width: 60%;
    display: block;
    margin-left: auto;
@@ -70,7 +70,7 @@
    border-radius: 0.7rem;
 }
 
-.projectModal__title-links {
+.projectDetails__title-links {
    display: flex;
    gap: 1.5rem;
    justify-content: center;
@@ -78,21 +78,21 @@
    align-items: center;
 }
 
-.projectModal__title-links > h3 {
+.projectDetails__title-links > h3 {
    color: rgb(153, 120, 136);
    font-size: 1.5rem;
 }
 
-.projectModal__links {
+.projectDetails__links {
    display: flex;
    gap: 1rem;
 }
 
-.projectModal__description {
+.projectDetails__description {
    text-align: justify;
 }
 
-.projectModal__close {
+.projectDetails__close {
    font-size: 1.5rem;
    background-color: transparent;
    position: absolute;
@@ -103,21 +103,21 @@
    right: 0.2rem;
 }
 
-.projectModal__close:hover {
+.projectDetails__close:hover {
    transform: scale(1.1);
 }
 
 /* =============== MEDIUM DEVICES ===============*/
 
 @media screen and (max-width: 1024px) {
-   .projectModal__title-links > h3 {
+   .projectDetails__title-links > h3 {
       font-size: large;
    }
 
-   .projectModal__img {
+   .projectDetails__img {
       width: 80%;
    }
-   .projectModal__close {
+   .projectDetails__close {
       right: -0.5rem;
    }
 }
@@ -125,36 +125,36 @@
 /* =============== SMALL DEVICES ===============*/
 
 @media screen and (max-width: 600px) {
-   .projectModal__close {
+   .projectDetails__close {
       font-size: 20px;
       top: 0.2rem;
       right: -0.2rem;
    }
 
-   .projectModal__title-links {
+   .projectDetails__title-links {
       display: grid;
       grid-template-columns: 1fr;
    }
 
-   .projectModal__img {
+   .projectDetails__img {
       width: 100%;
    }
 
-   .ReactModal__Content {
+   .projectDetails__Content {
       margin-bottom: 5rem;
       margin-top: 5rem;
       width: calc(100vw - 2rem);
       height: calc(100vh - 4rem);
    }
-   .projectModal__description {
+   .projectDetails__description {
       font-size: 15px;
       text-align: left;
    }
-   .projectModal__details {
+   .projectDetails__details {
       padding-bottom: 5rem;
    }
 
-   .projectModal__details-wrapper {
+   .projectDetails__details-wrapper {
       padding-bottom: 0rem;
    }
 
