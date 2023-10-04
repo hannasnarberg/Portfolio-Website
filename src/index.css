@@ -31,28 +31,27 @@
 
 html {
    --transition: all 400ms ease;
-   --container-width-x-large: 60%;
-   --container-width-large: 75%;
+   --container-width-x-large: 65%;
+   --container-width-large: 80%;
    --container-width-medium: 85%;
-   --container-width-small: 90%;
+   --container-width-small: 87%;
    scroll-behavior: smooth;
 }
 
 body {
    font-family: 'Lato', sans-serif;
-   background: rgb(255, 255, 255);
-   background-image: url(/src/assets/pictures/background1.png),
-      url(/src/assets/pictures/background2.png);
-   background-repeat: no-repeat, repeat;
+   /* background-image: url(/src/assets/pictures/background1.png),
+      url(/src/assets/pictures/background2.png); 
+   background-repeat: no-repeat, repeat;*/
+   background-color: rgb(8, 9, 24);
    background-size: 100%;
    line-height: 1.7;
    scroll-behavior: smooth;
    display: inline-block;
    font-size: 0.8rem;
-   color: rgb(4, 32, 54);
+   color: rgb(116, 93, 105);
    font-size: medium;
 }
-
 ::-webkit-scrollbar {
    display: none;
 }
@@ -69,9 +68,9 @@ section {
 }
 
 section > h2 {
-   font-size: 2.3em;
+   font-size: 3em;
    text-align: center;
-   color: rgb(4, 32, 54);
+   color: rgb(153, 120, 136);
    margin-bottom: 1.5rem;
    -webkit-filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
    filter: drop-shadow(0.5px 0.5px rgba(0, 0, 0, 0.3));
@@ -86,25 +85,24 @@ img {
 .btn {
    display: inline-block;
    width: max-content;
-   background: rgb(4, 32, 54);
-   color: white;
+   background: rgb(153, 120, 136);
+   color: rgb(8, 9, 24);
    padding: 0.4rem 0.75rem;
    border-radius: 0.3rem;
-   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px;
 }
 
 .btn:hover {
-   background: rgb(2, 14, 24);
+   background: rgb(122, 93, 107);
 }
 
 .alternativeBtn {
-   border: 0.08rem solid rgb(4, 32, 54);
-   background: white;
+   background: rgb(201, 192, 209);
    color: rgb(4, 32, 54);
 }
 
 .alternativeBtn:hover {
-   background: rgb(240, 240, 240);
+   background: rgb(177, 167, 186);
 }
 
 /* ===============  LARGE DEVICES ===============*/
@@ -120,6 +118,9 @@ img {
 @media screen and (max-width: 1024px) {
    .container {
       width: var(--container-width-medium);
+   }
+   section > h2 {
+      font-size: 2em;
    }
 }
 

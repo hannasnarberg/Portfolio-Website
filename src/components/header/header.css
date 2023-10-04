@@ -3,60 +3,57 @@ header {
    padding-top: 7.5rem;
    padding-bottom: 3.5rem;
    height: 100vh;
+   background-image: url(/src/assets/pictures/tedst.png);
+   background-size: cover;
 }
 
 .header__container {
    display: flex;
    flex-direction: column;
-   height: 100%;
    justify-content: center;
-   align-items: center;
+   align-content: center;
+   height: 100%;
+   align-items: end;
    font-size: larger;
-   position: relative;
 }
 
 .header__container > h1 {
-   position: relative;
    font-family: 'Header';
 }
 
 .header__title-first {
-   color: rgb(4, 32, 54);
-   font-size: 17vw;
-   line-height: 17vw;
-   margin-right: 7vw;
-   -webkit-filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
-   filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
+   color: rgb(153, 120, 136);
+   font-size: 7vw;
+   line-height: 7vw;
 }
 
 .header__title-last {
-   color: rgb(4, 32, 54);
-   font-size: 11.5vw;
-   line-height: 11.5vw;
-   padding-bottom: 1rem;
-   margin-left: 7vw;
-   -webkit-filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
-   filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
+   color: rgb(153, 120, 136);
+   font-size: 7vw;
+   line-height: 7vw;
+   padding-bottom: 2rem;
 }
 
 .header__subtitle {
    font-family: 'Cursive';
-   color: rgb(4, 32, 54);
+   font-size: 2vw;
+   line-height: 2vw;
+   color: rgb(201, 192, 209);
 }
 
 /* =============== MEDIUM DEVICES) ===============*/
 
 @media screen and (max-width: 1024px) {
+   .header__container {
+      align-items: start;
+   }
    .header__title-first {
-      font-size: 27vw;
-      line-height: 27vw;
-      margin-right: 0;
+      margin-top: 40vh;
    }
 
-   .header__title-last {
-      font-size: 17vw;
-      line-height: 17vw;
-      margin-left: 0;
+   .header__subtitle {
+      font-size: 4vw;
+      line-height: 4vw;
    }
 }
 

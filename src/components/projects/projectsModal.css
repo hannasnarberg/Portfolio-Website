@@ -42,10 +42,11 @@
 
 .projectModal__details-wrapper {
    height: 100%;
-   background: rgba(255, 255, 255);
+   background: rgb(8, 9, 24);
    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
    padding-top: 2rem;
    padding-bottom: 2rem;
+   border-radius: 1rem;
 }
 
 .projectModal__details {
@@ -56,16 +57,17 @@
    padding-left: 2.5rem;
    padding-right: 2.5rem;
    gap: 1rem;
-   color: rgb(4, 32, 54);
+   color: rgb(201, 192, 209);
    overflow-y: auto;
 }
 
 .projectModal__img {
-   width: 50%;
+   width: 60%;
    display: block;
    margin-left: auto;
    margin-right: auto;
    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+   border-radius: 0.7rem;
 }
 
 .projectModal__title-links {
@@ -77,7 +79,7 @@
 }
 
 .projectModal__title-links > h3 {
-   color: rgb(4, 32, 54);
+   color: rgb(153, 120, 136);
    font-size: 1.5rem;
 }
 
@@ -95,10 +97,10 @@
    background-color: transparent;
    position: absolute;
    cursor: pointer;
-   color: rgb(4, 32, 54);
+   color: rgb(201, 192, 209);
    z-index: 9999;
-   top: 0.2rem;
-   right: -0.2rem;
+   top: 0.4rem;
+   right: 0.2rem;
 }
 
 .projectModal__close:hover {
@@ -124,7 +126,9 @@
 
 @media screen and (max-width: 600px) {
    .projectModal__close {
-      font-size: 25px;
+      font-size: 20px;
+      top: 0.2rem;
+      right: -0.2rem;
    }
 
    .projectModal__title-links {

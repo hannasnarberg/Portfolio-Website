@@ -1,6 +1,5 @@
 #contact {
    margin-top: 3.5rem;
-   background: rgb(255, 255, 255);
    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
 }
 .contact__container {
@@ -17,25 +16,25 @@
 .contact__option a {
    display: inline-block;
    font-size: 0.8rem;
-   color: rgb(4, 32, 54);
+   color: rgb(201, 192, 209);
    font-size: medium;
 }
 
 .contact__option a:hover {
    display: inline-block;
    font-size: 0.8rem;
-   color: rgb(2, 17, 29);
+   color: rgb(201, 192, 209);
    font-size: medium;
 }
 
 .contact__option-icon {
    font-size: 1.5rem;
    margin-bottom: 0.2rem;
-   color: rgb(35, 126, 146);
+   color: rgb(201, 192, 209);
 }
 
 .contact__option-icon:hover {
-   color: rgb(25, 91, 105);
+   color: rgb(201, 192, 209);
 }
 
 /* =============== SMALL DEVICES ===============*/

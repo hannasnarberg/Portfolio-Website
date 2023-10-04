@@ -2,6 +2,7 @@ import Modal from 'react-modal';
 import React from 'react';
 import './projectsModal.css';
 import { AiOutlineClose } from 'react-icons/ai';
+import { IconContext } from 'react-icons';
 
 function ProjectModal({ currentProject, closeDetails }) {
    Modal.defaultStyles = {};
@@ -59,7 +60,11 @@ function ProjectModal({ currentProject, closeDetails }) {
                onClick={() => closeModal()}
                className="projectModal__close"
             >
-               <AiOutlineClose />
+               <IconContext.Provider value={{ color: '#c9c0d1', size: '22px' }}>
+                  <div>
+                     <AiOutlineClose />
+                  </div>
+               </IconContext.Provider>
             </button>
          </Modal>
       </>

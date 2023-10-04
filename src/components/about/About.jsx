@@ -1,6 +1,6 @@
 import React, { lazy } from 'react';
 import './about.css';
-import MyPicture from '../../assets/pictures/compressed/me3.jpg';
+import MyPicture from '../../assets/pictures/streckgubbe.png';
 import MyCV from '../../assets/cv.pdf';
 
 function About() {
@@ -8,9 +8,6 @@ function About() {
       <section id="about">
          <h2>About me</h2>
          <div className="container about__container">
-            <div className="about__image-container">
-               <img src={MyPicture} alt="me" loading="lazy" />
-            </div>
             <div className="about__content">
                <p>
                   Are you looking for a creative UX/UI Designer or Front-End
@@ -26,6 +23,14 @@ function About() {
                <a href={MyCV} download className="btn">
                   Download CV
                </a>
+            </div>
+            <div className="about__image-container">
+               <img
+                  className="about__image"
+                  src={MyPicture}
+                  alt="me"
+                  loading="lazy"
+               />
             </div>
          </div>
       </section>

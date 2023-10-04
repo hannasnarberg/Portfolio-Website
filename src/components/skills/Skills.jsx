@@ -12,7 +12,10 @@ function Skills() {
                <h3>Programming</h3>
                <div className="skill__content">
                   <SkillEntry skill={'Python'} level={'Experienced'} />
-                  <SkillEntry skill={'JavaScript'} level={'Intermediete'} />
+                  <SkillEntry
+                     skill={'JavaScript, TypeScript'}
+                     level={'Intermediete'}
+                  />
                   <SkillEntry skill={'HTML, CSS'} level={'Intermediete'} />
                   <SkillEntry skill={'C#, C/C++'} level={'Basic'} />
                </div>
