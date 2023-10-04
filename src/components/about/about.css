@@ -1,62 +1,33 @@
 .about__container {
-   display: grid;
-   grid-template-columns: 65% 35%;
+   padding-left: 10%;
+   padding-right: 10%;
+   text-align: center;
 }
 
-.about__image-container {
-   aspect-ratio: 1/1;
-   height: 20rem;
-   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
-}
-
-.about__content {
-   margin-top: 1rem;
-   width: 100%;
-   font-size: 1.1rem;
-   margin-left: 6rem;
-   padding-right: 3rem;
-   padding-top: 2rem;
-}
-
-.about__content p {
-   margin: 0 0 1.5rem;
-   margin-right: 2rem;
+.about__container p {
+   margin-bottom: 2rem;
    color: rgb(201, 192, 209);
+   font-size: 1.2rem;
 }
 
 /* =============== MEDIUM DEVICES ===============*/
 
 @media screen and (max-width: 1024px) {
    .about__container {
-      grid-template-columns: 1fr;
-      gap: 0;
+      padding-left: 5%;
+      padding-right: 5%;
    }
 
-   .about__image-container {
-      display: none;
-      width: 25%;
-      margin: 0rem auto;
-   }
-
-   .about__content {
-      text-align: center;
-      margin: 0rem auto;
-      padding: 0;
-   }
-
-   .about__content p {
-      margin: 1.5rem 0;
+   .about__container p {
+      font-size: 1rem;
+      text-align: justify;
    }
 }
 
 /* =============== SMALL DEVICES ===============*/
 
 @media screen and (max-width: 600px) {
-   .about__image-container {
-      width: 65%;
-   }
-
-   .about__content {
+   .about__container p {
       font-size: 0.9rem;
    }
 }
