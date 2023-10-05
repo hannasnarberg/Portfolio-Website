@@ -16,12 +16,13 @@ function ProjectDetails() {
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
    }
+
    useEffect(() => {
       topFunction();
    }, []);
    return (
-      <Fade>
-         <div className="container projectDetails__container">
+      <div className="container projectDetails__container">
+         <Fade>
             <article
                key={currentProject.id}
                className="projectDetails__details"
@@ -58,8 +59,8 @@ function ProjectDetails() {
                   {currentProject.description}
                </div>
             </article>
-         </div>
-      </Fade>
+         </Fade>
+      </div>
    );
 }
 

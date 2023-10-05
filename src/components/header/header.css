@@ -14,7 +14,7 @@ header {
    align-content: center;
    height: 100%;
    align-items: flex-end;
-   text-shadow: 0.1rem 0.1rem 0.8rem #000000;
+   text-shadow: 0.1rem 0.1rem 0.2rem #0000004e;
    color: rgb(153, 120, 136);
    font-family: 'Header';
 }
