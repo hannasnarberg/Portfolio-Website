@@ -14,19 +14,17 @@ header {
    align-content: center;
    height: 100%;
    align-items: flex-end;
-   font-size: larger;
+   text-shadow: 0.1rem 0.1rem 0.8rem #000000;
+   color: rgb(153, 120, 136);
+   font-family: 'Header';
 }
 
 .header__title-first {
-   font-family: 'Header';
-   color: rgb(153, 120, 136);
    font-size: 7.5vw;
    line-height: 7.5vw;
 }
 
 .header__title-last {
-   font-family: 'Header';
-   color: rgb(153, 120, 136);
    font-size: 7.5vw;
    line-height: 7.5vw;
    padding-bottom: 2rem;
@@ -58,11 +56,12 @@ header {
 /* =============== SMALL DEVICES) ===============*/
 @media screen and (max-width: 600px) {
    .header__title-first {
-      color: rgb(201, 192, 209);
+      font-size: 13vw;
+      line-height: 13vw;
    }
-
    .header__title-last {
-      color: rgb(201, 192, 209);
-      padding-bottom: 0.5rem;
+      padding-bottom: 0.8rem;
+      font-size: 13vw;
+      line-height: 13vw;
    }
 }
