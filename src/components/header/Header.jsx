@@ -1,16 +1,19 @@
 import React from 'react';
 import './header.css';
+import { Slide } from 'react-awesome-reveal';
 
 function Header() {
    return (
       <header id="home">
          <div className="container header__container">
-            <h1 className="header__title-first">Hanna</h1>
-            <h1 className="header__title-last">Snarberg</h1>
-            <h3 className="header__subtitle">
-               {' '}
-               Interactive Media Technology Student
-            </h3>
+            <Slide triggerOnce>
+               <h1 className="header__title-first">Hanna</h1>
+               <h1 className="header__title-last">Snarberg</h1>
+               <h3 className="header__subtitle">
+                  {' '}
+                  Interactive Media Technology Student
+               </h3>
+            </Slide>
          </div>
       </header>
    );

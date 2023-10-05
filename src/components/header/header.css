@@ -17,17 +17,15 @@ header {
    font-size: larger;
 }
 
-.header__container > h1 {
-   font-family: 'Header';
-}
-
 .header__title-first {
+   font-family: 'Header';
    color: rgb(153, 120, 136);
-   font-size: 10vw;
-   line-height: 10vw;
+   font-size: 7.5vw;
+   line-height: 7.5vw;
 }
 
 .header__title-last {
+   font-family: 'Header';
    color: rgb(153, 120, 136);
    font-size: 7.5vw;
    line-height: 7.5vw;
@@ -59,15 +57,12 @@ header {
 
 /* =============== SMALL DEVICES) ===============*/
 @media screen and (max-width: 600px) {
-   .header__subtitle {
-      font-size: large;
-   }
-
    .header__title-first {
       color: rgb(201, 192, 209);
    }
 
    .header__title-last {
       color: rgb(201, 192, 209);
+      padding-bottom: 0.5rem;
    }
 }
