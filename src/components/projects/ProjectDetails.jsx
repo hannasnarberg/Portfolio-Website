@@ -22,44 +22,39 @@ function ProjectDetails() {
    }, []);
    return (
       <div className="container projectDetails__container">
-         <Fade>
-            <article
-               key={currentProject.id}
-               className="projectDetails__details"
-            >
-               <img
-                  src={currentProject.compressedImage}
-                  alt={currentProject.title}
-                  className="projectDetails__img"
-               />
-               <div className="projectDetails__title-links">
-                  <Link to={'/'}>
-                     <BiArrowBack className="projectDetails__BackIcon"></BiArrowBack>
-                  </Link>
-                  <h3> {currentProject.title} </h3>
-                  {currentProject.links.length ? (
-                     <span className="projectDetails__links">
-                        {currentProject.links.map((link, i) => (
-                           <a
-                              href={link.link}
-                              key={i}
-                              className={i === 0 ? 'btn' : 'btn alternativeBtn'}
-                              target="_blank"
-                              rel="noreferrer"
-                           >
-                              {link.buttonText}
-                           </a>
-                        ))}
-                     </span>
-                  ) : (
-                     ''
-                  )}
-               </div>
-               <div className="projectDetails__description">
-                  {currentProject.description}
-               </div>
-            </article>
-         </Fade>
+         <article key={currentProject.id} className="projectDetails__details">
+            <img
+               src={currentProject.compressedImage}
+               alt={currentProject.title}
+               className="projectDetails__img"
+            />
+            <div className="projectDetails__title-links">
+               <Link to={'/'}>
+                  <BiArrowBack className="projectDetails__BackIcon"></BiArrowBack>
+               </Link>
+               <h3> {currentProject.title} </h3>
+               {currentProject.links.length ? (
+                  <span className="projectDetails__links">
+                     {currentProject.links.map((link, i) => (
+                        <a
+                           href={link.link}
+                           key={i}
+                           className={i === 0 ? 'btn' : 'btn alternativeBtn'}
+                           target="_blank"
+                           rel="noreferrer"
+                        >
+                           {link.buttonText}
+                        </a>
+                     ))}
+                  </span>
+               ) : (
+                  ''
+               )}
+            </div>
+            <div className="projectDetails__description">
+               {currentProject.description}
+            </div>
+         </article>
       </div>
    );
 }

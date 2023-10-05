@@ -27,6 +27,7 @@
    width: 50%;
    border: 0.15rem solid rgb(153, 120, 136);
    border-radius: 0.7rem;
+   margin: 0 auto;
 }
 
 .projectDetails__title-links {

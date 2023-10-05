@@ -12,15 +12,13 @@ function ProjectsOverview() {
             {projectsData.map(
                ({ id, compressedImage, title, urlParam, keyWords }, index) => {
                   return (
-                     <Fade key={id} triggerOnce duration={2000}>
-                        <ProjectsEntry
-                           id={id}
-                           image={compressedImage}
-                           title={title}
-                           urlParam={urlParam}
-                           keyWords={keyWords}
-                        />
-                     </Fade>
+                     <ProjectsEntry
+                        id={id}
+                        image={compressedImage}
+                        title={title}
+                        urlParam={urlParam}
+                        keyWords={keyWords}
+                     />
                   );
                }
             )}

@@ -31,8 +31,8 @@ const projectsData = [
             buttonText: 'Live Demo',
          },
          {
-            link: 'https://drive.google.com/file/d/1ZDPjmmekMsvQOR7Xl2S9m3FX-u6d7B_u/view?usp=sharing',
-            buttonText: 'Video Demo',
+            link: 'https://github.com/Amandabru/RobinHoodCalc',
+            buttonText: 'GitHub',
          },
       ],
       description: (

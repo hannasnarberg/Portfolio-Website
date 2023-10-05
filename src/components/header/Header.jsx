@@ -6,14 +6,12 @@ function Header() {
    return (
       <header id="home">
          <div className="container header__container">
-            <Slide triggerOnce>
-               <h1 className="header__title-first">Hanna</h1>
-               <h1 className="header__title-last">Snarberg</h1>
-               <h3 className="header__subtitle">
-                  {' '}
-                  Interactive Media Technology Student
-               </h3>
-            </Slide>
+            <h1 className="header__title-first">Hanna</h1>
+            <h1 className="header__title-last">Snarberg</h1>
+            <h3 className="header__subtitle">
+               {' '}
+               Interactive Media Technology Student
+            </h3>
          </div>
       </header>
    );
