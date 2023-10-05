@@ -8,10 +8,21 @@ import Edulearn from '../../assets/pictures/edulearn.png';
 import RobinHoodCalc from '../../assets/pictures/robinHoodCalc.png';
 import GameDev from '../../assets/pictures/gameDev.png';
 
+import CPRCompressed from '../../assets/pictures/compressed/cpr.jpeg';
+import ColorSchemeStudyCompressed from '../../assets/pictures/compressed/colorSchemeStudy.png';
+import StoryHunterCompressed from '../../assets/pictures/compressed/storyhunter.png';
+import VRCompressed from '../../assets/pictures/compressed/vr.png';
+import InformationScreenCompressed from '../../assets/pictures/compressed/informationScreen.png';
+import HideAndMeetCompressed from '../../assets/pictures/compressed/Hide_and_meet.png';
+import EdulearnCompressed from '../../assets/pictures/compressed/edulearn.png';
+import RobinHoodCalcCompressed from '../../assets/pictures/compressed/robinHoodCalc.png';
+import GameDevCompressed from '../../assets/pictures/compressed/gameDev.png';
+
 const projectsData = [
    {
       id: 1,
       image: RobinHoodCalc,
+      compressedImage: RobinHoodCalcCompressed,
       title: 'Robin Hood Calculator',
       urlParam: 'Robin-Hood-Calculator',
       links: [
@@ -42,6 +53,7 @@ const projectsData = [
    {
       id: 2,
       image: GameDev,
+      compressedImage: GameDevCompressed,
       title: 'Slipped Away',
       urlParam: 'Slipped-Away',
       links: [
@@ -72,6 +84,7 @@ const projectsData = [
    {
       id: 3,
       image: StoryHunter,
+      compressedImage: StoryHunterCompressed,
       title: 'Story Hunter',
       urlParam: 'Story-Hunter',
       links: [
@@ -102,6 +115,7 @@ const projectsData = [
    {
       id: 4,
       image: HideAndMeet,
+      compressedImage: HideAndMeetCompressed,
       title: 'Hide & Meet',
       urlParam: 'Hide-and-Meet',
       links: [
@@ -130,6 +144,7 @@ const projectsData = [
    {
       id: 5,
       image: Edulearn,
+      compressedImage: EdulearnCompressed,
       title: 'Preparing for the Future for All',
       urlParam: 'Preparing-for-the-Future-for-All',
       links: [
@@ -162,6 +177,7 @@ const projectsData = [
    {
       id: 6,
       image: InformationScreen,
+      compressedImage: InformationScreenCompressed,
       title: 'Play Beyond Play',
       urlParam: 'Play-Beyond-Play',
       links: [
@@ -187,6 +203,7 @@ const projectsData = [
    {
       id: 7,
       image: ColorSchemeStudy,
+      compressedImage: ColorSchemeStudyCompressed,
       title: 'Color Relations & Memory',
       urlParam: 'Color-Relations-and-Memory',
       links: [
@@ -217,6 +234,7 @@ const projectsData = [
    {
       id: 8,
       image: VR,
+      compressedImage: VRCompressed,
       title: 'Weight Perception in VR',
       urlParam: 'Weight-Perception-in-VR',
       links: [
@@ -251,6 +269,7 @@ const projectsData = [
    {
       id: 9,
       image: CPR,
+      compressedImage: CPRCompressed,
       title: 'How to Save a Life',
       urlParam: 'How-to-Save-a-Life',
       links: [

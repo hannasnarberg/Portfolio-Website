@@ -9,22 +9,21 @@ function Skills() {
          <h2>Skills</h2>
          <div className="container skill__container">
             <div>
-               <h3>Programming Languages</h3>
+               <h3>Languages</h3>
                <div className="skill__content">
                   <SkillEntry skill={'Python'} level={'Experienced'} />
-                  <SkillEntry
-                     skill={'JavaScript, TypeScript'}
-                     level={'Intermediete'}
-                  />
+                  <SkillEntry skill={'JavaScript'} level={'Experienced'} />
                   <SkillEntry skill={'HTML, CSS'} level={'Intermediete'} />
+                  <SkillEntry skill={'Typescript'} level={'Basic'} />
                   <SkillEntry skill={'C#, C/C++'} level={'Basic'} />
                </div>
             </div>
             <div>
-               <h3>Programming Tools</h3>
+               <h3>Tools</h3>
                <div className="skill__content">
                   <SkillEntry skill={'React'} level={'Experienced'} />
                   <SkillEntry skill={'Node.js'} level={'Basic'} />
+                  <SkillEntry skill={'MongoDB'} level={'Basic'} />
                   <SkillEntry skill={'Express'} level={'Basic'} />
                   <SkillEntry skill={'Unity'} level={'Basic'} />
                </div>
@@ -39,9 +38,10 @@ function Skills() {
                   />
                   <SkillEntry skill={'Prototyping'} level={'Experienced'} />
                   <SkillEntry skill={'Accessibility'} level={'Intermediate'} />
+                  <SkillEntry skill={'Figma'} level={'Intermediate'} />
                </div>
             </div>
-            <div className="skill__bonus">
+            {/* <div className="skill__bonus">
                <h3>Bonus Skills</h3>
                <div className="skill__content">
                   <SkillEntry skill={'Soccer'} level={'Experienced'} />
@@ -49,7 +49,7 @@ function Skills() {
                   <SkillEntry skill={`Baking`} level={'Intermediate'} />
                   <SkillEntry skill={'Karaoke'} level={'Intermediate'} />
                </div>
-            </div>
+            </div> */}
          </div>
       </section>
    );

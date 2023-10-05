@@ -8,18 +8,20 @@ function ProjectsOverview() {
       <section id="projects">
          <h2>Projects</h2>
          <div className="container projectsOverview__container">
-            {projectsData.map(({ id, image, title, urlParam, keyWords }) => {
-               return (
-                  <ProjectsEntry
-                     key={id}
-                     id={id}
-                     image={image}
-                     title={title}
-                     urlParam={urlParam}
-                     keyWords={keyWords}
-                  />
-               );
-            })}
+            {projectsData.map(
+               ({ id, compressedImage, title, urlParam, keyWords }) => {
+                  return (
+                     <ProjectsEntry
+                        key={id}
+                        id={id}
+                        image={compressedImage}
+                        title={title}
+                        urlParam={urlParam}
+                        keyWords={keyWords}
+                     />
+                  );
+               }
+            )}
          </div>
       </section>
    );
