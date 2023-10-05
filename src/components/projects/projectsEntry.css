@@ -7,8 +7,6 @@
 
 .projectsImage {
    border-radius: 0.5rem 0.5rem 0 0;
-   -webkit-filter: grayscale(30%);
-   filter: grayscale(30%);
 }
 
 .projectsEntry:hover {

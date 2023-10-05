@@ -1,4 +1,4 @@
-import React, { lazy } from 'react';
+import React from 'react';
 import './about.css';
 import MyCV from '../../assets/cv.pdf';
 

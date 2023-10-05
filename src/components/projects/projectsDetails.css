@@ -1,52 +1,8 @@
-/* =============== CUSTOM COMPONENT CLASSES ===============*/
-
-.ReactModal__Html--open,
-.ReactModal__Body--open {
-   overflow: hidden;
-}
-.ReactModal__Overlay {
-   position: fixed;
-   z-index: 3;
-   top: 0;
-   left: 0;
-   width: 100vw;
-   height: 100vh;
-   background: rgba(0, 0, 0, 0.5);
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-.ReactModal__Content {
-   background: transparent;
-   width: 50rem;
-   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
-   -webkit-transform: scale(0.8);
-   transform: scale(0.8);
-   position: relative;
-}
-
-.ReactModal__Content--after-open {
-   -webkit-transform: scale(1);
-   transform: scale(1);
-   transition: var(--transition);
-}
-
-.ReactModal__Content--before-close {
-   -webkit-transform: scale(0.8);
-   transform: scale(0.8);
-   transition: var(--transition);
-}
-
 /* =============== MY CLASSES ===============*/
 
-.projectModal__details-wrapper {
-   height: 100%;
-   background: rgb(8, 9, 24);
-   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
-   padding-top: 2rem;
-   padding-bottom: 2rem;
-   border-radius: 1rem;
+.projectDetails__container {
+   padding-top: 4rem;
+   padding-bottom: 3rem;
 }
 
 .projectDetails__details {
@@ -54,8 +10,6 @@
    display: grid;
    grid-template-columns: 1fr;
    padding-top: 1rem;
-   padding-left: 2.5rem;
-   padding-right: 2.5rem;
    gap: 1rem;
    color: rgb(201, 192, 209);
    overflow-y: auto;
@@ -66,7 +20,7 @@
    display: block;
    margin-left: auto;
    margin-right: auto;
-   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+   border: 0.15rem solid rgb(153, 120, 136);
    border-radius: 0.7rem;
 }
 
@@ -80,7 +34,7 @@
 
 .projectDetails__title-links > h3 {
    color: rgb(153, 120, 136);
-   font-size: 1.5rem;
+   font-size: 2rem;
 }
 
 .projectDetails__links {
@@ -90,47 +44,24 @@
 
 .projectDetails__description {
    text-align: justify;
-}
-
-.projectDetails__close {
-   font-size: 1.5rem;
-   background-color: transparent;
-   position: absolute;
-   cursor: pointer;
-   color: rgb(201, 192, 209);
-   z-index: 9999;
-   top: 0.4rem;
-   right: 0.2rem;
-}
-
-.projectDetails__close:hover {
-   transform: scale(1.1);
+   font-size: 1.1rem;
 }
 
 /* =============== MEDIUM DEVICES ===============*/
 
 @media screen and (max-width: 1024px) {
    .projectDetails__title-links > h3 {
-      font-size: large;
+      font-size: x-large;
    }
 
    .projectDetails__img {
       width: 80%;
-   }
-   .projectDetails__close {
-      right: -0.5rem;
    }
 }
 
 /* =============== SMALL DEVICES ===============*/
 
 @media screen and (max-width: 600px) {
-   .projectDetails__close {
-      font-size: 20px;
-      top: 0.2rem;
-      right: -0.2rem;
-   }
-
    .projectDetails__title-links {
       display: grid;
       grid-template-columns: 1fr;
@@ -140,25 +71,13 @@
       width: 100%;
    }
 
-   .projectDetails__Content {
-      margin-bottom: 5rem;
-      margin-top: 5rem;
-      width: calc(100vw - 2rem);
-      height: calc(100vh - 4rem);
-   }
    .projectDetails__description {
       font-size: 15px;
-      text-align: left;
+      text-align: justify;
    }
    .projectDetails__details {
       padding-bottom: 5rem;
-   }
-
-   .projectDetails__details-wrapper {
-      padding-bottom: 0rem;
-   }
-
-   .ReactModal__Overlay {
-      background: rgba(0, 0, 0, 0.8);
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
    }
 }
