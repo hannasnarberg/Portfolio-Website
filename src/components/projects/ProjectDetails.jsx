@@ -4,6 +4,7 @@ import projectsData from './ProjectsData';
 import { BiArrowBack } from 'react-icons/bi';
 import './projectsDetails.css';
 import { Fade } from 'react-awesome-reveal';
+import { Link } from 'react-router-dom';
 
 function ProjectDetails() {
    const { projectUrl } = useParams();
@@ -31,6 +32,9 @@ function ProjectDetails() {
                   className="projectDetails__img"
                />
                <div className="projectDetails__title-links">
+                  <Link to={'/'}>
+                     <BiArrowBack className="projectDetails__BackIcon"></BiArrowBack>
+                  </Link>
                   <h3> {currentProject.title} </h3>
                   {currentProject.links.length ? (
                      <span className="projectDetails__links">

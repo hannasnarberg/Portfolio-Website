@@ -92,16 +92,17 @@ img {
 }
 
 .btn:hover {
-   background: rgb(122, 93, 107);
+   background: rgb(174, 136, 154);
 }
 
 .alternativeBtn {
-   background: rgb(201, 192, 209);
-   color: rgb(4, 32, 54);
+   border: 0.1rem solid rgb(153, 120, 136);
+   color: rgb(153, 120, 136);
+   background: none;
 }
 
 .alternativeBtn:hover {
-   background: rgb(177, 167, 186);
+   background: rgb(12, 13, 35);
 }
 
 /* ===============  LARGE DEVICES ===============*/

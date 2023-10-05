@@ -1,7 +1,7 @@
 /* =============== MY CLASSES ===============*/
 
 .projectDetails__container {
-   padding-top: 4rem;
+   padding-top: 3rem;
    padding-bottom: 3rem;
 }
 
@@ -13,6 +13,17 @@
    gap: 1rem;
    color: rgb(201, 192, 209);
    overflow-y: auto;
+}
+
+.projectDetails__BackIcon {
+   font-size: 2.5rem;
+   margin-top: 0.5rem;
+   color: rgb(201, 192, 209);
+}
+
+.projectDetails__BackIcon:hover {
+   scale: 1.1;
+   color: white;
 }
 
 .projectDetails__img {
@@ -65,6 +76,13 @@
    .projectDetails__title-links {
       display: grid;
       grid-template-columns: 1fr;
+      gap: 0.5rem;
+   }
+
+   .projectDetails__BackIcon {
+      font-size: 2rem;
+      margin-top: 0.5rem;
+      color: rgb(201, 192, 209);
    }
 
    .projectDetails__img {
