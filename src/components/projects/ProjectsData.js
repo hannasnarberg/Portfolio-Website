@@ -89,7 +89,7 @@ const projectsData = [
       urlParam: 'Story-Hunter',
       links: [
          {
-            link: 'https://github.com/hannasnarberg/StoryHunter',
+            link: 'https://gits-15.sys.kth.se/hannasn/Project-Group-37',
             buttonText: 'GitHub',
          },
          {

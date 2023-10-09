@@ -14,19 +14,19 @@ function Skills() {
                <div className="skill__content">
                   <SkillEntry skill={'Python'} level={'Experienced'} />
                   <SkillEntry skill={'JavaScript'} level={'Experienced'} />
-                  <SkillEntry skill={'HTML, CSS'} level={'Intermediete'} />
-                  <SkillEntry skill={'Typescript'} level={'Basic'} />
-                  <SkillEntry skill={'C#, C/C++'} level={'Basic'} />
+                  <SkillEntry skill={'HTML, CSS'} level={'Experienced'} />
+                  <SkillEntry skill={'Typescript'} level={'Beginner'} />
+                  <SkillEntry skill={'C#, C/C++'} level={'Beginner'} />
                </div>
             </div>
             <div>
                <h3>Tools</h3>
                <div className="skill__content">
                   <SkillEntry skill={'React'} level={'Experienced'} />
-                  <SkillEntry skill={'Node.js'} level={'Basic'} />
-                  <SkillEntry skill={'MongoDB'} level={'Basic'} />
-                  <SkillEntry skill={'Express'} level={'Basic'} />
-                  <SkillEntry skill={'Unity'} level={'Basic'} />
+                  <SkillEntry skill={'Node.js'} level={'Beginner'} />
+                  <SkillEntry skill={'MongoDB'} level={'Beginner'} />
+                  <SkillEntry skill={'Express'} level={'Beginner'} />
+                  <SkillEntry skill={'Unity'} level={'Beginner'} />
                </div>
             </div>
             <div>
