@@ -1,10 +1,8 @@
 import React from 'react';
 import './skills.css';
 import SkillEntry from './SkillEntry';
-import { Fade } from 'react-awesome-reveal';
 
 function Skills() {
-   /* I should definetley do mapping here to avoid repeating code*/
    return (
       <section id="skills">
          <h2>Skills</h2>

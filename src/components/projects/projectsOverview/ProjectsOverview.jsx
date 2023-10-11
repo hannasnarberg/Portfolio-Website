@@ -1,8 +1,7 @@
 import React from 'react';
 import './projectsOverview.css';
-import projectsData from './ProjectsData';
+import projectsData from '../ProjectsData';
 import ProjectsEntry from './ProjectsEntry';
-import { Fade } from 'react-awesome-reveal';
 
 function ProjectsOverview() {
    return (

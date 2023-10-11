@@ -1,7 +1,6 @@
 import React from 'react';
 import './about.css';
 import MyCV from '../../assets/cv.pdf';
-import { Fade } from 'react-awesome-reveal';
 
 function About() {
    return (

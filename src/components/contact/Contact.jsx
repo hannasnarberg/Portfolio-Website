@@ -2,7 +2,6 @@ import './contact.css';
 import ContactOption from './ContactOption';
 import { MdOutlineEmail } from 'react-icons/md';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
-import { Fade } from 'react-awesome-reveal';
 
 function Contact() {
    return (

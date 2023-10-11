@@ -1,22 +1,13 @@
 import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import projectsData from './ProjectsData';
 import { BiArrowBack } from 'react-icons/bi';
 import './projectsDetails.css';
-import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom';
 
-function ProjectDetails() {
-   const { projectUrl } = useParams();
-   const currentProject = projectsData.find(
-      (project) => project.urlParam === projectUrl
-   );
-
+function ProjectDetails({ currentProject }) {
    function topFunction() {
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
    }
-
    useEffect(() => {
       topFunction();
    }, []);
