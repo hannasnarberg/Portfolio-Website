@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import MyCV from '../../assets/cv.pdf';
+import MyCV from '../../assets/CV.pdf';
 
 function About() {
    return (
@@ -9,7 +9,7 @@ function About() {
          <div className="container about__container">
             <p>
                Are you looking for a creative UX/UI Designer or Front-End
-               Developer for a part-time role? As a Master's degree student in
+               Developer for a Master's Thesis project? As a student in
                Interactive Media Technology, I could be the perfect match! I
                have experience in designing, developing and evaluating
                interactive products, as well as researching human-computer
